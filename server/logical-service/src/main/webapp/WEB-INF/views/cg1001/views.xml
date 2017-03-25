@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg1001/cg100101Auction">
+		<put-attribute name="body" value="/WEB-INF/views/cg1001/cg100101CanBuyList.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg1001/cg100102CommodityDetail">
+		<put-attribute name="body" value="/WEB-INF/views/cg1001/cg100102CommodityDetail.jsp" />
+	</definition>
+
+	<definition extends="default" name="cg1001/cg100103Detail">
+		<put-attribute name="body" value="/WEB-INF/views/cg1001/cg100103equipmentDetail.jsp" />
+	</definition>
+	<definition extends="default" name="cg1001/cg100104auctionSet">
+		<put-attribute name="body" value="/WEB-INF/views/cg1001/cg100104auctionSet.jsp" />
+	</definition>
+	<definition extends="default" name="cg1001/cg100105MyAuctionGoods">
+		<put-attribute name="body" value="/WEB-INF/views/cg1001/cg100105MyAuctionGoods.jsp" />
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,715 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.panel-01 .propsListStyle {
+	
+	width: 100%;
+	height: 247px;
+}
+
+.panel-01 .propsListStyle>div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.panel-01 .propsListStyle02 {
+	
+	width: 100%;
+	height: 247px;
+	padding-top: 10px;
+}
+
+.panel-01 .propsListStyle02>div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.propsImageStyle {
+	float: left;
+	height: 156px;
+	width: 85%;
+}
+
+.propsImageStyle04 {
+	float: left;
+	height: 156px;
+	width: 85%;
+	position: relative;
+	top: -15px;
+	padding-left:10px;
+}
+
+.select-count-style {
+	width: 20%;
+	position: relative;
+	left: -24px;
+}
+
+.propsImageStyle02 {
+	float: left;
+	height: 156px;
+	width: 85%;
+	padding-top: 15px;
+	
+}
+
+.propsImagesDiv {
+	float: left;
+	width: 30%;
+}
+
+.divleftstyle {
+	padding: 20px 0 0 0;
+}
+
+.cg060101-button-style {
+	padding-top: 15px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.propsName {
+	font-weight: bold;
+}
+
+.top-button {
+	width: 35%;
+	padding: 12px 0;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	background-size: 100% auto;
+}
+
+.btn_img_daoju {
+	background: url(../images/buttons/daoju-yellow-x.png) center center
+		no-repeat;
+}
+
+.btn_img_zhuangbei {
+	background: url(../images/buttons/zhuangbei-blue-x.png) center center
+		no-repeat;
+}
+
+.btn_img_dangyequanxuan {
+	background: url(../images/buttons/dangyequanxuan-green-x.png) center
+		center no-repeat;
+}
+
+.btn_img_chushou {
+	background: url(../images/buttons/chushou-blue-x.png) center center
+		no-repeat;
+}
+
+#smallButtonUse {
+	background: url(../images/small-button-green.png) left center no-repeat;
+	background-size: 100% auto;
+	width: 33%;
+	text-align: center;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.buttonDivStyle {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.propsDetailinfo {
+	width: 70%;
+	float: right;
+}
+.propsDetailinfo03 {
+	width: 70%;
+	float: right;
+	padding-top:10px;
+	text-align:left;
+	
+}
+
+.propsDetailinfo>div:first-child {
+	width: 60%;
+	text-align: center;
+}
+
+/**********************0602********************************/
+.panel-0601 {
+	width: 100%;
+	padding: 10px 0 15px;
+	font-size: 20pt;
+}
+
+.panel-0601 .propsListStyleB001 {
+	background: url(../images/B001.png) center center no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 247px;
+}
+
+.panel-0601 .propsListStyleB001>div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.B001ImageStyle {
+	background: url(../images/scard-smallcard.png) left center no-repeat;
+	background-size: 100% auto;
+	float: left;
+	height: 174px;
+	width: 70%;
+}
+
+.floatLeft {
+	float: left;
+	width: 70%;
+}
+
+.B001ImageDiv {
+	width: 30%;
+	float: left;
+	padding: 30px 0;
+}
+
+.tab-panel-heigt-0601 {
+	height: 53px;
+}
+
+.tab-panel-heigt-0601>div {
+	float: left;
+}
+
+.tab-panel-heigt-0601>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.panel-0601 .propsListStyle {
+	
+	width: 100%;
+	height: 247px;
+}
+
+.twobuttondiv {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.leftbuttonStyle {
+	float: left;
+	width: 45%;
+}
+
+.rightbuttonStyle {
+	float: right;
+	width: 45%;
+}
+/******************************************************/
+.propsImage {
+	float: left;
+}
+
+.propsDetailInfoPrice {
+	font-weight: bold;
+	float: left;
+}
+
+.textalignCenter {
+	text-align: center;
+}
+
+.textalignCenter02 {
+	padding-top:20px;
+}
+
+.tabbuttonStyle {
+	float: left;
+	width: 26%;
+	height: 53px;
+}
+
+.tab-panelButton {
+	width: 100%;
+	padding: 12px 0 0;
+}
+
+.tabbutton {
+	float: left;
+	width: 26%;
+	height: 53px;
+}
+
+.tabbutton25 {
+	float: left;
+	width: 25%;
+	height: 53px;
+}
+
+.sell_count02 {
+	width: 20%;
+	height: 37px;
+	position: relative;
+	top: -12px;
+	font-size:18pt;
+}
+
+.font-size-style17 {
+	font-size: 17pt
+}
+
+.commonpadding {
+	padding: 8px 0;
+}
+
+.commonpadding-top-style {
+	padding-top: 12px;
+}
+.saleprice-style {
+	line-height: 41px;
+	padding-left: 10px;
+	float: left;
+}
+
+.icon-pic {
+	width: 27%;
+	height: 41px;
+	float: left;
+}
+
+.icon-price-style {
+	width: 90%;
+	line-height: 41px;
+	margin: 10px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.propsName02 {
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 15px;
+}
+
+.propsName_cg0601 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.select-pic {
+	float: right;
+	height: 37px;
+	width: 70%;
+	overflow: hidden;
+	text-align: right;
+	padding-top: 5px;
+}
+
+.select-pic02 {
+	float: left;
+	height: 37px;
+	width: 70%;
+	overflow: hidden;
+	text-align: left;
+	padding-top: 5px;
+}
+
+.sell_out {
+	width: 30%;
+	height: 32px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../images/uncheck.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+input[type=checkbox].sell_out+label.css-label {
+	padding-left: 10px;
+	width: 15%;
+	height: 32px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	vertical-align: middle;
+}
+
+input[type=checkbox].sell_out {
+	display: none;
+}
+
+.checkbox-pic-style {
+	background-image: url(../images/uncheck.png);
+}
+
+.checkbox-checked-pic-style {
+	background-image: url(../images/checked.png);
+}
+
+.bottomPart_line_image {
+	width: 25%;
+	height: 160px;
+	float: left;
+	position: relative;
+	top: -25px;
+}
+
+.bottomPart_line_image02 {
+	width: 25%;
+	height: 160px;
+	float: left;
+	position: relative;
+	top: -30px;
+}
+
+.tab-shop {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.tab-shop>div {
+	width: 26.5%;
+	float: left;
+}
+
+.tab-shop>div>img {
+	float: left;
+	width: 100%;
+	height: 53px;
+}
+
+.consumer-list-title {
+	padding: 0;
+	height: 50px;
+}
+
+.bottomPart_line_info>div {
+	padding: 3px 0;
+	padding-left: 10px;
+}
+
+.consumer-list-title>div {
+	float: left;
+}
+
+.consumer-list-title>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.information {
+	width: 94%;
+	margin: 0 auto;
+	height: 174px;
+}
+
+.information>div {
+	float: left;
+}
+
+.information>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.split-item-down-0601 {
+	margin: 0 auto;
+	position: absolute;
+	top: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.split-item-down-060102 {
+	margin: 0 auto;
+	position: absolute;
+	top: 17px;
+	text-align: center;
+	width: 95%;
+}
+
+.auction-button-style {
+	height: 50px;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.paddign-style15 {
+	padding: 15px 0;
+}
+
+.padding-top-style10 {
+	padding-top: 10px;
+}
+
+.line-height-style42 {
+	line-height: 42px;
+}
+
+.cg060102-info {
+	float: right;
+	width: 68%;
+	padding-top: 10px;
+	text-align: left;
+	height:60px;
+}
+
+.npc-img {
+	width: 26%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+
+.commonPading01 {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.padding-top-style5 {
+	padding-top: 5px;
+}
+
+.npc-message {
+	width: 70%;
+	height: 180px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.equip-info-style {
+	width: 90%;
+	padding: 10px 0;
+}
+
+.equip-info-style02 {
+	width: 90%;
+	position: relative;
+	top: -35px;
+	padding-left:10px;
+}
+
+.cg060103-info-style {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.padding-left-style15 {
+	padding-left: 15px;
+}
+
+.fc-normal-targetMirror-m {
+	color: rgb(254, 225, 28);
+	font-size: 14pt;
+}
+
+
+
+/* added by ma-li */
+
+.select-allequip{
+	width:80%;
+}
+
+.item-name-style{
+	width: 95%; 
+	margin: 0 auto; 
+	text-align: center;
+	padding-top:5px;
+	padding-left:10px;
+}
+
+.split-down-width{
+	width: 95%;
+}
+
+.function-height{
+	height:25px;
+}
+
+.function-height02{
+	height:40px;
+}
+
+.equipment-com-style{
+	float: left; 
+	width: 30%;
+}
+
+.item-count-style{
+	width: 68%; 
+	overflow: hidden; 
+	float: right;
+}
+
+.sell-name-style{
+	float: right; 
+	width: 25%;
+}
+
+.show-auction-name{
+	width: 60%;
+	text-align: right;
+}
+
+.cg0601-function-height{
+	height:32px;
+}
+
+.label-width{
+	width: 60%;
+}
+
+
+.congra-info{
+	padding: 100px 0 12px 0;
+}
+
+
+.split-down-style {
+	width: 95%;
+	margin: 0 auto;
+	background: url(../images/line-split-down.png) center center no-repeat;
+	background-size: 100% auto;
+	padding: 10px 0;
+}
+
+.reward-equip-style {
+	width: 60%;
+	text-align: center;
+	margin-top: -45px;
+	margin-bottom: 20px;
+}
+
+/**add by shichao September 4 : 添加宝箱后对页面布局的修改***/
+.img-use {
+	margin-top: 60px;
+}
+
+.img-use02 {
+	margin-top: 30px;
+}
+
+.img-use03 {
+	margin-top: 45px;
+}
+.panelB03-height-new {
+	height:177px;
+}
+
+.commonpadding-top-style-new {
+	padding-top:90px;
+}
+
+
+.reward-gift-info{
+	width:92%;
+	margin:0 auto;
+	text-align:center;	
+	padding-top:5px;
+	font-size:18pt;
+	line-height:41px;
+	padding-left:26px;
+	overflow:hidden;
+	
+}
+
+.reward-gift-info02{
+	width:68%;
+	font-size:18pt;
+}
+
+.reward-gift-info > div{
+	width:33.3%;
+	float:left;
+	overflow:hidden;
+
+}
+
+
+.reward-gift-img{
+	width:45px;
+	height:42px;
+	float:left;
+}
+
+.reward-gift-title{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	font-size:22pt;
+	padding:10px 0;
+}
+
+
+.small-ysbx{
+	width:100%;
+	margin:0 auto;
+	font-size:18pt;
+	height:180px;
+	clear:both;
+}
+
+.use-gift-reward{
+	display: none;
+}
+
+
+.reward-gift-name{
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+	line-height:30px;
+}
+
+.reward-gift-pic{
+	width:40%;
+	float:left;
+}
+
+.reward-gift-pic02{
+	width:45%;
+	float:left;
+}
+
+.small-ysb-count{
+	line-height:140px;
+	position: relative;
+	left: -80px;
+}
+
+
+.reward-gift-name-small{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	left: -25px;
+	clear:both;
+}
+
+.small-pic{
+	margin-left: 180px;
+}
+
+.reward-content{
+	padding-top:15px;
+}
+
+.reward-gift-name02{
+	padding-top:10px;
+}
+
+
+.imgIntensifyEvo{
+	height:50px;
+	width:50px;
+	vertical-align: middle;
+}
+

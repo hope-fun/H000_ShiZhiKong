@@ -1,0 +1,551 @@
+/* begin add by kongyulu for cg0303*/
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.spacer {
+	height: 30px;
+	width: 100%;
+	content: ' ';
+}
+
+.panelHead {
+	width: 50%;
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.propertyImage {
+	width: 33%;
+	height: 41px;
+	float: left;
+	background: url(../../images/small-equipment.png) center no-repeat;
+	background-size: 100% auto;
+}
+
+.propertyNoImage {
+	width: 33%;
+	height: 41px;
+	float: left;
+	background-size: 100% auto;
+}
+
+.cardDeck {
+	width: 100%;
+	background-size: 100% auto;
+	padding-top:15px;
+}
+
+.equipmentContainer {
+	width: 100%;
+	height: 42px;
+	float: left;
+}
+
+.cg030302-cards-bg {
+	width: 100%;
+	height: 473px;
+	margin-top: 10px;
+	background: url(../../images/A010.png) center top no-repeat;
+	background-size: 100% auto;
+}
+
+.single-card-button {
+	float: left;
+	padding-top: 20px;
+	height: 60px;
+}
+/**********************/
+.button-style-02 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.button-style-02>div {
+	padding: 10px 0;
+	width: 50%
+}
+
+.button-style-02>div>a>img {
+	height: 54px;
+	width: 80%;
+}
+
+#cg030302_button_edit {
+	float: left;
+}
+
+#cg030302_button_delete {
+	float: right;
+}
+
+.select_add_btn {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.select_add_btn>img {
+	width: 95%;
+}
+
+.warning-label {
+	text-align: center;
+	width: 100%;
+	padding: 5px 0;
+}
+/* end  add by kongyulu for cg0303*/
+
+/* AttackCards */
+.container {
+	width: 100%;
+	background-size: 100% auto;
+}
+
+.panelBg {
+	width: 100%;
+	padding: 10px 0;
+}
+
+/* .panelBg>div {
+	background: url(../../images/A010.png) center top no-repeat;
+	background-size: 100% 100%;
+	height: 473px;
+}
+ */
+.panel-header02 {
+	background: url(../../images/label6.png) no-repeat;
+	height: 39px;
+	padding-bottom: 2px;
+}
+
+.panel-header02 span {
+	line-height: 39px;
+	padding-left: 22px;
+}
+
+.panel-header span {
+	line-height: 42px;
+	padding-left: 22px;
+}
+
+.cardgroup-pic {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.cardgroup-pic>div {
+	float: left;
+	height: 227px;
+	width:20%;
+}
+
+.equipment-all {
+	height: 41px;
+	margin: 0 auto;
+}
+
+.cardgroup-pic>div:last-child {
+	clear: both;
+	float: none;
+	height: 0;
+}
+
+.card-pic {
+	margin: 0 auto;
+	height: 174px;
+	padding:5px 0;
+}
+
+.rightMessage {
+	height: 30px;
+	width: 100%;
+	margin-top: 10%;
+	text-align: left;
+}
+
+.cardgroup-info {
+	width: 90%;
+	margin: 0 auto;
+	padding:0;	
+}
+
+.cardgroup-info>div:FIRST-CHILD {
+	width: 60%;
+	margin: 0 auto;
+	float: left;
+}
+
+.cardgroup-info>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.equipment-addition>div {
+	text-align: center;
+	padding: 10px 0;
+	width: 100%;
+}
+
+.equipment-addition>div:FIRST-CHILD {
+	padding: 20px 0 10px 0;
+}
+
+.gbutton-01>div>img {
+	width: 69%;
+}
+
+.gbutton-03 {
+	width: 60%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.gbutton-03>img {
+	width: 97%;
+}
+
+.editContainer {
+	width: 100%;
+	/* height: 212px;
+	font-size: 20pt;
+	background: url(../../images/A011.png) center top no-repeat;
+	background-size: 100% 100%; */
+}
+
+#eiditCardButton {
+	width: 24%;
+	height: 53px;
+	text-align: center;
+	margin: 30px auto;
+	background: url(../../images/small-button-green.png) center top
+		no-repeat;
+	line-height: 53px;
+	background-size: 100% auto;
+}
+
+.edit-cardgroup {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* Add Attack Cards */
+#cardSelectType {
+	padding: 15px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.addCard {
+	height: 57px;
+	text-align: left;
+	padding-left: 20px;
+	background: url(../../images/second-label.png) center top no-repeat;
+	background-size: 100% auto;
+	line-height: 57px;
+}
+
+.card_star {
+	float: right;
+	height: 42px;
+	margin-right: 12%;
+	line-height: 0px;
+}
+
+.card_star img {
+	margin-top: 3.5px;
+}
+
+.dismiss-button {
+	width: 35%;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+
+.dismiss-button>img {
+	width: 100%;
+}
+/************cg03030201********************/
+.planel-b001 {
+	padding: 12px 0;
+	width: 100%;
+}
+
+.planel-b001 .panel-header {
+	width: 100%;
+	height: 55px;
+	background: url(../../images/border/B001-02.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.planel-b001 .panel-body {
+	width: 100%;
+	background: url(../../images/border/B001-04.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.planel-b001 .panel-footer {
+	width: 100%;
+	background: url(../../images/border/B001-03.png) center top no-repeat;
+	height: 65px;
+	background-size: 100% 100%;
+}
+
+.information {
+	width: 94%;
+	margin: 0 auto;
+	height: 174px;
+}
+
+.information>div {
+	float: left;
+}
+
+.information>div>img {
+	width: 70%;
+}
+
+.information>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.println {
+	width: 30%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.change-cardgroupname {
+	width: 90%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.change-cardgroupname>div {
+	float: left;
+}
+
+.change-cardgroupname>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.nametextarea {
+	height: 51px;
+	font-size: 20pt;
+	width: 95%;
+	border-radius: 6px;
+	border: 0px;
+	margin: 0 auto;
+}
+
+.change-cardgroupname>div>img {
+	margin: 0 auto;
+}
+
+.check-group {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.check-group>img {
+	width: 58%;
+}
+
+/**
+	add by shichao July 16
+*/
+.cg03030101 .div1,.cg030301 .div1,.cg030302 .div1 {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.cg03030101 .div2,.cg03030101 .div3,.cg030301 .div2,.cg030301 .div3,.cg030302 .div2,.cg030306 .div2,.cg030306 .div3
+	{
+	width: 20%;
+}
+
+.cg03030101 .div2 .card-pic,.cg03030101 .div3 .card-pic,.cg030301 .div2 .card-pic,.cg030301 .div3 .card-pic,.cg030302 .div2 .card-pic,.cg030302 .div3 .card-pic,.cg030306 .div2 .card-pic,.cg030306 .div3 .card-pic
+	{
+	width: 98%;
+}
+
+.cg03030101 .div2 .equipment-all,.cg03030101 .div3 .equipment-all,.cg030301 .div2 .equipment-all,.cg030301 .div3 .equipment-all,.cg030302 .div2 .equipment-all,.cg030302 .div3 .equipment-all,.cg030306 .div2 .equipment-all,.cg030306 .div3 .equipment-all
+	{
+	width: 96%;
+}
+
+.cg03030101 .div4,.cg030301 .div4 {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.cg03030101 .div5,.cg030301 .div5 {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.cg03030201 .borderPanel {
+	width: 100%
+}
+
+.cg03030201 .borderPanel .information .div1 {
+	width: 30%;
+	padding: 10px 0;
+}
+
+.cg03030201 .borderPanel .information .div2 {
+	width: 70%;
+	padding: 20px 0;
+}
+
+.cg03030201 .change-cardgroupname .div1 {
+	width: 80%;
+}
+
+.cg03030201 .change-cardgroupname .div2 {
+	width: 15%;
+}
+
+.cg030302 .panel-02 .panel-header .div1 {
+	float: left;
+	width: 50%;
+}
+
+.cg030302 .panel-02 .panel-body .div1,.cg030303 .panel-02 .panel-body .div1
+	{
+	width: 38%;
+}
+
+.cg030302 .panel-02 .panel-body .div1 .card-major-image-equipment,.cg030303 .panel-02 .panel-body .div1 .card-major-image-equipment
+	{
+	width: 98%;
+}
+
+.cg030302 .panel-02 .panel-body .div2,.cg030303 .panel-02 .panel-body .div2
+	{
+	width: 62%;
+}
+
+.cg030302 .panel-02 .panel-body .div2 .card-major-experience .div3,.cg030303 .panel-02 .panel-body .div2 .card-major-experience .div3
+	{
+	width: 30%;
+}
+
+.cg030302 .panel-02 .panel-body .div2 .card-major-experience .div4,.cg030303 .panel-02 .panel-body .div2 .card-major-experience .div4
+	{
+	width: 70%;
+}
+
+.cg030305 .div11,.cg030306 .panel-02 .panel-body .div6 {
+	width: 38%;
+}
+
+.cg030305 .div11 .card-major-image-equipment,.cg030306 .panel-02 .panel-body .div6 .card-major-image-equipment
+	{
+	width: 98%;
+}
+
+.cg030305 .div12,.cg030306 .panel-02 .panel-body .div7 {
+	width: 62%;
+}
+
+.cg030305 .div12 .div1,.cg030306 .panel-02 .panel-body .div7 .div8 {
+	width: 30%;
+}
+
+.cg030305 .div12 .div2,.cg030306 .panel-02 .panel-body .div7 .div9 {
+	width: 70%;
+}
+
+.cg030306 .div1 {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.cg030306 .panel-02 .panel-header .div4 {
+	float: left;
+	width: 40%;
+}
+
+.cg030306 .panel-02 .panel-header .div5 {
+	float: left;
+	width: 60%;
+}
+
+.cg030310 .div1 {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.cg030310 .div2,.cg030310 .div5 {
+	width: 20%;
+}
+
+.cg030310 .div3,.cg030310 .div6 {
+	width: 98%;
+}
+
+.cg030310 .div4,.cg030310 .div7 {
+	width: 96%;
+}
+
+.cg030310 .div8 {
+	float: left;
+	width: 50%;
+}
+
+.cg030310 .div9 {
+	width: 38%;
+}
+
+.cg030310 .div9 .card-major-image-equipment {
+	width: 98%;
+}
+
+.cg030310 .div10 {
+	width: 62%;
+}
+
+.cg030310 .div10 .card-major-experience .div11 {
+	width: 30%;
+}
+
+.cg030310 .div10 .card-major-experience .div12 {
+	width: 70%;
+}
+.currentfight-title{
+	float: left;
+	width:30%;
+	text-align:right;
+	color: rgb(254, 225, 28);
+}
+.panel-header02-cardGroupname{
+	float: left;
+	width:70%;
+}
+
+.finish-button{
+	margin-top:5px;
+}
+
+.jqPopup>.message {
+	font-size: 19pt;
+	margin: 50px 8px 8px 8px;
+	height: 170px;
+	text-align: left;
+}
+
+.jqPopup{
+	text-align:left !important;
+}

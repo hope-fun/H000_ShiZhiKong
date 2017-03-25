@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg0501/cg050103ReplyMessage">
+		<put-attribute name="body" value="/WEB-INF/views/cg0501/cg050103ReplyMessage.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0501/cg050105LevelSearch">
+		<put-attribute name="body" value="/WEB-INF/views/cg0501/cg050105LevelSearch.jsp" />
+	</definition>
+	
+	
+	<definition extends="default" name="cg0501/cg050101FriendList">
+		<put-attribute name="body" value="/WEB-INF/views/cg0501/cg050101FriendList.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg0501/cg050102FriendDetailInfo">
+		<put-attribute name="body" value="/WEB-INF/views/cg0501/cg050102FriendDetailInfo.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0501/cg050104SureDeleteFriend">
+		<put-attribute name="body" value="/WEB-INF/views/cg0501/cg050104SureDeleteFriend.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0501/cg050106NameSearch">
+		<put-attribute name="body" value="/WEB-INF/views/cg0501/cg050106NameSearch.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0501/cg050107PlayerDetailInfo">
+		<put-attribute name="body" value="/WEB-INF/views/cg0501/cg050107PlayerDetailInfo.jsp" />
+	</definition>
+</tiles-definitions>

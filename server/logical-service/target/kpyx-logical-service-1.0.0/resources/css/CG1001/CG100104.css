@@ -1,0 +1,57 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.gbutton-01 > div > img {
+	width: 69%;
+}
+.search-title{
+	text-align: center;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+.search-condition{
+	width: 80%;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+.search-condition>div{
+	float: left;
+	width: 50%;
+}
+.search-condition>div:last-child{
+	float:none;
+	clear: both;
+}
+.search-button{
+	text-align: center;
+	padding: 12px 0;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
+/* added by ma-li*/
+
+.equip-style{
+	text-align: center;
+	padding: 10px 0;
+}
+
+/* added by shichao July 22*/
+.tabpanel div > img {
+	float:left;
+	width:25%;
+}
+
+.suit-desinfo-height{
+	height:275px !important;
+}
+.suit-auction-height{
+	height:410px !important;
+}

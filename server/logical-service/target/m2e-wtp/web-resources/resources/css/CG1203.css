@@ -1,0 +1,44 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+.B005DivStyle{	
+	background: url(../images/border/B005.png) center center no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:307px;
+}
+
+.B005DivStyle .topstyle{
+	width: 95%;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+.B005DivStyle .centerstyle{
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.cg1203contentstyle{	
+	padding: 5px 0 0 0;
+	width: 70%;
+	float: right;
+}
+
+.cg1203imagestyle{
+	width:30%;
+	float: left;
+}
+.B005PanelHeader{	
+	width: 100%;
+	height: 39px;
+	background: url(../images/label7.png) left bottom no-repeat;
+	background-size: auto auto;
+	text-align: left;
+}
+

@@ -1,0 +1,327 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+.topHeader_tButton {
+	width: 100%;
+	background: url(../../images/main-label-02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.topHeader_lButton {
+	float: left;
+}
+
+.topHeader_rButton {
+	float: right;
+}
+
+#character_info {
+	width: 100%;
+	padding: 2% 0;
+	margin: 2% auto;
+	background: url(../../images/B001.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+#character_info>div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.character_info_image {
+	width: 19.6%;
+	height: 174px;
+	/*background:url(../../images/scard-smallcard.png) center center no-repeat;
+	background-size:100% 100%;*/
+	float: left;
+}
+
+.character_info_info {
+	width: 70%;
+	float: right;
+	font-size: 18pt;
+	padding: 10px 0;
+}
+
+#centerPart {
+	margin: 5px auto;
+}
+
+#topPart {
+	margin: 0px auto;
+}
+
+#equipList {
+	margin: 0px auto;
+}
+
+.cleaner {
+	height: 5px;
+	clear: both;
+}
+
+.equipTab1 {
+	background: url(../../images/label-button-yellow.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+	width: 28%;
+	text-align: center;
+	padding: 10px 0px;
+	float: left;
+}
+
+.equipTab1 span {
+	line-height: 53px;
+}
+
+.equipTab2 {
+	background: url(../../images/label-button-blue.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+	width: 28%;
+	text-align: center;
+	padding: 10px 0px;
+	float: left;
+}
+
+.equipTab2 span {
+	line-height: 53px;
+}
+
+#topPart {
+	background: url(../../images/split-line.png) bottom center no-repeat;
+	background-size: 100% auto;
+	height: 100%;
+}
+
+.split-02 {
+	height: 5px;
+	background: url(../../images/split-line.png) center center no-repeat;
+}
+
+.bottomPart_line_image {
+	width: 26%;
+	height: 166px;
+	float: left;
+	position: relative;
+	top: -25px;
+	padding-left:5px;
+}
+
+.bottomPart_line_info {
+	width: 69%;
+	margin: 0 auto;
+	float: right;
+}
+
+.bottomPart_line_info>div {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.consumer-info {
+	text-align: center;
+}
+
+.bottomPart_line_image>div:last-child {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.uninstall-button {
+	padding-top: 15px;
+	padding-left: 45px;
+}
+
+.commodity-info {
+	width: 100%;
+	line-height: 40px;
+}
+
+.price-info {
+	width: 60%;
+	margin: 0 auto;
+	line-height: 40px;
+}
+
+.commodity-info>div,.price-info>div {
+	text-align: center;
+	float: left;
+}
+
+.commodity-info>div:last-child,.price-info>div:last-child {
+	clear: both;
+	float: none;
+}
+
+.commodity-info>div>span {
+	line-height: 50px;
+}
+
+.auction {
+	width: 35%;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+
+.auction img { /* width: 68%; */
+	
+}
+
+.pm-padding-fifteen {
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.pm-lineheight-thirty {
+	line-height: 30px;
+}
+
+#topPart>div {
+	height: 53px;
+}
+
+.padding-left-style20 {
+	padding-left: 20px;
+}
+
+.padding-left-style8 {
+	padding-left: 8px;
+}
+
+.line-height-style36 {
+	line-height: 36px;
+}
+
+.padding-left-style10 {
+	padding-left: 10px;
+}
+
+.npc-img {
+	width: 26%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+
+.commonPading01 {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.npc-message-cg060203 {
+	width: 70%;
+	height: 180px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.consumer-list-image03 {
+	text-align: center;
+	background: url(../../images/line-split-down.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+	padding: 7px 0;
+}
+
+
+
+/* added by ma-li*/
+
+.equip-aution-style{
+	width: 100%; 
+	margin: 0 auto;
+}
+
+.euqip-pic-style{
+	width:96%;
+	margin:0 auto;
+}
+
+.mount-height{
+	height:32px;
+}
+
+.price-width{
+	width:70%;
+}
+
+.price-cg0602-width{
+	width: 24%;
+}
+
+.input-price{
+	width: 60%;
+}
+
+.input-price-style{
+	width: 90%;
+	font-size: 17pt;
+}
+
+
+/* added by ma-li*/
+
+
+.tool-buttons{
+	width:80%;
+	margin:0 auto;
+}
+
+.prop-width{
+	width:43%;
+}
+
+/* added by shichao July 30*/
+.suit-info1 {
+	margin: -15px -15px 0 -15px;
+	height: 33px;
+	font-size: 18pt;
+}
+
+.suit-info2 {
+	margin: 5px 0 10px -15px;
+	height: 33px;
+	font-size: 18pt;
+}
+
+.uninstall-button2 {
+	text-align: center;
+	padding-top: 0px;
+}
+
+/*new*/
+
+.disburden-button{
+	position: relative;
+	top: -40px;
+}
+
+.disburden-button2 {
+	top: -10px;
+}
+
+.suit-des-height{
+	height:430px;  
+}
+
+.panelB02-height {
+	height: 158px;
+}
+
+.suit-auction-height{
+	height:420px !important;
+}
+
+.suit-desinfo-height{
+	height:300px;
+}
+
+
+

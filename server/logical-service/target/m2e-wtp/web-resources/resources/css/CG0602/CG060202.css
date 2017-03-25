@@ -1,0 +1,321 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+.topHeader_tButton {
+	width:100%;
+	background:url(../../images/main-label-02.png) center center no-repeat;
+	background-size:100% auto;
+}
+
+.topHeader_lButton {
+	float:left;
+}
+
+.topHeader_rButton {
+	float:right;
+}
+.padding-style04{
+	padding-bottom: 4px;
+}
+
+#character_info {
+	width:100%;
+	padding:2% 0;
+	margin:2% auto;
+	background:url(../../images/B001.png) center center no-repeat;
+	background-size:100% 100%;
+}
+
+#character_info>div {
+	width:95%;
+	margin:0 auto;
+	
+}
+
+.character_info_image {
+	width:19.6%;
+	height:174px;
+	float:left;
+}
+
+.character_info_info {
+	width:70%;
+	float:right;
+	font-size: 18pt;
+	padding: 10px 0;
+}
+
+#centerPart {
+	margin:5px auto;
+}
+
+#topPart {
+	/*margin:0px auto;*/
+}
+
+.contentPart_selectAll {
+	width:42.3%;
+	height:54px;
+	/*background:url(../../images/small-button-long-green.png) center center no-repeat;
+	background-size:100% auto;*/
+	text-align:center;
+	float:left;
+}
+
+.contentPart_selectAll>span{
+	line-height:54px;
+}
+
+.contentPart_sell {
+	width:42.3%;
+	height:54px;
+	/*background:url(../../images/small-button-long-green.png) center center no-repeat;
+	background-size:100% auto;*/
+	text-align:center;
+	float:right;
+}
+
+.contentPart_sell>span{
+	line-height:54px;
+}
+
+.previousPage {
+	width:23.3%;
+	height:48px;
+	float:left;
+	background:url(../../images/uppage.png) center center no-repeat;
+	background-size:100% auto;
+}
+
+.pageNum {
+	width:52.8%;
+	text-align:center;
+	font-size:36px;
+	float:left;
+}
+
+.nextPage {
+	width:23.3%;
+	height:48px;
+	float:right;
+	background:url(../../images/nextpage.png) center center no-repeat;
+	background-size:100% auto;
+}
+
+.bottomPart_line {
+	width:100%;
+	
+	margin:10px auto;
+}
+
+.bottomPart_line_image {
+	width: 24%;
+	height: 156px;	
+	float: left;
+	position: relative;
+	top: -20px;
+	padding-left:10px;
+}
+
+/*.bottomPart_line_image>div:first-child {
+	width:100%;
+	height:156px;
+	background:url(../../images/large-equipment.png) center center no-repeat;
+	background-size:100% auto;
+}*/
+
+.bottomPart_line_image>div:last-child {
+
+}
+
+.bottomPart_line_info {
+	width: 68%;
+	float: right;
+	overflow: hidden;
+	padding-top:7px;
+	text-align:left;
+}
+
+
+.bottomPart_line_info_checkbox {
+	float:right;
+}
+
+#equipList {
+	margin:0px auto;
+	height:100%;
+}
+
+.cleaner {
+	height:5px;
+	clear:both;
+}
+
+.equipTab1 {
+	background:url(../../images/label-button-yellow.png) center center no-repeat;
+	background-size:100% 100%;
+	width:28%;
+	text-align:center;
+	padding:10px 0px;
+	float:left;
+}
+
+.padding-top-style20{
+	padding-top:15px;
+}
+.equipTab1 span {
+	line-height:53px;
+}
+
+.equipTab2 {
+	background:url(../../images/label-button-blue.png) center center no-repeat;
+	background-size:100% 100%;
+	width:28%;
+	text-align:center;
+	padding:10px 0px;
+	float:left;
+}
+
+.equipTab2 span {
+	line-height:53px;
+}
+
+#topPart >div{
+	/*background:url(../../images/split-line.png) bottom center no-repeat;
+	background-size:100% auto;*/
+	height:53px;
+}
+
+.split-02 {
+	/*height:5px;
+	background:url(../../images/split-line.png) center center no-repeat;*/
+}
+
+.contentPart_button_01 {
+	width:70%;
+	margin:0 auto;
+	overflow:hidden;
+	float:right;
+}
+
+
+.checkbox-pic-style {
+	background-image: url(../../images/uncheck.png); 
+	padding-left: 30px; 
+	width:15%;
+	height: 32px; 
+	display: inline-block; 
+	background-repeat: no-repeat; 
+	background-position: 0 0; 
+	vertical-align: middle;
+}
+
+.checkbox-checked-pic-style {
+	background-image: url(../../images/checked.png); 
+	padding-left: 30px; 
+	width:15%;
+	height: 32px; 
+	display: inline-block; 
+	background-repeat: no-repeat; 
+	background-position: 0 0; 
+	vertical-align: middle;
+}
+.padding-top-style7 {
+	padding-top: 10px;
+}
+
+.padding-top-style1{
+	padding-top:7px;
+}
+
+.padding-top-style15 {
+	padding-top: 15px;
+}
+
+.split-item-down {
+	width: 95%;
+	margin: 0 auto;	
+	position: absolute;
+	top: 35px;
+}
+
+.npc-img {
+	width: 26%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+
+.commonPading01 {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+.npc-message{
+	width:70%;
+	padding-top:15px;
+	height: 180px;
+	float:left;
+	display: table-cell;	
+	vertical-align: middle;
+}
+
+.margin-style20{
+	margin: 20px 0;
+}
+.equip-price-style{
+	vertical-align: top; 
+	line-height: 45px;
+}
+
+.span-salebefore {
+	height:32px;
+}
+
+
+
+
+/* added by ma-li*/
+
+.tool-buttons{
+	width: 80%; 
+	margin: 0 auto;
+}
+
+
+.prop-button{
+	width: 43%;
+}
+
+.select-all-button{
+	width: 80%; 
+	margin: 0 auto;
+}
+
+.prop-name-style{
+	width: 94%; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+.splite-down-width{
+	width:95%;
+}
+
+.check-box-style{
+	width: 20%; 
+	float:right;
+}
+
+.mount-style{
+	width: 80%; 
+	float: left;
+}
+
+
+
+
+

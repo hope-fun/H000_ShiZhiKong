@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition extends="default" name="cg0801/cg080102HeroPackages">
+		<put-attribute name="body" value="/WEB-INF/views/cg0801/cg080102HeroPackages.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0801/cg080107CheckCardPackage">
+		<put-attribute name="body" value="/WEB-INF/views/cg0801/cg080107CheckCardPackage.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+
+	
+	<definition extends="default" name="cg0801/cg080105extractLegendCardMany">
+		<put-attribute name="body" value="/WEB-INF/views/cg0801/cg080105extractLegendCard.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0801/cg080105extractLegendCardOne">
+		<put-attribute name="body" value="/WEB-INF/views/cg0801/cg080105extractLegendCardOne.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0801/cg080105extractNewCard">
+		<put-attribute name="body" value="/WEB-INF/views/cg0801/cg080105extractNewCard.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+
+	<definition extends="default" name="cg0801/cg080112cardDetail">
+		<put-attribute name="body" value="/WEB-INF/views/cg0801/cg0801CardDetail.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg0801/cg080101">
+		<put-attribute name="body" value="/WEB-INF/views/cg0801/cg080101.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+</tiles-definitions>

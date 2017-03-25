@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="cg2301/cg230101">
+		<put-attribute name="body" value="/WEB-INF/views/cg2301/cg230101BestPlayers.jsp" />
+	</definition>
+	<definition extends="default" name="cg2301/cg230102">
+		<put-attribute name="body" value="/WEB-INF/views/cg2301/cg230102BestCards.jsp" />
+	</definition>
+	<definition extends="default" name="cg2301/cg230103">
+		<put-attribute name="body" value="/WEB-INF/views/cg2301/cg230103BestFighters.jsp" />
+	</definition>
+	<definition extends="default" name="cg2301/cg230104">
+		<put-attribute name="body" value="/WEB-INF/views/cg2301/cg230104BestPhilanthropist.jsp" />
+	</definition>
+</tiles-definitions>

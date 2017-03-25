@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.tabbutton25 {
+	float:left;
+	width:25%;
+}
+
+.my-rank {
+	margin: 0px 20px 10px;
+}
+
+.percent-margin-style95 {
+	width:100%;
+}
+
+.tabbutton25 >img {	
+	width:99.5%;
+}

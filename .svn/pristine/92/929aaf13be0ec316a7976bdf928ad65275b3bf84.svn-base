@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg2101/cg210101">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210101.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2101/cg210102">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210102.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2101/cg210103">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210103.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2101/cg210104">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210104.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2101/cg210105">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210105.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2101/cg210106">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210106.jsp" />
+	</definition>
+	<definition extends="default" name="cg2101/cg210107">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210107.jsp" />
+	</definition>	
+	<definition extends="default" name="cg2101/cg210108">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210108.jsp" />
+	</definition>
+	<definition extends="default" name="cg2101/cg210109">
+		<put-attribute name="body" value="/WEB-INF/views/cg2101/cg210109.jsp" />
+		<put-attribute name="isShowMenu" value="true" />
+	</definition>			
+	
+</tiles-definitions>

@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.panel-180203-01 {
+	text-align: center;
+	background: url(../../images/border/A012.png) center center no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 10px;
+}
+
+.panel-180203-02 {	
+	background: url(../../images/B001.png) center center no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 180px;
+}
+
+.panel-180203-02 .bottomPart_line_image {
+	width: 21%;
+	height: 140px;
+	background: url(../../images/large-equipment.png) top center no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin: 15px 15px;
+}
+
+.panel-180203-02 .text {
+	float: left;
+	width: 70%;
+	padding: 20px 0px;
+}
+
+.progress-bar {
+	width: 94%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.panel-180203-03 {
+	width: 100%;
+	height: 473px;
+	margin-top: -50px;
+	background: url(/web/resources/images/border/A012.png) center top no-repeat;
+	background-size: 100% 100%;
+	padding: 20px 0;
+	position:relative;
+	top:100px;
+}
+
+.panel-180203-03 .eiditCardButton {
+	width: 85%;
+	height: 50px;
+	text-align: center;
+	background: url(/web/resources/images/small-button-green.png) center top no-repeat;
+	line-height: 50px;
+	background-size: 100% 100%;
+}
+
+.panel-180203-03 .cardDeck {
+	height: 174px;
+}

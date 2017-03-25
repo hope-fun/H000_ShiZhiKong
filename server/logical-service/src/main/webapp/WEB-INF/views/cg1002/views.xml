@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="/cg1002/cg100205exchangegoldens">
+		<put-attribute name="body" value="/WEB-INF/views/cg1002/cg100205exchangegoldens.jsp" />
+	</definition>
+	<definition extends="default" name="/cg1002/cg100206exchangesilverg">
+		<put-attribute name="body" value="/WEB-INF/views/cg1002/cg100206exchangesilverg.jsp" />
+	</definition>
+	<definition extends="default" name="/cg1002/cg100207exchangeconfirm">
+		<put-attribute name="body" value="/WEB-INF/views/cg1002/cg100207exchangeconfirm.jsp" />
+	</definition>
+	<definition extends="default" name="/cg1002/cg100208exchangeresult">
+		<put-attribute name="body" value="/WEB-INF/views/cg1002/cg100208exchangeresult.jsp" />
+	</definition>
+	<definition extends="default" name="/cg1002/cg100201auctionGolden">
+		<put-attribute name="body" value="/WEB-INF/views/cg1002/cg100201auctionGolden.jsp" />
+	</definition>
+	
+	<definition extends="default" name="/cg1002/cg10020101auctionSilver">
+		<put-attribute name="body" value="/WEB-INF/views/cg1002/cg10020101auctionSilver.jsp" />
+	</definition>
+</tiles-definitions>

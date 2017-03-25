@@ -1,0 +1,578 @@
+@CHARSET "UTF-8";
+
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.right-panel-boady>div {
+	margin: 10px auto;
+}
+
+.title-label-04 {
+	width: 100%;
+	height: 57px;
+	background: url(../../images/second-label.png) center center no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.title-label-04 div {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.title-label-04 span {
+	line-height: 57px;
+}
+
+.left-panel-body {
+	height: 175px;
+	width: 35%;
+	float: left;
+}
+
+.left-panel-body .card_image {
+	background: url(../../images/scard-smallcard.png) center no-repeat;
+	background-size: 100% auto;
+	width: 64%;
+	height: 100%;
+	float: left;
+}
+
+.left-panel-body .card_image img {
+	height: 100%;
+	float: left;
+}
+
+.right-panel-body {
+	width: 65%;
+	float: left;
+}
+
+.right-panel-body>div {
+	margin: 10px auto;
+}
+.card-mercenary-list-0401 {
+	width: 96%; 
+	height: 660px; 
+	margin: 0 auto;
+}
+.card-mercenary-list-0401 > div {
+	float: left; 
+	width: 20%; 
+}
+.card-mercenary-list-image {
+	width: 99%; 
+	margin: 0 auto; 
+	padding-top:20px;
+}
+.card-mercenary-list > div > div > img {
+	width: 100%;
+	height: 100%;
+}
+
+.card-mercenary-list img {
+	width: auto;
+	height: auto;
+}
+
+.card-icon {
+	width: 33%;
+	height: 41px;
+	float: left;
+	background: url(../../images/small-equipment.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+}
+
+.bottomPart_line {
+	width: 100%;
+	background: url(../../images/border/C002.png) center center no-repeat;
+	background-size: 100% 100%;
+	margin: 10px auto;
+	padding: 4% 0;
+}
+
+.bottomPart_line>div {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.bottomPart_line_image {
+	width:25%;
+	height:140px;
+	background:url(../../images/large-equipment.png) top center no-repeat;
+	background-size:100% auto;
+	float:left;
+	position: relative;
+	top: -35px;
+}
+
+.bottomPart_line_info {
+	width:70%;
+	float: left;
+	margin-left: 30px;
+}
+
+.bottomPart_line_info>div:first-child {
+	text-align:left;
+}
+
+.bottomPart_line_info_button {
+	height: 80px;
+}
+
+.bottomPart_line_info_button>div:first-child {
+	width: 33.6%;
+	height: 53px;
+	background: url(../../images/xiangqian-button-green.png) bottom center
+		no-repeat;
+	background-size: 100% auto;
+	float: left
+}
+
+.bottomPart_line_info_button>div:last-child {
+	width: 36.6%;
+	height: 53px;
+	margin-right: 7.6%;
+	background: url(../../images/xiechu-button-blue.png) bottom center
+		no-repeat;
+	background-size: 100% auto;
+	float: right;
+	margin-top: 16px;
+}
+
+/**/
+.addCard {
+	width: 100%;
+	height: 57px;
+	text-align: left;
+	padding-left: 20px;
+	background: url(/web/resources/images/second-label.png) center top
+		no-repeat;
+	background-size: 100% auto;
+	line-height: 57px;
+}
+
+.panelBg {
+	background: url(/web/resources/images/border/A013.png) center top
+		no-repeat;
+	height: 738px;
+	width: 100%;
+	background-size: 100% auto;
+}
+
+.equipmentContainer {
+	width: 100%;
+	height: 42px;
+	float: left;
+}
+
+.propertyImage {
+	width: 33%;
+	height: 100%;
+	float: left;
+	background: url(../../images/icons/default.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.propertyNoImage {
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+
+.label-dk {
+	background:url(../../images/label1.png) left center no-repeat;
+}
+
+.label-dk div{
+	width:90%;
+	margin:0 auto;
+}
+
+.label-dk div span{
+	line-height:39px;
+}
+
+
+.right-panel-body div.icon > span:first-child , .reward{
+	color: #A0A0A0;
+}
+
+.panel-line {
+	background:url(../../images/line-split-down.png) center center no-repeat;
+	background-size:100% 100%;
+	height:14px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.panel-element {
+	width:80%;
+	padding-top:30px;
+	text-align: left;
+}
+
+.panel_xuanchuankuang{
+	text-align:center;
+	background:url(../../images/border/xuanchuan.png) center center no-repeat;
+	background-size:100% 100%;
+	margin-bottom:10px;
+}
+
+.fight-result-list {
+	width: 96%; 
+	height: 400px; 
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.fight-result {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.fight-result-cystal {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.line-0401{
+	text-align:center;
+	background:url(../../images/line-split-down.png) center center no-repeat;
+	background-size:100% 100%;
+	padding:8px 0;"
+}
+
+.win-pannel{
+	width: 90%;
+	padding: 8px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.win-equipment{
+	background:url(../../images/middle-equipment.png) center center no-repeat;
+	height:67px;
+}
+
+.consumer-list {
+	width: 96%; 
+	height: 250px; 
+	margin: 0 auto;
+}
+
+.consumer-list-title {
+	text-align: center;
+	padding: 15px 0 0px 0;
+}
+.consumer-list-function{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.consumer-list-image{
+	text-align:center;
+	background:url(../../images/line-split-down.png) center center no-repeat;
+	background-size:100% 100%;
+	padding: 0px 0 15px 0;
+	margin-top: 10px;
+}
+.level-div{
+	width: 100%;
+	height: 44px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.level-div > div{
+ width: 40%;
+ height: 44px; 
+ margin: 0 auto;
+}
+
+.fight-button{
+	width: 80%;
+	padding: 20px; 
+	margin: 0 auto;
+	text-align: center;
+}
+
+.targetpadding{
+	padding-top: 10px;
+}
+
+.changeButtonStyle{
+	text-align: right;
+	padding-top: 10px;
+}
+
+.treasurePanel {
+	 width:98%;
+	 margin:0 auto;
+	 text-align:center;
+}
+.treasurePanelImage{
+	width:30%; 
+	float:left;
+	margin-top:30px;
+}
+.treasureText{
+	width:65%;
+	float:left;
+}
+.treasureCount{
+	width:80%;
+	text-align:left;
+}
+
+.LightOper {
+	position:absolute;
+	top:280px;
+	left:180px;
+	opacity:0;
+	z-index:1000;
+}
+		
+.LightRay {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: LightRay;
+	-webkit-animation-duration: 500ms;
+	-webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes LightRay {
+	0% {
+		-webkit-transform:matrix(3,0,0,3,0,0);
+	}
+	25% {}
+	50% {
+		-webkit-transform:matrix(-12,0,0,-12,0,0);
+	}
+	75% {}
+	100% {
+		-webkit-transform:matrix(27,0,0,27,0,0);
+	}
+}
+
+.contentFight {
+	width:720px;
+	overflow:hidden;
+	padding-top:82px;
+	position:relative;
+}
+			
+.contentFight .upPart {
+	position:relative;
+}
+			
+.contentFight .downPart{
+	position:relative;
+}
+			
+.contentFight .upPart .fighter {
+	position:absolute; 
+	top:0px;
+	left:0px;
+	-webkit-transition: all 0.2s;
+	opacity:0;
+}
+			
+.contentFight .downPart .fighter {
+	position:absolute; 
+	top:0px;
+	left:600px;
+	-webkit-transition: all 0.2s;
+	opacity:0;		
+}
+			
+.contentFight .VS {
+	position:absolute;
+	top:280px;
+	left:180px;
+	-webkit-transform:scale(5,5);
+	-webkit-transition: all 0.2s;
+	z-index: 100;
+	opacity:0;
+}
+
+.whiteMask {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	background:white;
+	-webkit-transition: all 0.2s;
+	z-index: 9999;
+	opacity:0;
+}
+			
+.finalRes {	
+	display:none;
+}
+
+/* added by ma-li*/
+.consumable-count{
+	width: 50%;
+	float: left;
+}
+
+
+.revail-info-button{
+	width: 40%;
+	float: left;
+	padding: 35px 0 !important;
+}
+
+.attack-width{
+	width:50% !important;	
+}
+.defense-width{
+	width:50% !important;
+}
+.player-name-style{
+	width:60%;
+	float:left;
+	text-align:left;
+}
+
+.total-power-style{
+	width:40%;
+	float:left;
+	text-align:left;
+}
+
+.fight-result-pic{
+	width:99%;
+}
+
+.rivail-info{
+	width:60%;
+	float:left;
+	
+}
+.cardFrameHeight {
+	height:204px;
+}
+
+.enemyCardGroupName{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.innerCardFrameHeight{
+	width: 20%;
+	float: left;
+	height:204px;
+}
+.cardHead{
+	height:31px;
+	text-align: center;
+}
+.cardBody{
+	height:174px;
+}
+.myCardGroupName{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.qiehuanzhanwei-green-x{
+	width: 80%;
+	margin: 0 auto;
+	height:70px;
+	padding-top: 20px;
+}
+.juezhan-green-z{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.totalPower{
+	height:31px;
+	width:92%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.addedByPower{
+	height:27px;
+	width:85%;
+	margin: 0 auto;
+	font-size: 17pt;
+	padding-top:8px;
+}
+
+.all-power-info{
+	width:50%;
+	float: left;
+}
+
+
+.player-cards-height{
+	height:204px;
+}
+
+.now-power{
+	float: left;
+	color: rgb(43, 192, 62);
+	width:55%;
+	text-align:right;
+}
+
+.total-power{
+	float: left;
+	width:35%;
+	text-align: left;
+}
+
+.add-power{
+	float: left;
+	width:65%;
+}
+
+.add-power-percent{
+	float: left;
+	width:25%;
+	text-align: right;
+	color: rgb(254, 150, 0);
+	font-size: 17pt;
+}
+
+.added-power-count{
+	width:50%;
+	float: left;
+	height:31px;
+}
+.added-num-style{
+	float: left;
+	width:91%;
+	text-align: right;
+}
+
+.all-power-info02{
+	width:50%;
+	float: right;
+}
+
+.added-power-count02{
+	width:50%;
+	float: right;
+	height:31px;
+}
+
+.added-num-style02{
+	float: left;
+	width:87%;
+	text-align: right;
+}
+

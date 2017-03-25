@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="cg2601/cg260100">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260100.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260101">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260101.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260102">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260102.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260103">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260103.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260104">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260104.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260104/sold">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260104Sold.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260105">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260105.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260106">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260106.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260106win">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260106win.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260107">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260107.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260108">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260108.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260109">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260109.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260110">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260110.jsp" />
+	</definition>
+	<definition extends="default" name="cg2601/cg260111">
+		<put-attribute name="body" value="/WEB-INF/views/cg2601/cg260111.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+</tiles-definitions>

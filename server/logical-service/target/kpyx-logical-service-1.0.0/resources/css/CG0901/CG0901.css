@@ -1,0 +1,540 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.panel-b001 {
+	width: 100%;
+	padding: 12px 0;
+}
+
+.panel-b001>div {
+	background: url(../../images/B001.png) center center no-repeat;
+	background-size: 100% 100%;
+	height: 247px;
+	width: 100%;
+}
+
+.panel-b003 {
+	width: 100%;
+	padding: 12px 0;
+}
+
+.panel-b003>div {
+	
+	height: 247px;
+	width: 100%;
+}
+
+.card-detail-header {
+	width: 100%;
+	padding: 3px 0;
+}
+
+.card-detail-header>div {
+	width: 50%;
+	background: url(../../images/label6.png) center center no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+}
+
+.card-detail-header>div>span {
+	padding-left: 56px;
+	padding: 5px 0;
+}
+
+.card-detail-body {
+	width: 100%;
+}
+
+.card-detail-body>div {
+	width: 100%;
+	background: url(../../images/label6.png) center center no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+}
+/**
+ * cg090103
+ * add by mao
+ */
+/* tab style Begin */
+.panel-gmdj-header {
+	background: url(../../images/label5.png) no-repeat;
+	height: 40px;
+	line-height: 40px;
+	background-size: 50% 100%;
+	padding-left: 22px;
+	margin-bottom: 5px;
+}
+
+.tab-panel03 {
+	width: 100%;
+	padding: 12px 0 0;
+}
+
+.tab-panel03>div {
+	width: 100%;
+}
+
+.tab-panel03>div:first-child>div {
+	width: 25%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	background: url(../../images/buttons/kaquan-blue-b.png) center center
+		no-repeat;
+	background-size: 100% auto;
+	height: 55px;
+}
+
+.tab-panel03>div:first-child>div.tab-active {
+	background: url(../../images/buttons/daoju-yellow-b.png) center center
+		no-repeat;
+	background-size: 100% auto;
+}
+
+.tab-panel03>div:first-child>div:last-child {
+	float: none;
+	clear: both;
+	height: 0;
+}
+/* tab style End */
+.panel-body-B {
+	background: url(../../images/border/B005.png) no-repeat;
+	background-size: 100% 100%;
+	height: 270px;
+}
+
+.panel-body-B>div>div {
+	float: left;
+}
+
+.panel-body-B>div>div:first-child {
+	padding: 12px 2% 0px 1%;
+	text-align: center;
+	width: 20%;
+}
+
+.panel-body-B>div>div:first-child>img {
+	width: 75%;
+}
+
+.twobuttondiv {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.center-text {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.top-button {
+	width: 35%;
+	padding: 12px 0;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	background-size: 100% auto;
+	background: url(../images/buttons/daoju-yellow-x.png) center center
+		no-repeat;
+}
+
+.xskb-content {
+	width: 100%;
+	padding-left: 23%;
+}
+
+.xs-button-goumai-green {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.scfm-button-row {
+	width: 100%;
+}
+
+.scfm-button-goumai-green {
+	width: 60%;
+	float: left;
+	text-align: right;
+	padding: 7px 0;
+	margin: 0 auto;
+}
+
+.scfm-cysl {
+	line-height: 60px;
+}
+
+.input-text-and-image {
+	width: 30%;
+	float: left;
+}
+
+.panel-body-M {
+	background: url(../../images/border/B005.png) no-repeat;
+	background-size: 100% 100%;
+	height: 270px;
+}
+
+.panel-body-M>div>div {
+	float: left;
+	height: 70%;
+}
+
+.panel-body-M>div>div:first-child {
+	padding: 12px 2% 0px 1%;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+}
+
+
+.propsImagesDiv{
+	width: 30%;	
+	float:left;
+	marign: 0 auto;
+	text-align: center;
+}
+
+.propsImagesDiv>img{
+	width:86.7%;
+	height: 156px;
+	
+}
+
+
+.panel-body-M>div>div:first-child>img {
+	width: 75%;
+}
+
+.mfz-text-description-ticket {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.mfz-text-description {
+	width: 69%;
+	float:left;
+}
+
+.mfz-price {
+	padding-top: 10px;
+}
+
+.common-padding10{
+	padding:10px 0;
+}
+
+.common-padding3{
+	padding:3px 0;
+}
+.common-padding-top10{
+	padding-top:20px;
+}
+/**
+ * cg090104
+ * add by mao
+ */
+
+/* tab style Begin */
+.tab-panel09 {
+	width: 100%;
+	padding: 12px 0 0;
+}
+
+.tab-panel09>div {
+	width: 100%;
+}
+
+.tab-panel09>div:first-child>div {
+	width: 25%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	background: url(../../images/buttons/daoju-blue-b.png) center center
+		no-repeat;
+	background-size: 100% auto;
+	height: 55px;
+}
+
+.tab-panel09>div:first-child span {
+	line-height: 53px;
+}
+
+.tab-panel09>div:first-child>div.tab-active {
+	background: url(../../images/buttons/kaquan-yellow-b.png) center center
+		no-repeat;
+	background-size: 100% auto;
+}
+
+.tab-panel09>div:first-child>div:last-child {
+	float: none;
+	clear: both;
+	height: 0;
+}
+/* tab style End */
+/
+*
+.width-to-100 {
+	width: 100%;
+}
+
+.panel-ybkb-header {
+	background: url(../../images/label5.png) no-repeat;
+	height: 49px;
+	line-height: 49px;
+	margin-bottom: 3px;
+	background-size: 70% 100%;
+}
+
+.panel-body-B005 {
+	background: url(../../images/border/B005.png) no-repeat;
+	background-size: 100% 100%;
+	height: 280px;
+}
+
+.panel-body-B005>div>div {
+	float: left;
+}
+
+.panel-body-B005>div>div:first-child {
+	padding: 12px 2% 0px 1%;
+	text-align: center;
+	width: 20%;
+}
+
+.panel-body-B005>div>div:first-child>img {
+	width: 85%;
+}
+
+.kb-text-descrpition {
+	padding-top: 0px;
+	margin: 0 auto;
+	width: 68%;
+}
+
+.kb-price {
+	padding-top: 15px;
+}
+
+.button-goumai-green {
+	width: 100%;
+	text-align: center;
+}
+
+.npc-message {
+	width: 95%;
+	text-align: left;
+	padding: 8px 0;
+	line-height: 45px;
+	margin: 0 auto;
+	font-size: 18pt;
+}
+
+.buy-diamond {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	padding: 12px 0;
+}
+
+.buy-diamond>div {
+	width: 40%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+.buy-diamond>div:first-child {
+	width: 34%;
+}
+
+.buy-diamond>div:last-child {
+	width: 26%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	padding-top:110px;
+}
+.buy-diamond>div:first-child>div {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.input-text-and-image02 {
+	width: 30%;
+	float: left;
+	height: 37px;
+	position: relative;
+	top: 10px;
+	text-align:center;
+	margin:0 auto;
+	
+	
+}
+
+.paddingStyle50 {
+	padding: 50px 0;
+}
+
+.paddingStyle20 {
+	padding: 20px 0;
+}
+
+.paddingStyle_top10 {
+	padding-top: 15px;
+}
+
+.center-site{
+	margin:0 auto;
+	text-align:center;
+}
+
+.sell_count02{
+	width: 50%;
+	font-size:22pt;
+	line-height:53px;
+}
+
+
+.tab-shop{
+	width:100%;
+	margin:0 auto;	
+	overflow:hidden;
+	
+}
+.tab-shop>div{
+	width:26.5%;
+	float:left;
+	
+}
+.tab-shop>div>img{
+	float:left;
+	width:100%;
+	height:53px;
+}
+
+.panelB05-height {
+	height:210px;
+}
+
+.split-down-style{
+	position: absolute;
+	top: 15px;
+}
+
+.padding-style15{
+	padding:15px 0;
+}
+
+.cg0901IterCotainer {
+	width: 100%; 
+	padding: 10px 0;
+}
+
+.panelA10-height-add {
+	height:450px;
+}
+
+
+
+
+/* added by ma-li*/
+
+.npc-img{
+	width: 24%;
+	padding-top:10px;
+	padding-left:8px;
+}
+
+.npc-message{
+	width: 73%; 
+	float: left;
+}
+
+.diamond-style{
+	width:40%;
+}
+
+.buy-diamond-button{
+	width:26%;
+}
+
+.shop-goods-img{
+	text-align: center;
+	padding-top:20px;
+}
+
+.float-left1{
+	float: left;
+	width: 24%;
+	margin-right: 1%
+}
+
+.float-left2{
+	float: left;
+	width: 26%;
+	margin-right: 3.5%;
+	margin-left:3.5%;
+}
+
+.endlefttime{
+	font-size: 17pt;
+}
+
+.diamond_font{
+	color: white;
+	font-size: 22pt;
+}
+
+.exchangeEquip{
+	display:none;
+}
+
+.jqPopup>.message{
+    margin:20px 8px 8px 8px;
+    height:200px;
+}
+
+.small-ysbx{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	font-size:18pt;
+	height:220px;
+	overflow:hidden;
+}
+
+.small-pic{
+	margin-left: 180px;
+}
+
+.small-ysb-count{
+	line-height:156px;
+	position: relative;
+	left: -80px;
+}
+
+.reward-gift-name-small{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	left: -25px;
+	padding-top: 10px;
+}
+
+.reward-gift-title{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	font-size:22pt;
+	padding:10px 0;
+}
+

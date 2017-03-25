@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<!-- <definition extends="default" name="cg0101/cg010101">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg010101.jsp" />
+	</definition> -->
+	<definition extends="default" name="cg0101/cg010103MyHomePage">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg010103MyHomePage.jsp" />
+		<put-attribute name="isShowMenu" value="true" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0101/cg010102">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg010102.jsp" />
+		<put-attribute name="isShowMenu" value="true" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0101/cg01010201">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg01010201.jsp" />
+	</definition>
+	<definition extends="default" name="cg0101/cg010104">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg010104.jsp" />
+	</definition>
+	<definition extends="default" name="cg0101/cg01010401">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg01010401.jsp" />
+	</definition>
+	<definition extends="default" name="cg0101/cg01010402">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg01010402.jsp" />
+	</definition>
+	<definition extends="default" name="cg0101/cg010105AttributePointDistribution">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg010105AttributePointDistribution.jsp" />
+	</definition>
+	<definition extends="default" name="cg0101/cg010106MyDetailInfo">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg010106MyDetailInfo.jsp" />
+	</definition>
+	<definition extends="default" name="cg0101/cg01010301NewHomePage">
+		<put-attribute name="isShowMenu" value="true" />
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg01010301NewHomePage.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0101/cg01010301ContinueRegister">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg01010301ContinueRegister.jsp" />
+		<put-attribute name="isShowMenu" value="false" />
+	</definition>
+	<definition extends="default" name="cg0101/cg010103Notice">
+		<put-attribute name="body" value="/WEB-INF/views/cg0101/cg010103Notice.jsp" />
+		<put-attribute name="isShowMenu" value="false" />
+	</definition>
+</tiles-definitions>

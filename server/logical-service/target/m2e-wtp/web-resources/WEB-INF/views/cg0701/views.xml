@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="cg0701/cg070101TreasureOff">
+		<put-attribute name="body" value="/WEB-INF/views/cg0701/cg070101TreasureOff.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0701/cg070102TreasureOn">
+		<put-attribute name="body" value="/WEB-INF/views/cg0701/cg070102TreasureOn.jsp" />
+	</definition>
+	<definition extends="default" name="cg0701/cg070103TreasureDetail">
+		<put-attribute name="body" value="/WEB-INF/views/cg0701/cg070103TreasureDetail.jsp" />
+	</definition>
+
+	<definition extends="default" name="cg0701/cg070104UseDefenseConfirm">
+		<put-attribute name="body" value="/WEB-INF/views/cg0701/cg070104UseDefenseConfirm.jsp" />
+	</definition>
+	<definition extends="default" name="cg0701/cg070105RewardResultProp">
+		<put-attribute name="body" value="/WEB-INF/views/cg0701/cg070105RewardResultProp.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0701/cg070106RewardResultCard">
+		<put-attribute name="body" value="/WEB-INF/views/cg0701/cg070106RewardResultCard.jsp" />
+	</definition>
+	<definition extends="default" name="cg0701/cg070107RewardResultConsumable">
+		<put-attribute name="body" value="/WEB-INF/views/cg0701/cg070107RewardResultConsumable.jsp" />
+	</definition>
+</tiles-definitions>
+
+

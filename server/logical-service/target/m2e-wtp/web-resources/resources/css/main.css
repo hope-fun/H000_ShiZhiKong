@@ -1,0 +1,2255 @@
+body {
+	font-family: "Arial Unicode MS";
+	color: white;
+	text-align: left;
+	margin: 0px;
+}
+
+.top {
+	margin: 0 auto;
+	max-width: 720px;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	/* background: url(../images/background.png) repeat-y;
+	background-size: 100% auto;
+	background: url(../images/background.png) no-repeat center fixed; */
+}
+
+#content {
+	bottom: 0px;
+}
+
+.clearfix
+ {
+	clear: both;
+}
+
+.align-center {
+	margin: 0 auto;
+}
+
+.bg-shadow {
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: .3;
+	filter: alpha(opacity =   30);
+	display: none;
+}
+
+/** Font& Color styles ---Begin */
+/** 带下划线超链接 -18号-加粗 */
+.fc-link {
+	color: rgb(254, 225, 28);
+	/**font-weight: bold;*/
+	font-size: 18pt;
+}
+
+.fc-link-l{
+	color: rgb(254, 225, 28);
+	/**font-weight: bold;*/
+	font-size: 20pt;
+}
+/** 带星号文字  */
+.fc-normal-01-l {
+	color: rgb(0, 252, 255);
+	font-size: 20pt;
+}
+
+.fc-normal-01-m {
+	color: rgb(0, 252, 255);
+	font-size: 18pt;
+}
+
+.fc-normal-02-l {
+	color: rgb(42, 192, 63);
+	font-size: 20pt;
+}
+
+.fc-normal-02-m {
+	color: rgb(42, 192, 63);	
+	font-size: 18pt;
+}
+
+.fc-normal-03-m {
+	color: rgb(255, 255, 255);
+	font-size: 18pt;
+}
+
+.fc-normal-04-l {
+	color: rgb(254, 225, 28);
+	font-size: 20pt;
+}
+
+.fc-normal-04-m {
+	color: rgb(254, 225, 28);
+	font-size: 18pt;
+}
+
+.fc-normal-04-s {
+	color: rgb(254, 225, 28);
+	font-size: 16pt;
+}
+
+.fc-normal-05-l {
+	color: rgb(160, 160, 160);
+	font-size: 20pt;
+}
+
+.fc-normal-05-m {
+	color: rgb(160, 160, 160);
+	font-size: 18pt;
+}
+
+.fc-normal-08-m {
+	color: rgb(160, 160, 160);
+	font-size: 16pt;
+}
+
+.fc-normal-06-l {
+	color: rgb(255, 150, 0);
+	/**font-weight: bold;*/
+	font-size: 20pt;
+}
+
+.fc-normal-07-l {
+	color: rgb(255, 0, 255);
+	/**font-weight: bold;*/
+	font-size: 20pt;
+}
+
+.fc-normal-06-m {
+	color: rgb(255, 150, 0);
+	/**font-weight: bold;*/
+	font-size: 18pt;
+}
+
+.fc-normal-06-s {
+	color: rgb(255, 150, 0);
+	/**font-weight: bold;*/
+	font-size: 16pt;
+}
+
+.fc-normal-07-m {
+	font-size: 18pt;
+	color: rgb(197, 0, 255);
+}
+
+.fs-underline {
+	text-decoration: underline;
+}
+
+.fc-normal-09-l {
+	color: rgb(189, 45, 160);
+	font-size: 20pt;
+}
+
+.fc-normal-09-m {
+	color: rgb(189, 45, 160);
+	font-size: 18pt;
+}
+
+/** 带星号文字  */
+.fc-withwild {
+	color: rgb(255, 150, 0);
+	font-size: 16pt;
+	font-weight: bold;
+}
+/** 带星号文字  */
+.fc-withwild-s {
+	color: rgb(255, 150, 0);
+	font-size: 16pt;
+	'
+}
+
+/** 带星号文字  */
+.fc-title-01 {
+	color: rgb(160, 160, 160);
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.fc-title-02 {
+	color: rgb(160, 160, 160);
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.fc-content-01 {
+	color: rgb(255, 255, 255);
+	font-size: 22pt;
+}
+
+.fc-content-02 {
+	color: rgb(255, 255, 255);
+	font-size: 20pt;
+}
+.fc-giftName-01 {
+	color: rgb(255, 255, 255);
+	font-size: 14pt;
+}
+
+.fc-content-03 {
+	color: rgb(255, 255, 255);
+	font-size: 18pt;
+}
+
+/** Font& Color styles ---End */
+.menu-large {
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+.menu-medium {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.menu-small {
+	font-size: 20pt;
+}
+
+.button-large {
+	font-size: 22pt;
+}
+
+.button-medium {
+	font-size: 20pt;
+}
+
+.button-small {
+	font-size: 20pt;
+}
+
+.button-tab {
+	font-size: 18pt;
+}
+
+.button-pagination {
+	font-size: 18pt;
+}
+
+.button-disabled {
+	filter:
+		url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	/* Firefox 10+, Firefox on Android */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(1);
+	/* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	opacity: 0.5;
+}
+
+.system-title {
+	font-size: 20pt;
+}
+
+.system-content {
+	font-size: 18pt;
+}
+
+.system-content-bold {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.system-content-other {
+	font-size: 16pt;
+}
+
+.select-content {
+	font-size: 17pt;
+}
+
+.title-label-01 {
+	padding: 12px 0;
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/main-label-01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.title-label-01 span {
+	line-height: 54px;
+}
+
+.title-label-02 {
+	padding: 12px 0;
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/second-label.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.title-label-03 {
+	padding: 12px 0;
+	width: 100%;
+	text-align: center;
+	background: url(../images/main-label-02.png) center center no-repeat;
+	background-size: 100% auto;
+	font-size:22pt;
+	font-weight: bold;
+}
+
+
+.title-label-04 {
+	background: url(../images/continue/dikuangdown.PNG) center no-repeat;
+	height:560px;	
+	background-size:97% 100%;
+}
+.title-label-02 span {
+	line-height: 54px;
+	padding: 0 40px;
+}
+
+.title-label-03 span {
+	line-height: 54px;
+}
+
+.tab-button01 {
+	width: 25%;
+	text-align: center;
+	background: url(../images/label-button-yellow.png) center left no-repeat;
+	background-size: 100% auto;
+	float: left;
+}
+
+.tab-button02 {
+	width: 25%;
+	text-align: center;
+	background: url(../images/label-button-blue.png) center left no-repeat;
+	background-size: 100% auto;
+	float: left;
+}
+
+.tab-button02 span,.tab-button01 span {
+	line-height: 53px;
+}
+
+.tabpanel>img {
+	float: left;
+	width: 25%;
+	line-height: 53px;
+}
+
+.link {
+	width: 100%;
+	padding: 12px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.link a {
+	
+}
+
+a.barelink {
+	color: white;
+	text-decoration: none;
+}
+
+.link-button-02 {
+	width: 85%;
+	padding: 12px 0;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../images/main-button-blue.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.link-button-main-green {
+	width: 85%;
+	padding: 12px 0;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../images/main-button-green.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.link-button-02 span {
+	line-height: 54px;
+}
+
+.link-button-03 {
+	width: 60%;
+	padding: 12px 0;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../images/second-button-green.png) center center
+		no-repeat;
+	background-size: 100% auto;
+}
+
+.link-button-03 span {
+	line-height: 54px;
+}
+
+.link-button-04 {
+	width: 35%;
+	padding: 12px 0;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../images/small-button-long-green.png) center center
+		no-repeat;
+	background-size: 100% auto;
+}
+
+.link-button-04 span {
+	line-height: 54px;
+}
+
+.split-line {
+	width: 100%;
+	background: url(../images/split-line.png) center no-repeat;
+	height: 7px;
+}
+
+.split-01 {
+	width: 100%;
+	padding: 12px 0;
+	margin: 0 auto;
+	text-align: center;
+	height: 57px;
+	background: url(../images/panel-split.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.panel-01 {
+	width: 100%;
+	padding: 12px 0;
+}
+
+.panel-01 .panel-label {
+	width: 100%;
+	background: url(../images/label1.png) left bottom no-repeat;
+	background-size: auto 100%;
+	text-align: left;
+}
+
+.panel-01 .panel-header {
+	width: 100%;
+	height: 25px;
+	background: url(../images/border/A-Header.png) center bottom no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+}
+
+.panel-01 .panel-header span {
+	line-height: 42px;
+	padding-left: 22px;
+}
+
+.panel-01 .panel-body {
+	width: 100%;
+	background: url(../images/border/A-Body.png) center center repeat-y;
+	background-size: 100% 100%;
+}
+
+.panel-01 .panel-footer {
+	width: 100%;
+	height: 55px;
+	background: url(../images/border/A-Footer.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+/* tab style Begin */
+.tab-panel {
+	width: 100%;
+	padding: 12px 0 0;
+}
+
+.tab-panel>div {
+	width: 100%;
+}
+
+.tab-panel>div:first-child>div {
+	width: 25%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	background: url(../images/label-button-blue.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.tab-panel>div:first-child span {
+	line-height: 53px;
+}
+
+.tab-panel>div:first-child>div.tab-active {
+	background: url(../images/label-button-yellow.png) center center
+		no-repeat;
+	background-size: 100% auto;
+}
+
+.tab-panel>div:first-child>div:last-child {
+	float: none;
+	clear: both;
+}
+/* tab style End */
+
+/* card info start  */
+/****************major card layout start*************************/
+.panel-02 {
+	width: 100%;
+	padding: 12px 0;
+}
+
+.panel-02>div {
+	height: 439px;
+	width: 100%;
+	background: url(../images/mcard.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.panel-02 .panel-header {
+	width: 100%;
+	padding-top: 13px;
+	padding-bottom: 5px;
+	background-size: 100% auto;
+	font-size: 20pt;
+}
+
+.panel-02 .panel-header span {
+	line-height: 42px;
+	padding-left: 45px;
+}
+
+.panel-02 .panel-body {
+	width: 100%;
+}
+
+.card-major>div {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.card-major>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.card-major .card-major-image {
+	width: 88%;
+	max-width: 229px;
+	height: 284px;
+	background: url(../images/mcard-middlecard.png) center center no-repeat;
+	background-size: 100% auto;
+	margin: 0 auto;
+}
+
+.card-major .card-major-image-equipment {
+	padding-top: 5px;
+	width: 88%;
+	max-width: 229px;
+	margin: 0 auto;
+}
+
+.card-major .card-major-image-equipment>div {
+	background: url(../images/middle-equipment.png) center center no-repeat;
+	background-size: 100% auto;
+	width: 33%;
+	height: 68px;
+	float: left;
+	margin: 0 auto;
+}
+
+.card-major .card-major-image-equipment>div:last-child {
+	float: none;
+	clear: both;
+	background-image: none;
+	height: 0px;
+}
+
+.card-major-image-equipment img {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.card-major-desc {
+	width: 96%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20pt;
+}
+
+.card-major-desc>div {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.card-major-desc>div.card-major-data {
+	width: 94%;
+}
+
+.card-major-data div.icon>span:FIRST-CHILD {
+	color: rgb(160, 160, 160);
+}
+
+.card-major-data>div {
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.card-major-data>div:last-child {
+	float: none;
+	clear: both;
+	padding: 0px;
+}
+
+.card-major-experience {
+	padding: 10px 0;
+}
+
+.card-major-experience>div {
+	float: left;
+}
+
+.card-major-experience>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.panel-body .main-card {
+	width: 40%;
+	font-size: 20pt;
+	background-size: 100% auto;
+	float: left;
+}
+
+.panel-02 .main-card .card-image {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.panel-02 .data-mainCard {
+	width: 60%;
+	font-size: 20pt;
+	background-size: 100% auto;
+	float: left;
+}
+
+.top-data-mainCard {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.middle-data-mainCard {
+	width: 100%;
+}
+
+.bottom-data-mainCard {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.middle-data-mainCard span {
+	float: left;
+}
+
+.card-image .mainCard-pic {
+	background: url(../images/mcard-middlecard.png) center no-repeat;
+	background-size: 100% 100%;
+	height: 295px;
+	width: 90%;
+}
+
+.card-image .mainCard-pic>img {
+	width: 95%;
+}
+
+.card-image .mainCard-equipment {
+	padding-top: 5px;
+}
+
+.mainCard-equipment .one-equipment {
+	background: url(../images/middle-equipment.png) center no-repeat;
+	background-size: 100% auto;
+	width: 29%;
+	height: 65px;
+	float: left;
+}
+
+.mainCard-equipment .one-equipment>img {
+	width: 95%;
+}
+
+.archives-panel02>div.archives-item,.archives-panel02>div.archives-item-02
+	{
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.archives-panel02 div.icon>span:first-child {
+	color: rgb(200, 200, 200);
+}
+
+.experience {
+	float: left;
+	height: 44px;
+}
+
+.experience>span {
+	line-height: 44px;
+}
+
+.bottom-data-mainCard>div {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.bottom-data-mainCard>div>img {
+	width: 80%;
+}
+/****************major card layout End*************************/
+.race-all {
+	width: 100%;
+}
+
+.race-all>div {
+	width: 37%;
+	padding: 16px 0 10px;
+	margin: 0 auto;
+}
+
+.choiceContent span {
+	line-height: 53px;
+}
+
+.race-all>div>img {
+	width: 95%;
+}
+
+.gbutton-02 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gbutton-02>div {
+	float: left;
+	padding: 12px 0;
+	width: 33%;
+}
+
+.gbutton-02>div>img {
+	width: 80%;
+}
+
+.gbutton-02>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.select-condition {
+	padding: 15px 0;
+	width: 100%;
+}
+
+.select-condition>div {
+	background: url(../images/selectbox.png) center center no-repeat;
+	background-size: 100% auto;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.pageSelect {
+	width: 100%;
+	text-align: center;
+}
+
+.pageSelect .prepage {
+	float: left;
+	width: 26%;
+	padding: 5px 0 5px;
+	margin: 0 auto;
+}
+
+.pageSelect .pagination-button {
+	cursor: pointer;
+}
+
+.pageSelect .pagination-button-disable {
+	/*opacity:0.5;*/
+	-webkit-filter: grayscale(1);
+	opacity: 0.5;
+}
+
+.pageSelect .nextpage {
+	float: left;
+	width: 26%;
+	padding: 5px 0 5px;
+	margin: 0 auto;
+}
+
+.pageSelect span {
+	line-height: 53px;
+	width: 48%;
+	float: left;
+}
+
+.pageSelect .nextpage>img,.pageSelect .prepage>img {
+	line-height: 53px;
+	width: 99%;
+}
+
+.padding-bottom {
+	padding: 0 0 12px 0;
+}
+
+.padding-top {
+	padding: 12px 0 0 0;
+}
+
+/******assistant card layout start************/
+.panel-03 {
+	width: 100%;
+	font-size: 20pt;
+	padding: 12px 0;
+}
+
+.panel-02 .blue-background {
+	background: url(../images/mcard.png) center center no-repeat;
+	background-size: 100% 100%;
+	height: 439px;
+	width: 100%;
+}
+
+.panel-02 .green-background {
+	background: url(../images/mcard-green.png) center center no-repeat;
+	background-size: 100% 100%;
+	height: 439px;
+	width: 100%;
+}
+
+.panel-02 .yellow-background {
+	background: url(../images/mcard-yellow.png) center center no-repeat;
+	background-size: 100% 100%;
+	height: 439px;
+	width: 100%;
+}
+
+.blue-background {
+	background: url(../images/scard-blue.png) center no-repeat;
+	background-size: 100% 100%;
+	height: 260px;
+}
+
+.green-background {
+	background: url(../images/scard-green.png) center no-repeat;
+	background-size: 100% 100%;
+	height: 260px;
+}
+
+.yellow-background {
+	background: url(../images/scard-yellow.png) center no-repeat;
+	background-size: 100% 100%;
+	height: 260px;
+}
+
+.panel-03 .panel-header {
+	width: 100%;
+	font-size: 20pt;
+	padding: 13px 0;
+}
+
+.panel-03 .panel-header span {
+	line-height: 42px;
+	padding-left: 45px;
+}
+
+.panel-03 .panel-body {
+	width: 100%;
+	font-size: 20pt;
+	background-size: 100% auto;
+}
+
+.card-assistant>div {
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.card-assistant .card-assistant-image {
+	width: 82.5%;
+	margin: 0 auto;
+	max-width: 141px;
+	height: 171px;
+	background: url(../images/scard-smallcard.png) center no-repeat;
+	background-size: 100% auto;
+}
+
+.card-equipment>div {
+	padding: 4px 0;
+	width: 66%;
+}
+
+.card-assistant-desc>div {
+	padding: 5px 0;
+}
+
+.card-assistant-desc>div:FIRST-CHILD {
+	padding: 0;
+}
+
+.card-assistant-desc>div:last-child {
+	float: none;
+	clear: both;
+}
+/** Used for card star display */
+.card-star {
+	float: right;
+	padding-right: 75px;
+	padding-top: 5px;
+}
+
+.middle-right-panel>div {
+	width: 32%;
+	float: left;
+}
+
+.middle-right-panel>div:last-child {
+	float: none;
+	clear: both;
+}
+/******assistant card layout End************/
+.panel-05 {
+	width: 100%;
+	padding: 12px 0;
+	font-size: 20pt;
+}
+
+.panel-05>div {
+	width: 100%;
+	height: 541px;
+	background: url(../images/A003-notop.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+/*****  frame for B002 ****/
+panel-06 {
+	width: 100%;
+	padding: 12px 0;
+	font-size: 20pt;
+}
+
+.panel-06>div {
+	background: url(../images/border/B002.png) center bottom no-repeat;
+	background-size: 100% 100%;
+	height: 288px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*****  frame for B002 ****/
+.bottom-right-panel>div:FIRST-CHILD {
+	float: right;
+}
+
+.bottom-right-panel>div>img {
+	width: 100%;
+}
+/********card info End********/
+.label-button-01 {
+	width: 100%;
+	padding: 0;
+	margin: 10px auto;
+	text-align: left;
+	background: url(../images/border/D002.png) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.label-button-01 span {
+	line-height: 63px;
+	padding: 7px 0 0 30px;
+}
+
+.gbutton-01 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gbutton-01>div {
+	padding: 10px 0;
+	float: left;
+	width: 50%;
+}
+
+.gbutton-01>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.gbutton-01>div>img {
+	width: 95%;
+}
+
+.gcontainer-two {
+	width: 88%;
+	margin: 0 auto;
+}
+
+.gcontainer-two>div {
+	float: left;
+	width: 50%;
+}
+
+.gcontainer-two>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.centerFont {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.text-center {
+	text-align: center;
+}
+/**/
+.center-div {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.padding-style {
+	padding-top: 20px;
+}
+
+.scard-div {
+	text-align: center;
+}
+
+.scard-smallcard-bg {
+	text-align: center;
+	background: url(../images/scard-smallcard.png) center center no-repeat;
+	background-size: 100% auto;
+	margin: 0 auto;
+}
+
+.scard-bg-notitle {
+	text-align: center;
+	margin-top: 14%;
+}
+
+.scard-bg-notitle img {
+	padding-top: 10%;
+}
+
+/* Processing Bar Beginning*/
+.processing-bar {
+	position: static;
+	display: table;
+	width: 100%;
+}
+
+.processing-bar>div {
+	display: table-cell;
+	vertical-align: middle;
+	position: static;
+	top: 50%;
+	width: 100%;
+}
+
+.processing-bar>div>div {
+	float: left;
+	line-height: 33px;
+	position: relative;
+	top: -50%;
+}
+
+.processing-bar>div>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.processing-bar>div>div>span {
+	line-height: 33px;
+	padding-left: 10px;
+}
+
+.processing-bar>div>div:last-child {
+	padding-left: 10px;
+}
+
+.processing-bar table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.processing-bar table td {
+	height: 24px;
+	padding: 0;
+	text-align: left;
+	background-size: auto auto;
+}
+
+.processing-bar table td>div {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	text-align: left;
+}
+
+.processing-bar table td:first-child,.processing-bar table td:last-child
+	{
+	width: 6px;
+}
+
+/** Green color process bar */
+.processing-bar-green table td:first-child {
+	background: url(../images/process-bar/g01.png) right center no-repeat;
+}
+
+.processing-bar-green table td:last-child {
+	background: url(../images/process-bar/g02.png) left center no-repeat;
+}
+
+.processing-bar-green table td {
+	background: url(../images/process-bar/g03.png) center center repeat-x;
+}
+
+.processing-bar-green table td>div {
+	background: url(../images/process-bar/g04.png) center center repeat-x;
+}
+
+.processing-bar-green table td.fill {
+	background: url(../images/process-bar/g05.png) right center no-repeat;
+}
+
+.processing-bar-green table td.full {
+	background: url(../images/process-bar/g06.png) left center no-repeat;
+}
+
+/** Yellow color process bar */
+.processing-bar-yellow table td:first-child {
+	background: url(../images/process-bar/y01.png) right center no-repeat;
+}
+
+.processing-bar-yellow table td:last-child {
+	background: url(../images/process-bar/y02.png) left center no-repeat;
+}
+
+.processing-bar-yellow table td {
+	background: url(../images/process-bar/y03.png) center center repeat-x;
+}
+
+.processing-bar-yellow table td>div {
+	background: url(../images/process-bar/y04.png) center center repeat-x;
+}
+
+.processing-bar-yellow table td.fill {
+	background: url(../images/process-bar/y05.png) right center no-repeat;
+}
+
+.processing-bar-yellow table td.full {
+	background: url(../images/process-bar/y06.png) left center no-repeat;
+}
+
+/** Blue color process bar */
+
+
+
+.processing-bar-blue table td {
+	background: url(../images/process-bar/b03.png) center center repeat-x;
+}
+
+.processing-bar-blue table td>div {
+	background: url(../images/process-bar/b04.png) center center repeat-x;
+}
+
+.processing-bar-blue table td.fill {
+	background: url(../images/process-bar/b05.png) right center no-repeat;
+}
+
+.processing-bar-blue table td.full {
+	background: url(../images/process-bar/b06.png) left center no-repeat;
+}
+.processing-bar-blue table td:last-child {
+	background: url(../images/process-bar/b02.png) left center no-repeat;
+}
+
+.processing-bar-blue table td:first-child {
+	background: url(../images/process-bar/b01.png) right center no-repeat;
+}
+/** Pink color process bar */
+.processing-bar-pink table td:first-child {
+	background: url(../images/process-bar/p01.png) right center no-repeat;
+}
+
+.processing-bar-pink table td:last-child {
+	background: url(../images/process-bar/p06.png) left center no-repeat;
+}
+
+.processing-bar-pink table td {
+	background: url(../images/process-bar/p03.png) center center repeat-x;
+}
+
+.processing-bar-pink table td>div {
+	background: url(../images/process-bar/p04.png) center center repeat-x;
+}
+
+.processing-bar-pink table td.fill {
+	background: url(../images/process-bar/p05.png) right center no-repeat;
+}
+
+.processing-bar-pink table td.full {
+	background: url(../images/process-bar/p02.png) left center no-repeat;
+}
+
+/* Processing Bar End*/
+
+/* My page CSS Definer, Start */
+.card-mercenary-list {
+	width: 96%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.card-mercenary-list>div {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.card-mercenary-list>div>div {
+	width: 99%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.card-mercenary-list>div>div>img {
+	width: 100%;
+	height: 100%;
+}
+
+.card-mercenary-list>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.archives-panel {
+	width: 94%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.archives-panel>div {
+	float: left;
+	width: 50%;
+	padding: 2px 0;
+}
+
+.archives-panel>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.archives-panel>div.split-item {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/line-split-down.png) center center no-repeat;
+	padding: 10px 0;
+}
+
+.archives-panel>div>span {
+	line-height: 44px;
+}
+
+.archives-panel div.icon>span:first-child {
+	color: rgb(160, 160, 160);
+}
+/* My page CSS Definer, End */
+
+/* Icon  */
+a.icon {
+	padding: 5px 0;
+}
+
+.icon span:first-child {
+	line-height: 44px;
+	padding-left: 60px;
+	width: 44px;
+}
+
+.icon-jueseming{
+	background: url(../images/icons/jueseming.png) left center no-repeat;
+}
+
+.icon-mercenary {
+	background: url(../images/icons/kapaishu.png) left center no-repeat;
+}
+
+.icon-total-fighting-energy {
+	background: url(../images/icons/zhandouli.png) left center no-repeat;
+}
+
+.icon-total-shield-energy {
+	background: url(../images/icons/hudunli.png) left center no-repeat;
+}
+
+.icon-level {
+	background: url(../images/icons/dengji.png) left center no-repeat;
+}
+
+.icon-physicalstrength {
+	background: url(../images/icons/zhanhuxuqiu.png) left center no-repeat;
+}
+
+.icon-actionpower {
+	background: url(../images/icons/xingdongnengliang.png) left center
+		no-repeat;
+}
+
+.icon-crystal {
+	background: url(../images/icons/shuijing.png) left center no-repeat;
+}
+
+.icon-diamond {
+	background: url(../images/icons/zuanshi.png) left center no-repeat;
+}
+
+.icon-fighting-energy {
+	background: url(../images/icons/zhandounengliang.png) left center
+		no-repeat;
+}
+
+.icon-comrades {
+	background: url(../images/icons/zhanyou.png) left center no-repeat;
+}
+
+.icon-union {
+	background: url(../images/icons/lianmengtubiao.png) left center no-repeat;
+}
+
+.icon-shield-energy {
+	background: url(../images/icons/hudunnengliang.png) left center
+		no-repeat;
+}
+
+.icon-recruiting-points {
+	background: url(../images/icons/zhaomudianshu.png) left center no-repeat;
+}
+
+.icon-conquest-points {
+	background: url(../images/icons/zhengfudianshu.png) left center
+		no-repeat;
+}
+
+.icon-default {
+	background: url(../images/icons/default.png) left center no-repeat;
+}
+
+.icon-league-icon {
+	background: url(../images/icons/lianmengtubiao.png) left center
+		no-repeat;
+}
+
+.icon-league-crystal {
+	background: url(../images/icons/lianmengshuijing.png) left center
+		no-repeat;
+}
+
+.icon-fight-result {
+	background: url(../images/icons/zhanji.png) left center no-repeat;
+}
+
+.icon-location {
+	float: left;
+}
+/***********the image font has stroke*****************/
+.link-button-05 {
+	width: 57%;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+
+.link-button-05>img {
+	line-height: 54px;
+}
+/****************************/
+
+/**********the border for images******************/
+.borderPanel {
+	position: relative;
+	width: 98%;
+	margin: 0 auto;
+}
+
+.border-content {
+	height: 100%;
+	left: 10px;
+	position: absolute;
+	top: 10px;
+	width: 100%;
+}
+
+.border-content-noleft {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+}
+
+.panelA-header {
+	width: 100%;
+	height: 25px;
+	background: url(../images/border/A-Header.png) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelA-body {
+	width: 100%;
+	background: url(../images/border/A-Body.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelA-footer {
+	width: 100%;
+	height: 65px;
+	background: url(../images/border/A-Footer.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelB-header {
+	width: 100%;
+	height: 65px;
+	background: url(../images/border/B-Header.png) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelB-body {
+	width: 100%;
+	background: url(../images/border/B-Body.png) center center no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.panelB-footer {
+	width: 100%;
+	height: 65px;
+	background: url(../images/border/B-Footer.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelB-footer-right {
+	width: 100%;
+	height: 65px;
+	background: url(../images/border/B-FooterRight.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelC-header {
+	width: 100%;
+	height: 65px;
+	background: url(../images/border/C-Header.png) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelC-body {
+	width: 100%;
+	background: url(../images/border/C-Body.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelC-footer {
+	width: 100%;
+	height: 65px;
+	background: url(../images/border/C-Footer.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+.panelD-header {
+	width: 100%;
+	height: 36px;
+	background: url(../images/border/D001-01.png) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelD-body {
+	width: 100%;
+	background: url(../images/border/D001-02.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelD-footer {
+	width: 100%;
+	height: 38px;
+	background: url(../images/border/D001-03.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+.continueRegister-footer {
+	height: 90px;
+	background: url(../images/continue/dikuang.PNG) center  no-repeat;
+	background-size:97% 100%;
+}
+
+.panelE-header {
+	width: 100%;
+	height: 10px;
+	background: url(../images/border/E001-01.PNG) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelE-body {
+	width: 100%;
+	background: url(../images/border/E001-02.PNG) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelE-footer {
+	width: 100%;
+	height: 10px;
+	background: url(../images/border/E001-03.PNG) center top no-repeat;
+	background-size: 100% 100%;
+}
+
+/*****design height for borders******/
+.panelA01-height {
+	height: 203px;
+}
+
+.panelA02-height {
+	height: 156px;
+}
+
+.panelA03-height {
+	height: 482px;
+}
+
+.panelA04-height {
+	height: 260px;
+}
+
+.panelA05-height {
+	height: 246px;
+}
+
+.panelA06-height {
+	height: 730px;
+}
+
+.panelA07-height {
+	height: 233px;
+}
+
+.panelA08-height {
+	height: 1400px;
+}
+
+.panelA09-height {
+	height: 499px;
+}
+
+.panelA10-height {
+	height: 340px;
+}
+
+.panelA11-height {
+	height: 80px;
+}
+
+.panelA12-height {
+	height: 193px;
+}
+
+.panelA13-height {
+	height: 648px;
+}
+
+.panelA14-height {
+	height: 1053px;
+}
+
+.panelA15-height {
+	height: 303px;
+}
+
+.panelA16-height {
+	height: 436px;
+}
+
+.panelA17-height {
+	height: 792px;
+}
+
+.panelA18-height {
+	height: 380px;
+}
+
+.panelA19-height {
+	height: 1244px;
+}
+
+.panelA20-height {
+	height: 900px;
+}
+
+.panelA21-height {
+	height: 530px;
+}
+
+.panelA22-height {
+	height: 580px;
+}
+
+.panelB01-height {
+	height: 89px;
+}
+
+.panelB02-height {
+	height: 158px;
+}
+
+.panelB03-height {
+	height: 117px;
+}
+
+.panelB04-height {
+	height: 117px;
+}
+
+.panelB05-height {
+	height: 177px;
+}
+
+.panelB06-height {
+	height: 253px;
+}
+
+.panelB07-height {
+	height: 76px;
+}
+
+.panelB08-height {
+	height: 173px;
+}
+
+.panelB09-height {
+	height: 76px;
+}
+
+.panelB10-height {
+	height: 347px;
+}
+
+.panelB11-height {
+	height: 312px;
+}
+
+.panelB12-height {
+	height: 200px;
+}
+
+.panelB13-height{
+	height:360px;
+}
+.panelC01-height {
+	height: 87px;
+}
+
+.panelC02-height {
+	height: 127px;
+}
+
+.panelC03-height {
+	height: 321px;
+}
+
+.panelC04-height {
+	height: 692px;
+}
+
+.panelC05-height {
+	height: 163px;
+}
+
+.panelC06-height {
+	height: 425px;
+}
+
+.panelC07-height {
+	height: 190px;
+}
+
+.panelD01-height {
+	height: 711px;
+}
+
+.panelD02-height {
+	height: 330px;
+}
+
+.button_gray {
+	-webkit-filter: grayscale(1);
+	opacity: 0.5;
+}
+
+.gray-button {
+	filter: gray;
+	-moz-opacity: .4;
+	opacity: 0.5;
+}
+
+.input_class {
+	width: 85%;
+	height: 50px;
+	border: none;
+	font-size: 22pt;
+}
+
+.input_class_small {
+	width: 80%;
+	height: 32px;
+	border: none;
+	font-size: 16pt;
+}
+
+.pointer_class {
+	cursor: pointer;
+}
+
+.float_div {
+	right: 8px;
+	top: 105px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	z-index: 999;
+}
+
+.number_pop {
+	position: relative;
+	width: 100%;
+}
+
+.number_pop>div {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 47px;
+	height: 43px;
+	background: url(../images/number_bg_2.png) right bottom no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.number_pop>div>span {
+	font-size: 18pt;
+}
+
+.new_float_div {
+	width: 80px;
+	border: 1px white solid;
+	float: left;
+	height: 50px;
+	position: fixed;
+	top: 80px;
+	left: 20px;
+	z-index:100000;
+
+}
+
+
+.fc-normal-targetMirror-m {
+	color: rgb(254, 225, 28);
+	font-size: 14pt;
+}
+
+
+/* added by ma-li    npcDialog.tag  */
+
+.npcImg {
+	width: 20%;
+	margin-left: 10px;
+	float: left;
+}
+
+.dialog {
+	width: 70%;
+	text-align: left;
+	padding: 18px;
+	float: left;
+}
+
+.npc-content{
+	padding: 10px 0; 
+	margin: 0 auto;
+}
+
+
+/* 修改后的共通样式*/
+.rivail-info{
+	float:left;
+	width:60%;
+}
+.small-rank-pic{
+	float: left;
+	width: 15%;
+}
+.vip-level-pic{
+	float:left; 
+	width:25%;
+}
+
+.small-card-width{
+	width:24% !important;
+}
+.equips-width{
+	width:10% !important;
+}
+.player-info-width{
+	width:66% !important;
+}
+
+.middle-card-width{
+	width: 38% !important;
+}
+.middel-equips-width{
+	width:98% !important;
+}
+.middle-info-width{
+	width: 62% !important;
+}
+
+.panel-header-style{
+	width: 98%; 
+	margin: 0 auto;
+}
+
+.padding-left22{
+	padding-left: 22px;
+}
+.growing-per-width{
+	width: 30%;
+}
+
+.growing-bar-width{
+	width: 70%;
+}
+
+.item-name-style{
+	float: left; 
+	width: 40%;
+}
+
+
+.item-stars-style{
+	float: left;
+	width: 60%;
+}
+
+.item-exp-style{
+	width: 27%; 
+	float: left;
+}
+
+.item-now-exp{
+	width: 70%;
+	float: left;
+}
+
+.choose-button-width{
+	width:70%;
+}
+
+.ciha-kexiexia{
+	float: left; 
+	width: 55%;
+}
+
+.auct-info-style{
+	float: left; 
+	width: 30%; 
+	line-height: 30px;
+}
+
+.auct-price-style{
+	font-size: 17pt;
+	width:120px;
+}
+
+.auct-get-coin{
+	float: left;padding:0 15px;
+}
+
+.goods-label-style{
+	width: 22%;
+	marign:0 auto;
+	text-align:center;
+	line-height:39px;
+}
+
+.label-input-style{
+	width:70%;
+	line-height:39px;
+	font-size:17pt;
+}
+
+.label-input-style>input{
+	
+	font-size:17pt;
+}
+
+
+.get-all-style{
+	text-align: center;
+	margin: 0 auto;
+	width: 30%;
+}
+
+
+.sale-list-stars{
+	float:right; 
+	text-align:right; 
+	padding-top:3px; 
+	padding-right:80px;
+}
+
+
+.sale-equip-style{
+	float:right;
+	width: 30%;
+}
+
+.sale-button-width{
+	width: 90%;
+}
+
+
+/* added by ma-li  playerFragmentImage.tag*/
+.trea-frg-num-large{
+	margin-left:-9px;
+	margin-top:-9px;
+}
+
+.treasureImage-large{
+	height:157px;
+}
+
+.treasureImage-middle{
+	height:67px;
+}
+
+
+.treasureImage-small{
+	height:41px;
+}
+
+.consumable-padding-top{
+	padding-top: 25px;
+}
+
+.buy-consumable-style{
+	padding: 5px 0;
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+.selection-info-style{
+	width: 36%;
+	padding: 0px 32%;
+}
+
+.select-order-style{
+	margin: 0px auto;
+	width: 100%;
+	height: 50px;
+	font-size:17pt;
+}
+
+.nav-bar-style{
+	width:100%; 
+	margin: 0 auto; 
+	max-width:720px;
+}
+
+.consumable-count-style{
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}
+
+.rechallenage-style{
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}
+.header-info{
+	width:100%; 
+	align:center;
+	margin-top:50px;
+}
+
+.challenge-boss{
+	width: 98%; 
+	margin: 0 auto; 
+	text-align: center;
+	padding:10px 0;
+}
+
+/* 2013-8-13*/
+
+.addheight{
+	height:88px;
+}
+
+.panel-cr {
+	padding: 10px 0;
+}
+.fc-tiaoguo-continue{
+	color:rgb(255, 240, 0);
+	font-size:18pt;
+}
+
+.equips-width-cg010105{
+	width:8% !important;
+}
+
+.fc-normal-06-el {
+	color: rgb(255, 150, 0);
+	font-size: 24pt;
+}
+
+.player-friend-info{
+	padding-top:5px;
+}
+
+.obtain-consumable-padding{
+	padding: 100px 0 12px 0;
+}
+
+.dialog-font{
+	color: white;
+	font-size: 18pt;
+}
+
+.donghua{
+	-webkit-animation-name: jianchu;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+}
+
+.panelActivity-header {
+	width: 100%;
+	height: 25px;
+	background: url(../images/border/activity-head.png) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelActivity-body {
+	width: 100%;
+	background: url(../images/border/activity-body.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelActivity-footer {
+	width: 100%;
+	height: 25px;
+	background: url(../images/border/activity-footer.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+.panelActivity-height{
+	height:50px;
+}
+
+.panelActivity-height2{
+	height:90px;
+}
+
+.panelActivityButton-height{
+	height:440px;
+}
+
+.panelActivityButton-height1{
+	height:560px;
+}
+
+
+@-webkit-keyframes jianchu {
+	0% {  opacity: 0; }
+    50% {  opacity: 0.5; }
+    100% {  opacity: 1; }
+
+}
+
+.panelRaid-header{
+	width: 100%;
+	height: 25px;
+	background: url(../images/border/raid_header.PNG) center bottom no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelRaid-body {
+	width: 100%;
+	background: url(../images/border/raid_body.PNG) center center repeat-y;
+	background-size: 100%;
+}
+
+.panelRaid-footer {
+	width: 100%;
+	height: 25px;
+	background: url(../images/border/raid_footer.PNG) center top no-repeat;
+	background-size: 100% 100%;
+}
+.panelRaid-height{
+	height:144px;
+}
+
+.raid-color-yellow{
+	color: rgb(255,200,0);
+}
+
+.raid-color-blue{
+	color: rgb(2,194,222);
+}
+.module_remind_div {
+	z-index:100000;
+
+}
+
+.module_remind_div #module_remind_lightRay img {
+				-webkit-animation-timing-function: linear;
+				-webkit-animation-name: module_remind_lightRayanimation;
+				-webkit-animation-duration: 5000ms;
+				-webkit-animation-iteration-count: infinite;
+				z-index:110000;
+}
+
+@-webkit-keyframes module_remind_lightRayanimation {
+				0% {
+					-webkit-transform:matrix(1,0,0,1,0,0);
+				}
+				25% {
+					-webkit-transform:matrix(1,2,-2,1,0,0);
+				}
+				50% {
+					-webkit-transform:matrix(1,0,0,1,0,0);
+				}
+				75% {
+					-webkit-transform:matrix(1,-2,2,1,0,0);
+				}
+				100% {
+					-webkit-transform:matrix(1,0,0,1,0,0);
+				}
+}
+.raid-color-green{
+	color: rgb(118,249,3);
+}
+
+/* vip color progress
+.processing-bar-vip table td:first-child {
+	background: url(../images/process-bar/vip04.PNG) right center no-repeat;
+}
+
+.processing-bar-vip table td:last-child {
+	background: url(../images/process-bar/vip06.PNG) left center no-repeat;
+}
+
+.processing-bar-vip table td {
+	background: url(../images/process-bar/vip05.PNG) center center repeat-x;
+}
+*/
+.processing-bar-vip table td>div {
+	background: url(../images/process-bar/vip02.PNG) center center repeat-x;
+}
+
+.processing-bar-vip table td.fill {
+	background: url(../images/process-bar/vip01.PNG) right center no-repeat;
+}
+
+.processing-bar-vip table td.full {
+	background: url(../images/process-bar/vip03.PNG) left center no-repeat;
+}
+
+.activity-banner-bg{
+	width:100%;
+	height:194px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.activity-des-info{
+	width:92%;
+	padding-top:0px;
+	padding-bottom:20px;
+	font-size:12pt;
+	line-height:25px;
+	margin:0 auto;
+	font-weight: bold;
+	color:rgb(160,160,160);
+	margin-bottom:20px;
+}
+
+.panelE-height{
+	height:420px;
+}
+
+.activity-rule-pic{
+	width:100%;
+	height:58px;
+	margin:0 auto;
+	text-align:center;
+	position: relative;
+	top: 10px;
+	
+}
+
+.rules-info{
+	width:80%;
+	margin:0 auto;
+	text-align:left;
+	font-size:18pt;
+	color:white;
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+}
+
+.rules-info>div{
+	padding-top:10px;
+	line-height:35px;
+}
+
+.activity-rule-blue{
+	font-size:21pt;
+	color: rgb(0,183,238);
+}
+
+.activity-rule-yellow{
+	font-size:22pt;
+	color: rgb(255,200,0);
+}
+
+
+.start-search-button{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding-top:25px;
+}
+
+.back-activity-button{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding-top:25px;
+}
+
+.padding-top-50{
+	padding-top:50px;
+}
+
+
+
+

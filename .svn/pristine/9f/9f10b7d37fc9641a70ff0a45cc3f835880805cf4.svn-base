@@ -1,0 +1,399 @@
+#Updated at Wed Jan 16 13:26:13 CST 2013
+#Wed Jan 16 13:26:13 CST 2013
+#dev
+
+# CAS server address
+server.hostname.cas=http://localhost:8080/kpyx-cas-service/service/cas/account/
+
+# Database Service Address
+server.hostname.dbservice.static=http://localhost:8080/kpyx-data-static-service/service/data
+server.hostname.dbservice.dynamic=http://localhost:8080/kpyx-data-dynamic-service/service/data
+server.hostname.dbservice.union=http://localhost:8080/kpyx-data-union-service/service/data
+
+# \u9759\u6001\u8d44\u6e90\u8def\u5f84\uff0cjs\uff0ccss\uff0c\u56fe\u7247
+server.resources.baseurl=
+# \u5ba2\u6237\u7aef\u7f13\u5b58\u670d\u52a1\u8def\u5f84
+server.resources.localurl=http://localhost:8080/kpyx-logical-service
+#server.resources.localurl=http://10.20.71.71:8080/kpyx-logical-service
+
+# Configure dynamic database number, which would be used for database assignment of new member register
+server.data.dynamic.backup.num=1
+
+#cache config
+#1=memcace
+server.cache.type=1
+#10.20.71.71:11211, 10.20.70.203:11211
+server.cache.hosts=122.226.100.44:11211
+server.cache.user=
+server.cache.password=
+server.cache.prefix=kpyx_
+# in sec
+server.cache.timeout=3600
+
+# Current resources package version
+server.resources.version.code=3
+server.resources.version.name=1.0.3
+server.resources.package.fullPrefix=resources-full-v
+server.resources.package.updatePrefix=resources-update-v
+server.resources.package.baseUrl=http://cardgame.artist-mobile.com/resources/updates
+server.resources.package.suffix=zip
+
+# Current resources card big fictrue package version
+server.resources.card.version.code=3
+server.resources.card.package.updatePrefix=resources-card-update-v
+server.resources.card.package.baseUrl=http://cardtest.artist-mobile.com/resources/updates
+server.resources.card.package.suffix=zip
+
+# Apple push keystore
+server.applepush.keystore=webapps/kpyx-logical-service/WEB-INF/classes/Certificates.p12
+server.applepush.keystore2=webapps/kpyx-logical-service/WEB-INF/classes/Certificates2.p12
+server.applepush.keystore3=webapps/kpyx-logical-service/WEB-INF/classes/Certificates3.p12
+# New member register to fetch default card Id
+default.data.card.id=sample-card
+
+####init the playerCard exp base on the step .\u6839\u636e\u4e0d\u540c\u7684\u9636\u6570 \u521d\u59cb\u5316\u5361\u724c\u7684\u521d\u59cb\u7ecf\u9a8c\u503c\u7684\u5e95\u6570\u3002
+#\u4e00\u9636
+playercard.init.firststep=10
+#\u4e8c\u9636
+playercard.init.secondstep=20
+#\u4e09\u9636
+playercard.init.thirdstep=30
+#\u56db\u9636
+playercard.init.forthstep=40
+
+#######\u73a9\u5bb6\u62cd\u5356\u7269\u54c1\u7684\u624b\u7eed\u8d39\u7684\u6bd4\u7387
+player.auction.fee=0.05
+#\u73a9\u5bb6\u62cd\u5356\u94bb\u77f3\u548c\u6c34\u6676\u7684\u9009\u62e9\u9879
+player_sale.goldcoin.select1=1,5,10,30,50,100,300,500,1000
+player_sale.goldcoin.select2=1,2,3,4,5,6,7,8,9,10
+
+#\u73a9\u5bb6\u6700\u591a\u62cd\u5356\u6570\u76ee
+auction.maxcount=10
+
+# Copied from dynamic/static configuration
+# Default the page size of each query
+default.data.paged.size=10
+
+# Player Card Intensify Configuration
+Intensify.silverneed.material.ratio=25
+Intensify.silverneed.main.ratio=15
+Intensify.attackordefence.ratio=5
+Intensify.exp.ratio=10
+Intensify.growingpercent.basenum=100
+Intensify.cal.exp.ratio=4
+Intensify.cal.stars.ratio=5
+
+
+# Player card evolution configuration
+evolution.silverneed.formula.basenumber=10
+evolution.attrchange.stepincrement=1
+evolution.attrchange.cardlevelinit=1
+evolution.attrchange.formula.lowfactor=0.05
+evolution.attrchange.formula.highfactor=0.1
+#******************
+
+#card intensify confirm
+Intensify.list.length=10
+#******************
+
+# Email configuration
+email.host=smtp.qq.com
+email.port=25
+email.userName=shizhikongol@qq.com
+email.password=MobileArt$123
+email.toEmail=cardgame@artist-mobile.com
+
+
+#CardPackage
+#\u666e\u901a\u5361\u5305\u7684\u62bd\u53d6\u6982\u7387\uff0c\u4e00\u661f\u5361\u51e0\u738760%\uff0c\u4e8c\u661f\u5361\u51e0\u738730%\uff0c\u4e09\u661f\u5361\u51e0\u738710%.
+generalcardpackage.probability=0.6,0.3,0.1
+
+#\u82f1\u96c4\u5361\u5305\u7684\u62bd\u53d6\u6982\u7387\uff0c\u4e09\u661f\u5361\u51e0\u738796%\uff0c\u56db\u661f\u5361\u51e0\u73873.5%\uff0c\u4e94\u661f\u5361\u51e0\u73870.5%\u3002
+herocardpackage.probability=0.96,0.035,0.005
+
+#\u738b\u8005\u5361\u5305\u7684\u62bd\u53d6\u6982\u7387\uff0c\u738b\u8005\u5361\u5377\uff0c\u4e09\u661f\u5361\u51e0\u7387,80%\uff0c\u56db\u661f\u5361\u51e0\u738718%\uff0c\u4e94\u661f\u5361\u51e0\u73872%\uff0c
+kingcardpackage.probability=0.8,0.18,0.02
+
+#\u795e\u8bdd\u5361\u5305\u7684\u62bd\u53d6\u6982\u7387\uff0c\u4e09\u661f\u5361\u51e0\u738760%\uff0c\u56db\u661f\u5361\u51e0\u738736%\uff0c\u4e94\u661f\u5361\u51e0\u73873.5%\uff0c\u516d\u661f\u53610.5%
+mythcardpackage.probability=0.6,0.36,0.015,0.005
+
+#\u65b0\u624b\u5361\u5305\u7684\u62bd\u53d6\u6982\u7387\uff0c\u4e09\u661f\u5361\u51e0\u738790%\uff0c\u56db\u661f\u5361\u51e0\u73879.6%\uff0c\u4e94\u661f\u5361\u51e0\u73870.4%\uff0c
+newcardpackage.probability=0.9,0.096,0.004
+#Fight Result list
+fight.list.length=10
+#******************
+
+#playerCardGroup
+playerCardGroup.default.attackname=\u6218\u6597\u9635\u5bb9
+playerCardGroup.default.defencename=\u62a4\u76fe\u9635\u5bb9
+playerCardGroup.default.recommendname=\u63a8\u8350\u9635\u5bb9
+#about inbox
+inbox.maxpagesize=10
+#\u8868\u793a\u9875\u9762\u5c06\u53ea\u663e\u793a7\u5929\u5185\u7684\u6d88\u606f
+inbox.msgdate=7
+
+#\u73a9\u5bb6\u521d\u59cb\u5316\u6570\u636e
+#\u73a9\u5bb6
+newplayer.player.action_power=20
+newplayer.player.attack_power=20
+newplayer.player.cards_max=32
+newplayer.player.conquest_points=100
+newplayer.player.defence_power=20
+newplayer.player.exp=10
+newplayer.player.friend_points=100
+newplayer.player.friends_max=6
+newplayer.player.gold_coin=0
+newplayer.player.level=2
+newplayer.player.rest_attr_points=4
+newplayer.player.silver_coin=1000
+newplayer.player.exp_next_level=14
+newplayer.player.exp_pre_level=12
+newplayer.player.levelone.cards_max=30
+#\u5361\u724c
+newplayer.card.star=1
+newplayer.card.step=1
+#\u88c5\u5907
+newplayer.eq.ids=E1,E4
+#\u5143\u7d20
+newplayer.treasure.id=t1
+newplayer.treasure.fgs=t11,t12
+#\u9053\u5177
+newplayer.consumable.id1=D1
+newplayer.consumable.count1=3
+newplayer.consumable.id2=D3
+newplayer.consumable.count2=5
+newplayer.consumable.id3=D5
+newplayer.consumable.count3=5
+newplayer.consumable.id4=D9
+newplayer.consumable.count4=1
+newplayer.consumable.id5=D6
+newplayer.consumable.count5=10
+#\u5361\u5238
+newplayer.cardticket.id=K1
+newplayer.cardticket.count=2
+#\u4efb\u52a1
+newplayer.task.tid=1
+newplayer.task.tsid=1
+newplayer.task.tssid=csc1
+
+#union
+player.level=20
+player.friendsnum=5
+player.goldcoin=100
+player.lastexituniondate=7
+unionmember.defence.adding.percent=10
+#\u8054\u76df\u6218\u7ebf\u7a0b\u542f\u52a8\u65f6\u95f4\u914d\u7f6e\uff0c\u79d2\u4e3a\u5355\u4f4d
+union.war.time=3720
+#newcommer
+human.maincard=r0021
+human.othercard=r0051
+lingyi.maincard=c0151
+lingyi.othercard=c0171
+taitan.maincard=s0071
+taitan.othercard=s0201
+#\u65b0\u624b\u6559\u7a0b-\u5143\u7d20\u4e89\u593a\u6218\u5956\u52b1\u6c34\u6676\u6570\u91cf
+newplayer.cg200124.reward.silvercoin=100
+#\u65b0\u624b\u6559\u7a0b-\u5143\u7d20\u4e89\u593a\u6218\u83b7\u5f97\u5f81\u670d\u70b9\u6570
+newplayer.cg200124.reward.conquest.points=10
+#\u65b0\u624b\u6559\u7a0b-\u5143\u7d20\u4e89\u593a\u6218\u6d88\u8017\u884c\u52a8\u80fd\u91cf
+newplayer.cg200124.cost.attackpower=10
+#\u73a9\u5bb6\u793c\u7269
+playerGift.FPOINT=\u62db\u52df\u70b9\u6570
+playerGift.CRYSTAL=\u6c34\u6676
+playerGift.CPOINT=\u5f81\u670d\u70b9\u6570
+playerGift.DIAMOND=\u94bb\u77f3
+playerCard.star1=\u4e00\u661f\u5361\u724c
+playerCard.star2=\u4e8c\u661f\u5361\u724c
+playerCard.star3=\u4e09\u661f\u5361\u724c
+playerCard.star4=\u56db\u661f\u5361\u724c
+playerCard.star5=\u4e94\u661f\u5361\u724c
+playerCard.star6=\u516d\u661f\u5361\u724c
+playerCard.star5s=iPhone5s\u571f\u8c6a\u91d1
+playerCard.starTD2=SAT\u82af\u7247\u5361(\u5927)
+playerCard.starTD2M=SAT\u82af\u7247\u5361(\u4e2d)
+playerCard.starTD2S=SAT\u82af\u7247\u5361(\u5c0f)
+playerEquipment.PURPLE=\u7d2b\u8272\u88c5\u5907
+playerEquipment.ORANGE=\u6a59\u8272\u88c5\u5907
+playerTreasure.fragment4=\u56db\u661f\u5361\u724c\u788e\u7247
+playerTreasure.fragment5=\u4e94\u661f\u5361\u724c\u788e\u7247
+playerTreasure.fragment6=\u516d\u661f\u5361\u724c\u788e\u7247
+player.VIP.level1=VIP1\uff081\u4e2a\u6708\uff09
+player.VIP.level1=VIP1\uff081\u4e2a\u6708\uff09
+player.VIP.level2=VIP2\uff081\u4e2a\u6708\uff09
+player.VIP.level3=VIP3\uff081\u4e2a\u6708\uff09
+
+
+intensify.cardExp.TD2=1000
+intensify.cardExp.TD2M=500
+intensify.cardExp.TD2S=250
+
+#\u9632\u5fa1\u661f\u7403\u540d\u79f0
+SATELLITE.FIRST=\u03b1 \u536b\u661f
+SATELLITE.SECOND=\u03b2 \u536b\u661f
+SATELLITE.THIRD=\u03b3 \u536b\u661f
+SATELLITE.FOURTH=\u03c0 \u536b\u661f
+SATELLITE.FIXTH=\u03c9 \u536b\u661f
+
+
+
+#add by wujianjun 
+#\u65b0\u624b\u5c0f\u79d8\u4e66ICON1\u5c55\u793a\u7684\u7b49\u7ea7\u9650\u5236
+player.secretary.icon1.level.begin=0
+player.secretary.icon1.level.end=10
+player.secretary.icon1.iconUrl=/resources/images/zhengfudianshu.png
+player.secretary.icon2.level.begin=10
+player.secretary.icon2.level.end=11
+player.secretary.icon2.iconUrl=/resources/images/zhengfudianshu.png
+player.secretary.icon3.icon4.level.begin=11
+player.secretary.icon3.iconUrl=/resources/images/zhengfudianshu.png
+player.secretary.icon4.iconUrl=/resources/images/zhengfudianshu.png
+player.secretary.remove.url=cg2001/cg200135|cg2001/cg200136|cg2001/cg200137|cg2001/cg200138
+
+#\u4e89\u9738\u8d5b\u9886\u53d6\u5956\u52b1\u7684\u6709\u6548\u65f6\u95f4\u4ee5\u5c0f\u65f6\u4e3a\u5355\u4f4d\u5982\u679c\u914d\u7f6e\u4e3a0\uff0c\u5c31\u662f\u4e0d\u9650\u5236
+star.rank.game.valid.reward.time=24
+star.rank.game.base.ranking=10000
+#\u4e89\u9738\u8d5b\u9886\u53d6\u5956\u52b1\u7684\u65f6\u95f4\u95f4\u9694 \u4ee5\u5206\u949f\u4e3a\u5355\u4f4d\u9ed8\u8ba410\u5206\u949f
+star.rank.game.reward.time=10
+#\u4e89\u9738\u8d5b\u9886\u53d6\u5956\u52b1\u5f81\u670d\u70b9\u6570\u57fa\u7840\u503c
+star.rank.game.reward.conquestPoints.number=60
+#\u5956\u52b1\u540d\u6b21\u53d8\u5316\u95f4\u9694
+star.rank.game.reward.ranking.number=150
+#\u540d\u6b21\u53d8\u5316\u540e\u7684\u5956\u52b1\u95f4\u9694
+star.rank.game.reward.number=2
+
+#\u9886\u53d6\u65b0\u624b\u798f\u5229\u7684\u7b49\u7ea7\u548c\u653b\u51fb\u8981\u6c42, \u65b0\u624b\u798f\u5229(2013-6-6)
+newWelfare.need.level=100
+newWelfare.need.attack=20000
+
+#\u661f\u9645\u6148\u5584\u5546\u5e97\u4ef7\u683c\u500d\u6570\uff0c\u661f\u9645\u6148\u5584\u603b\u4f1a\u5546\u5e97(2013-6-7)
+charitable.shop.times=1.2
+
+#add by liaoyuehong_new
+#\u4e89\u9738\u8d5b\u663e\u793a\u6392\u540d\u73a9\u5bb6\u4e0a\u9650
+starRankGame.show.maxNum=10000
+#\u4e89\u9738\u8d5b\u663e\u793a\u6392\u540d\u73a9\u5bb6\u6bcf\u9875\u663e\u793a\u4e2a\u6570
+starRankGame.show.pageSize=100
+#\u661f\u9645\u6148\u5584\uff0c\u73a9\u5bb6\u6bcf\u65e5\u53ef\u9886\u53d6\u6148\u5584\u7684\u6b21\u6570
+charitableCardTicket.reward.times=3
+
+#\u4e00\u952e\u6d88\u8017\u884c\u52a8\u80fd\u91cf\u884c\u52a8\u80fd\u91cf\u5151\u6362\u7ecf\u9a8c\u503c\u6bd4\u7387
+useAllActionPower.exp.ratio=1
+#\u4e00\u952e\u6d88\u8017\u884c\u52a8\u80fd\u91cf\u884c\u52a8\u80fd\u91cf\u5151\u6362\u6c34\u6676\u6bd4\u7387
+useAllActionPower.scoin.ratio=1
+#PVP\u6218\u6597\u65f6\u6240\u9700\u8981\u7684\u884c\u52a8\u80fd\u91cf\u767e\u5206\u6bd4    100\u662f\u767e\u5206\u767e
+pvp.action.proportion=100
+#PVP\u6218\u6597\u65f6\u79cd\u65cf\u76f8\u514b\u56e0\u7d20\u5f71\u54cdpow\u767e\u5206\u6bd4    100\u662f\u767e\u5206\u767e
+pvp.race.proportion=5
+
+#\u6bcf\u65e5\u767b\u9646\u5956\u52b1\u54681\u5956\u52b1
+register.reward.day1=FPOINT,,100;CARD_TICKET,K1,1
+#\u6bcf\u65e5\u767b\u9646\u5956\u52b1\u54682\u5956\u52b1
+register.reward.day2=CARD_TICKET,K1,5;CARD_TICKET,K2,1
+#\u6bcf\u65e5\u767b\u9646\u5956\u52b1\u54683\u5956\u52b1
+register.reward.day3=CONSUMABLE,D1,1;CARD_TICKET,K1,1
+#\u6bcf\u65e5\u767b\u9646\u5956\u52b1\u54684\u5956\u52b1
+register.reward.day4=CONSUMABLE,D1,1;CARD_TICKET,K1,1
+#\u6bcf\u65e5\u767b\u9646\u5956\u52b1\u54685\u5956\u52b1
+register.reward.day5=CONSUMABLE,TD1,1;CARD_TICKET,K2,1
+#\u6bcf\u65e5\u767b\u9646\u5956\u52b1\u54686\u5956\u52b1
+register.reward.day6=CONSUMABLE,D4,1;CARD_TICKET,K2,1
+#\u6bcf\u65e5\u767b\u9646\u5956\u52b1\u54687\u5956\u52b1
+register.reward.day0=CONSUMABLE,D1,1;CARD_TICKET,K1,1
+#\u8fde\u7eed\u767b\u9646\u5956\u52b1\uff0c\u7b2c1\u5929\u5956\u52b1
+continueRegister.reward.day1=CONSUMABLE,GP1,1;DIAMOND,,5;CONSUMABLE,D2,3
+#\u8fde\u7eed\u767b\u9646\u5956\u52b1\uff0c\u7b2c2\u5929\u5956\u52b1
+continueRegister.reward.day2=FPOINT,,100;CRYSTAL,,3000;CONSUMABLE,EB-B,1
+#\u8fde\u7eed\u767b\u9646\u5956\u52b1\uff0c\u7b2c3\u5929\u5956\u52b1
+continueRegister.reward.day3=FPOINT,,150;DIAMOND,,10;CARD_TICKET,K1,1
+#\u8fde\u7eed\u767b\u9646\u5956\u52b1\uff0c\u7b2c4\u5929\u5956\u52b1
+continueRegister.reward.day4=FPOINT,,200;CRYSTAL,,5000;CONSUMABLE,D9,10
+#\u8fde\u7eed\u767b\u9646\u5956\u52b1\uff0c\u7b2c5\u5929\u5956\u52b1
+continueRegister.reward.day5=FPOINT,,250;DIAMOND,,15;CARD_TICKET,K1,2
+#\u8fde\u7eed\u767b\u9646\u5956\u52b1\uff0c\u7b2c6\u5929\u5956\u52b1
+continueRegister.reward.day6=FPOINT,,300;CRYSTAL,,10000;CONSUMABLE,EB-P,1
+#\u8fde\u7eed\u767b\u9646\u5956\u52b1\uff0c\u7b2c7\u5929\u5956\u52b1
+continueRegister.reward.day7=FPOINT,,350;DIAMOND,,20;CARD_TICKET,K3,1
+continueRegister.reward.day8=FPOINT,,50;DIAMOND,,5;CONSUMABLE,D2,3
+
+productname=\u661f\u9645LOL
+
+#\u9996\u6b21\u5145\u503c\u5956\u52b1
+firstCharge.reward=EQUIPMENT,PURPLE,2;CONSUMABLE,YSB-B,2;FRAGMENT,4,6;CONSUMABLE,D6,10;CARD,4,1;CONSUMABLE,D9,10;CONSUMABLE,TD1,1
+
+#\u5355\u7b14\u5145\u503c\u5956\u52b1
+single.charge.diamond60=CRYSTAL,,10000;CARD,3,1
+single.charge.diamond120=CRYSTAL,,15000;CARD,4,1
+single.charge.diamond320=CRYSTAL,,18000;CONSUMABLE,TD1,4
+single.charge.diamond660=CRYSTAL,,20000;CARD,5,1
+single.charge.diamond3400=CRYSTAL,,30000;EQUIPMENT,ORANGE,1
+single.charge.diamond6000=CRYSTAL,,50000;CARD,6,1
+
+single.charge.yd.diamond60=DIAMOND,,60;
+single.charge.yd.diamond120=DIAMOND,,120;
+single.charge.yd.diamond320=DIAMOND,,320;
+single.charge.yd.diamond660=DIAMOND,,660;
+single.charge.yd.diamond3400=DIAMOND,,3400;
+single.charge.yd.diamond6000=DIAMOND,,6000;
+
+#7\u65e5\u5927\u793c\u6bcf\u65e5\u5956\u52b1
+sevenDays.reward.day1=FPOINT,,10;DIAMOND,,30;CONSUMABLE,UB,7
+sevenDays.reward.day2=CONSUMABLE,D6,3;DIAMOND,,50;CARD_TICKET,K1,1;
+sevenDays.reward.day3=CARD_TICKET,K1,2;CONSUMABLE,EB-B,1;DIAMOND,,70;VIP,1,1
+sevenDays.reward.day4=CONSUMABLE,D6,5;CONSUMABLE,EB-B,2;DIAMOND,,90;
+sevenDays.reward.day5=CARD,TD2,1;FRAGMENT,4,2;DIAMOND,,110;VIP,2,1
+sevenDays.reward.day6=CONSUMABLE,EB-P,1;CONSUMABLE,D6,10;DIAMOND,,130;
+sevenDays.reward.day7=CARD,4,1;FRAGMENT,5,3;DIAMOND,,150;VIP,3,1
+
+openService.date=2013-12-28
+loginInNewYear.reward.day0=CARD,TD2S,1;CONSUMABLE,EB-B,1
+loginInNewYear.reward.day1=CARD,TD2S,2;CONSUMABLE,TD1,1
+loginInNewYear.reward.day2=CARD,TD2M,1;CONSUMABLE,D9,3
+loginInNewYear.reward.day3=CARD,TD2,1;CARD_TICKET,K2,1
+
+
+
+
+
+card.reward=EB-P
+
+card.rank1.reward=500
+card.rank2to3.reward=300
+card.rank4to10.reward=100
+
+sensitive.word=\u9493\u9c7c\u5c9b;\u5c16\u9601\u5217\u5c9b
+cg2401.cg240101.lowLevel=1
+cg2401.cg240101.highLevel=30
+cg2501.cg250101.yindanrate=10
+cg2501.cg250101.jindanrate=3
+cg2501.cg250101.yuandanrate=2
+cg2501.cg250101.yindanID=YIND
+cg2501.cg250101.JDID=JD
+cg2501.cg250101.yuandanID=YUAND
+cg2501.cg250101.kaishishijian=2013-12-31 00:00
+cg2501.cg250101.jieshushijian1=2014-1-3 23:59
+cg2501.cg250101.jieshushijian2=2014-1-5 23:59
+cg2501.cg250101.jieshushijian3=2014-1-10 23:59
+
+consume.record.rank1=CONSUMABLE,EB-R,1;
+consume.record.rank2=CARD,6,1;CONSUMABLE,EB-O,1
+consume.record.rank3=CARD,6,1;CONSUMABLE,EB-P,2
+consume.record.rank4=CARD,5,2;CARD,TD2,2
+consume.record.rank5=CARD,5,1;CARD,TD2,1
+
+NewYearReward.1=CARD,5,1;CONSUMABLE,EB-P,1;CONSUMABLE,EB-B,1;CARD,TD2S,1;CARD,TD2M,1;CONSUMABLE,D9,1;CONSUMABLE,TD1,1
+NewYearReward.2=CARD,6,1;CARD,5,1;CARD,TD2M,1;CONSUMABLE,D9,1;CONSUMABLE,TD1,1;CONSUMABLE,EB-P,1;CONSUMABLE,EB-B,1
+NewYearReward.3=CONSUMABLE,EB-R,1;CARD,6,1;CONSUMABLE,EB-O,1;CARD,TD2,1;CONSUMABLE,EB-P,1;CARD,TD2M,1;CONSUMABLE,TD1,1
+
+consumeRecord.rank1=CARD,5s,1;CONSUMABLE,EB-R,1
+consumeRecord.rank2=CARD,6,1;CONSUMABLE,EB-O,1
+consumeRecord.rank3=CARD,6,1;CONSUMABLE,EB-P,2
+consumeRecord.rank4=CARD,5,2;CARD,TD2,2
+consumeRecord.rank5=CARD,5,1;CARD,TD2,1
+
+huodongwanjiamorenming=\u865a\u4f4d\u4ee5\u5f85
+
+single.charge.beginTime=2014-1-25 00:00
+single.charge.endTime=2014-2-8 23:59
+
+#pve come cross pvp ratio
+pve.comecross.pvp.ratio=10

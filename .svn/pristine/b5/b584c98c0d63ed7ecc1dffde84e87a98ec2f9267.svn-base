@@ -1,0 +1,24 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.tab-panel03{
+	width: 100%;
+	height:50px;
+	margin: 0 auto;
+}
+.tab-panel03>div{
+	width: 25%;
+	float: left;
+}
+.tab-panel03>div:last-child{
+	float: none;
+	clear: both;
+}
+.tab-panel03>div>img{
+	width: 100%;
+}

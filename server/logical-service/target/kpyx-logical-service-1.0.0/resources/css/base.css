@@ -1,0 +1,97 @@
+.scrollBar {
+	background: white;
+}
+
+h3 {
+	text-align: center;
+	font-size: 35px;
+}
+
+ul.iconLinks li {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.listbutton {
+	display: block;
+	border: 1px solid black;
+	color: black;
+	background: orange;
+	border-radius: 5px;
+	width: 80%;
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.class16 {
+	background: green;
+	color: red;
+}
+
+#jQUi {
+	background-image: url(../sample/bg.png);
+	width: 720px;
+	font-family: Arial Unicode MS;
+}
+
+#jQUi>#header {
+	
+}
+
+.jqmscrollBar {
+	background: white !important;
+}
+
+#jQUi .panel {
+	background: rgba(19, 29, 38, 0);
+	top: 0px;
+}
+
+#jQUi #header {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 25, 33, 0)
+		), to(rgba(14, 23, 32, 0) ), color-stop(.5, rgba(27, 36, 46, 0) ),
+		color-stop(.5, rgba(14, 23, 32, 0) ) );
+}
+
+#jQUi #content {
+	top: 0px;
+}
+
+#jQUi .topSpacer {
+	height: 48px;
+	width: 100%;
+	content: ' ';
+}
+
+#jQUi .button-01 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#jQUi .button-01 table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#jQUi .button-01 table tr {
+	height: 26px;
+}
+
+#jQUi .button-01 table tr td:first-child {
+	width: 50px;
+	background-image: url(../sample/left.png);
+}
+
+#jQUi .button-01 table tr td, #jQUi .button-01 table tr th {
+	background-image: url(../sample/center.png);
+	padding: 0;
+}
+
+#jQUi .button-01 table tr td:last-child {
+	width: 50px;
+	background-image: url(../sample/right.png);
+}

@@ -1,0 +1,400 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+}
+
+.conference-buttons {
+	width: 95%;
+	overflow: hidden;
+	padding: 15px 0;
+	margin:0 auto;
+	text-align: center;
+	font-weight:bold;
+}
+.camp-adv {
+	width: 98%;
+	height: 337px;
+}
+
+.game-notice{
+	width:92%;
+	padding:20px 0;
+	margin:0 auto;
+	height:360px;
+}
+.game-notice-content{
+	font-size:20pt;
+	color: rgb(255, 255, 255);
+	line-height:35px;
+	padding-top:20px;
+}
+
+.game-notice-title{
+	color: rgb(254, 225, 28);
+	font-size:24pt;
+}
+
+.cg210101-info{
+	width:93%;
+	margin:0 auto;
+	height: 450px;
+	font-size:18pt;
+	color: rgb(255, 255, 255);
+}
+
+.cg210101-info-new{
+	width:93%;
+	margin:0 auto;
+	height: 300px;
+	font-size:18pt;
+	color: rgb(255, 255, 255);
+}
+.cg210101-info02{
+	width:93%;
+	margin:0 auto;
+	font-size:18pt;
+	color: rgb(255, 255, 255);
+	padding-top:60px;
+}
+
+.cg210101-info-title{
+	line-height:40px;
+	padding-top:7px;
+}
+.cg210101-info-content{
+	line-height:32px;
+	padding-left:50px;
+}
+
+
+.cg210104-info-title{
+	line-height:40px;
+}
+.cg210104-info-content{
+	padding-left:50px;
+}
+
+
+.notice-info{
+	width:100%;
+	margin:0 auto;
+	padding:15px 0;
+}
+
+.faq{
+	width:94%;
+	padding:15px 0;
+	margin: 0 auto;
+	height:6900px;
+}
+.faq-title{
+	font-size:20pt;
+	font-weight: bold;
+}
+
+.faq-content{
+	font-size:18pt;
+	padding-top:20px;
+}
+
+.separator-line{
+	font-size:22pt;
+	color: rgb(160, 160, 160);
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.apology-notice{
+	width:92%;
+	padding:20px 0;
+	margin:0 auto;
+	height:650px;
+}
+.apology-notice-title{
+	color: rgb(254, 225, 28);
+	font-size:22pt;
+	text-align:center;
+	padding-top:20px;
+}
+
+.apology-notice-content{
+	font-size:20pt;
+	color: rgb(255, 255, 255);
+	line-height:35px;
+	padding-top:30px;
+}
+
+.feedback-notice-content{
+	font-size:20pt;
+	color: rgb(255, 255, 255);
+	padding-top:15px;
+}
+
+
+.feedback-content{
+	padding-left:135px;
+	font-size:20pt;
+	color: rgb(255, 255, 255);
+	padding-top:15px;
+}
+
+.feedback-content-more{
+	font-size:20pt;
+	color: rgb(255, 255, 255);
+	text-align:center;
+	padding-top:15px;
+}
+
+/* added by ma-li */
+.rule-height{
+	height: 820px;
+}	
+.titleyilan	{
+	padding-bottom:30px;
+}
+.activityList{
+	padding-bottom:15px;
+}
+
+.activityLimit{
+	
+}
+.activityRewardNum {
+	float: right;
+    position: relative;
+    top: -85px;
+    left: -125px;
+}
+
+.activityListRewardNum {
+	margin-top: -148px;
+	margin-left: 575px;
+	padding-bottom: 85px;
+}
+
+.cg210101-activity-content {
+	line-height: 32px;
+	padding-left: 32px;
+	margin-top: -40px;
+	padding-bottom: 20px;
+}
+
+.cg210101-activity-content2 {
+	line-height: 32px;
+	padding-left: 32px;
+	margin-top: -73px;
+	padding-bottom: 20px;
+}
+
+.cg210101-activity-propose {
+	line-height: 32px;
+    padding-left: 32px;
+    margin-top: -104px;
+    padding-bottom: 20px;
+}
+
+
+
+.phase-header {
+	background: url(../../images/label1.png) no-repeat;
+	height: 39px;
+	line-height: 39px;
+	font-weight: bold;
+}
+
+.reward-gift-title1{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	font-size:18pt;
+	padding:10px 0;
+	margin-left: -200px;
+}
+
+.reward-info1{
+	width:92%;
+	margin:0 auto;
+	text-align:center;	
+	padding-top:5px;
+	font-size:16pt;
+	line-height:41px;
+	overflow:hidden;
+	z-index:-1;
+	
+}
+
+.reward-gift-info12{
+	width:92%;
+	margin:0 auto;
+	padding-top:5px;
+	font-size:16pt;
+	line-height:41px;
+	overflow:hidden;
+	z-index:-1;
+	
+}
+
+.split-item-down1 {
+width: 100%;
+margin: 0 auto;
+background: url(../images/line-split-down.png) center center
+ no-repeat;
+padding: 10px 0;
+}
+
+.imgReward{
+	width:70%;
+	height:70%;
+}
+
+.distancenum{
+	margin-top:-15px;
+}
+
+.eachlist{
+	overflow: hidden;
+	 margin: 0 auto; 
+	 padding-left: 12.5%; 
+	 padding-top: 0px;
+	 text-align:center;
+}
+
+.eachlist1{
+	overflow: hidden;
+	 margin: 0 auto;
+	 z-index:-1;
+	 padding-left: 5px;
+	 text-align:center;
+}
+
+.reward-gift-title2 {
+width: 50%;
+margin: 0 auto;
+text-align: center;
+font-size: 18pt;
+padding: 10px 0;
+margin-left: 0px;
+}
+
+.img-light {
+	-webkit-filter: grayscale(0);
+	opacity: 0.5;
+}
+
+.reward-gift-titleSevenDays{
+	padding-left: 120px;
+    margin-top: -50px;
+    padding-bottom: 15px;
+    font-size: 18pt;
+}
+
+
+.reward-gift-title3{
+margin: 0 auto;
+font-size: 18pt;
+padding: 10px 0;
+margin-left: 0px
+}
+
+.phrase-title{
+	padding-left: 30px; 
+	font-size: 18pt;
+}
+
+.eachReward-title{
+	padding-left: 30px; 
+	padding-top: 10px;	
+}
+
+.eachReward-line{
+	padding-top: 10px; 
+	overflow: hidden;
+}
+
+.eachReward3{
+	overflow: hidden;
+	 margin: 0 auto; 
+	 padding-left: 12.5%; 
+	 padding-top: 20px;
+}
+
+.eachReward2{
+	overflow: hidden;
+	 margin: 0 auto; 
+	 padding-left: 25%; 
+	 padding-top: 0px;
+}
+
+.alreadyGet1{
+	margin-top: -332px;
+    padding-left: 45px;
+}
+
+.split-item-down2 {
+    margin-left: -18px;
+    margin-top: -20px;
+}
+
+.alreadyGetAndLose{
+	position: relative; 
+	top: -190px;
+	margin: 0 auto; 
+	height: 0px; 
+	left: 25px;
+}
+
+.eachlist2{
+	overflow: hidden;
+	 margin: 0 auto; 
+	 padding-left: 12.5%; 
+	 padding-top: 0px;
+	 text-align:center;
+}
+
+.eachlist-rank{
+	overflow: hidden;
+	 margin: 0 auto; 
+	 padding-left: 37%; 
+	 padding-top: 0px;
+	 text-align:center;
+}
+
+.eachlist-gx{
+	padding-top: 50px;
+    float: left;
+    padding-left: 0px;
+    margin-left: -100px;
+}
+
+.activityList-cg2501{
+	height:140px;
+}
+
+
+.activityListRewardNum-cg2501{
+	margin-top: -148px;
+	margin-left: 615px;
+	padding-bottom: 85px;
+	width: 8%;
+}
+
+
+.activityLimit-cg2501{
+	position: relative;
+	top: -58px;
+	left: -248px;
+}
+
+
+.imgIntensifyEvo{
+	height:50px;
+	width:50px;
+	vertical-align: middle;
+}
+
+
+
+

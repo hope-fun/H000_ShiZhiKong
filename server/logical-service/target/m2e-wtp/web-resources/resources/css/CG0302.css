@@ -1,0 +1,513 @@
+@CHARSET "UTF-8";
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.align-center-02 {
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.panels {
+	position: relative;
+}
+
+.panel-02 .panel-header span {
+	float: left;
+	width: 35%;
+}
+
+.panel-02 .panel-header .stars {
+	float: left;
+	width: 48%;
+	padding: 5px;
+}
+
+.panel-02 .panel-header .stars img {
+	float: right;
+	width: 9%;
+}
+
+.panel-02 .panel-body .left {
+	width: 38%;
+}
+
+.panel-02 .panel-body .left .card-major-image-equipment {
+	width: 98%;
+}
+
+.panel-02 .panel-body .right {
+	width: 62%;
+}
+
+.panel-02 .panel-body .right .fc-normal-01-l {
+	width: 30%;
+}
+
+.panel-02 .panel-body .right .progress {
+	width: 70%;
+}
+
+.btn-genggaidika {
+	text-align: center;
+}
+
+.fc-title-01 {
+	padding: 6px;
+}
+
+.select-condition {
+	width: 36%;
+	padding: 0px 32%;
+}
+
+.select-condition select {
+	margin: 0px auto;
+	width: 100%;
+}
+
+.panel-03 .card-item-name {
+	float: left;
+	width: 40%;
+}
+
+.panel-03 .card-item-stars {
+	float: left;
+	width: 48%;
+	padding: 5px;
+}
+
+.panel-03 .card-item-stars img {
+	float: right;
+	width: 9%;
+}
+
+.panel-03 .panel-body .card-assistant .left {
+	width: 24%;
+}
+
+.panel-03 .panel-body .card-assistant .middle {
+	width: 10%;
+}
+
+.panel-03 .panel-body .card-assistant .right {
+	width: 66%;
+}
+
+.panel-03 .panel-body .card-assistant .right .level {
+	width: 27%;
+	float: left;
+}
+
+.panel-03 .panel-body .card-assistant .right .align-center {
+	width: 70%;
+	float: left;
+}
+
+.panel-03 .panel-body .card-assistant .one-equipment {
+	width: 66%;
+	padding: 4px 0px;
+}
+
+.btns {
+	padding: 0px 48px;
+}
+
+.no-card {
+	text-align: center;
+	margin: 30px auto;
+}
+
+.B001ImageDiv {
+	width: 30%;
+	float: left;
+}
+
+.B001ImageStyle {
+	background: url(../../images/scard-smallcard.png) left center no-repeat;
+	background-size: 100% auto;
+	float: left;
+	height: 174px;
+	width: 70%;
+	margin: -40px 25px;
+}
+
+.propsName {
+	line-height: 70px;
+	font-weight: bold;
+}
+
+.card_opearte {
+	overflow: hidden;
+}
+
+.card_opearte div {
+	float: left;
+	width: 36%;
+	height: 53px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 10%;
+}
+
+.goBackButtonPanel {
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+}
+
+.less-silver {
+	margin: 0, auto;
+}
+
+.button .less-silver+img {
+	filter: gray;
+	-moz-opacity: .4;
+	opacity: 0.5;
+}
+
+.add {
+	width: 100%;
+	position: absolute;
+	top: 218px;
+}
+
+.add>div {
+	width: 125px;
+	height: 124px;
+	margin: 0 auto;
+	background: url(../images/add.png) center center no-repeat;
+}
+
+.content .button {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+.panel-info {
+	margin: 20px auto;
+}
+
+.tab-view {
+	height: 53px;
+}
+
+.tab-view>div {
+	width: 23%;
+	float: left;
+}
+
+.tab-view>div:last-child {
+	clear: both;
+}
+
+.panel-npc {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.npc-message {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.npc-message>div {
+	float: left;
+}
+
+.npc-message>div:FIRST-CHILD {
+	width: 24%;	
+	padding-top: 14px;
+	padding-left: 18px;
+}
+
+.npc-message .npc-info {
+	width: 70%;
+	margin: 0 auto;
+	padding-top:12px;
+}
+
+.npc-message>div:FIRST-CHILD>img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.npc-message>div:last-child {
+	float: none;
+	clear: both;
+}
+
+.animationHolder {
+	padding-top: 82px;
+	width: 720px;
+	overflow: hidden;
+	background: url(../images/animation/cardBackground.jpg) center center
+		no-repeat;
+	background-size: 100% 100%;
+}
+
+.LightRay {
+	width: 100%;
+	position: relative;
+}
+
+.LightRay>div {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	z-index: 999;
+}
+
+.LightRay>div>img {
+	width: 100%;
+	opacity: 0;
+}
+
+.contentLightRay>div>img {
+	opacity: 1;
+}
+
+.contentLightRay .layer_01 {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: LightRay_Layer_01;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: 1;
+}
+
+.contentLightRay .layer_02 {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: LightRay_Layer_02;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: 1;
+}
+
+.contentLightRay .layer_03 {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: LightRay_Layer_03;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes LightRay_Layer_01 {
+	0% {
+		-webkit-transform:matrix(0.1,0,0,0.1,0,0);
+	}
+	50% {
+		-webkit-transform:matrix(-30,0,0,-30,0,0);
+	}
+	100% {
+		-webkit-transform:matrix(99,0,0,99,0,0);
+	}
+}
+
+@-webkit-keyframes LightRay_Layer_02 {
+	0% {
+		-webkit-transform:matrix(-0.1,0,0,-0.1,0,0);
+	}
+	50% {
+		-webkit-transform:matrix(30,0,0,30,0,0);
+	}
+	100% {
+		-webkit-transform:matrix(-99,0,0,-99,0,0);
+	}
+}
+
+@-webkit-keyframes LightRay_Layer_03 {
+	0% {
+		-webkit-transform:matrix(-0.1,0,0,-0.1,0,0);
+	}
+	50% {
+		-webkit-transform:matrix(30,0,0,30,0,0);
+	}
+	100% {
+		-webkit-transform:matrix(-99,0,0,-99,0,0);
+	}
+}
+.contentIntensify {
+	width: 100%;
+}
+
+.contentIntensify .topPart {
+	position: relative;
+}
+
+.contentIntensify .topPart img {
+	position: absolute;
+	left: 245px;
+	top: 980px;
+	height: 100%;
+	-webkit-transition: all 0.3s;
+	opacity: 0;
+}
+
+.contentIntensify .upPart {
+	position: relative;
+	margin: 20px auto;
+}
+
+.contentIntensify .downPart {
+	position: relative;
+	margin: 20px auto;
+}
+
+.contentIntensify .upPart .mat {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	-webkit-transition: all 0.2s;
+	opacity: 0;
+}
+
+.contentIntensify .downPart .mat {
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	height: 100%;
+	-webkit-transition: all 0.2s;
+	opacity: 0;
+}
+
+.contentIntensify .hiddenPart {
+	display: none;
+}
+
+.contentEvolution {
+	width: 720px;
+	overflow: hidden;
+	position: relative;
+	background: url(../images/animation/cardBackground.jpg) center center
+		no-repeat;
+	background-size: 100% 100%;
+}
+
+.contentEvolution .main {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	-webkit-transition: all 0.2s;
+	opacity: 0;
+	z-index: 100;
+}
+
+.contentEvolution .mat {
+	position: absolute;
+	right: 0px;
+	top: 650px;
+	-webkit-transition: all 0.2s;
+	opacity: 0;
+}
+
+.contentMask {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: black;
+	-webkit-transition: all 0.5s;
+	z-index: 9999;
+}
+
+.finalRes {
+	display: none;
+}
+
+.cg030204cardintensifyconfirmover .panel-npc .borderPanel .npc-info .div1,.cg030210CardEvolutionOver .panel-npc .borderPanel .npc-info .div1
+	{
+	width: 95%;
+	margin: 0 auto
+}
+
+.cg030204cardintensifyconfirmover .panel-npc .borderPanel .npc-info .div2,.cg030210CardEvolutionOver .panel-npc .borderPanel .npc-info .div2
+	{
+	width: 95%;
+	margin: 8px auto
+}
+
+.cg030204cardintensifyconfirmover .panel-npc .borderPanel .npc-info .div3,.cg030210CardEvolutionOver .panel-npc .borderPanel .npc-info .div3
+	{
+	width: 95%;
+	margin: 8px auto
+}
+
+.cg030207CardEvolution .btns form a,.cg030207CardEvolution .div1 a {
+	height: 53px;
+	display: block;
+	width: 167px;
+}
+
+.img-arrow {
+	position: relative;
+	top: 6px;
+	left: 8px;
+}
+
+.npc-intensify,.npc-evolution {
+	height: 140px;
+}
+
+.npc-message .npc-img {
+	margin: 15px 0 30px 20px;
+}
+
+
+.pro-bar-intersify {
+	left:-30px;
+	text-align:center;
+	position: relative;
+	top: -30px;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+}
+
+.pro-bar-intersifyZero {
+	left:-40px;
+	text-align:center;
+	position: relative;
+	top: -30px;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+
+}
+
+.pro-bar-intersify-over{
+	left:-50px;
+	text-align:center;
+	position: relative;
+	top: -45px;
+	font-size: 18pt;
+	color: rgb(255, 255, 255);
+}
+
+.par-exp-num{
+	padding-left:0px 7px;
+}
+
+.pro-bar-afterIntersify {
+	left:-30px;
+	text-align:center;
+	position: relative;
+	top: -45px;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+
+}
+
+.materialcards-padding{
+	padding-top:15px;
+}
+
+
+
+

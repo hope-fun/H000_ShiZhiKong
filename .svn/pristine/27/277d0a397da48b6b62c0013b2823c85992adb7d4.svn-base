@@ -1,0 +1,62 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.center-site {
+	text-align: center;
+}
+
+.handbook-font-num {
+	padding-top: 12px;
+}
+
+.margin-top20-style {
+	margin-top: 20px;
+}
+
+.panel-handbook>div>div {
+	width: 100%;
+	height: 25%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.panel-handbook>div>div>div {
+	width: 100%;
+	height: 174px;
+	margin-top:3px;
+	text-align: center;
+}
+
+.panel-handbook>div>div>div>img{
+	width: 95%;
+	height: 100%;
+}
+
+.panel-handbook>div>div>div {
+	width: 20%;
+	float: left;
+	height: 174px;
+	background: url(../images/scard-smallcard.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.panelA-body {
+	height: 710px;
+}
+
+.panelA-body .a {
+	width: 100%;
+	padding-top: 1px;
+}
+
+/* added by ma-li*/
+
+.buttons-style{
+	text-align:center;
+	margin: 20px 10px 50px;
+}

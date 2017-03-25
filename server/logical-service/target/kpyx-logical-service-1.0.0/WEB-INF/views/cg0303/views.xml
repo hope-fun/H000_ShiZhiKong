@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg0303/cg030301AttackCards">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg030301AttackCards.jsp" />
+	</definition>
+
+	<definition extends="default" name="cg0303/cg030303AddAttackCards">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg030303AddAttackCards.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0303/cg03030101DefenseCards">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg03030101DefenseCards.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0303/cg030305AddDefenseCards">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg030305AddDefenseCards.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0303/cg03030201EditCardGroupName">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg03030201EditCardGroupName.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0303/cg030302EditAttackCards">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg030302EditAttackCards.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0303/cg030306EditDefenseCards">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg030306EditDefenseCards.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0303/cg030310SureRemoveCard">
+		<put-attribute name="body" value="/WEB-INF/views/cg0303/cg030310SureRemoveCard.jsp" />
+	</definition>
+	
+	
+	
+
+</tiles-definitions>

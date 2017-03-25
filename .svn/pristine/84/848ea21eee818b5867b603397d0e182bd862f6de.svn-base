@@ -1,0 +1,287 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.main-title {
+	width: 100%;
+	margin: 0 auto;
+	padding: 12px 0;
+	background: url(../images/main-label-02.png) center center no-repeat;
+	background-size: 100% auto;
+	text-align: center;
+}
+
+.intro-information {
+	height: 110px;
+	padding: 10px;
+	padding-top:18px;
+	font-size: 17pt;
+}
+
+.raid-list {
+	padding: 10px 0;
+}
+
+
+
+.raid-type-name {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.raid-type {
+	width: 60%;
+	float: left;
+	padding-left: 146px;
+}
+
+.raid-require-level {
+	float: left;
+}
+
+.raid-reward {
+	padding: 10px 0;
+	width: 100%;
+	height: 66px;
+}
+
+.raid-reward div {
+	float: left;
+}
+
+.reward-desc {
+	line-height: 2.6;
+	padding-left: 73px;
+}
+
+.reward-list {
+	padding: 5px 0;
+}
+
+.reward-section {
+	margin-left: 23px;
+}
+
+.reward-white {
+	width: 70px;
+	height: 66px;
+	background: url(../images/white.png) center center no-repeat;
+	background-size: 100%;
+}
+
+.reward-blue {
+	width: 70px;
+	height: 66px;
+	background: url(../images/blue.png) center center no-repeat;
+	background-size: 100%;
+	height: 66px;
+}
+
+.reward-purple {
+	width: 70px;
+	height: 66px;
+	background: url(../images/purple.png) center center no-repeat;
+	background-size: 100%;
+	height: 66px;
+}
+
+.reward-orange {
+	width: 70px;
+	height: 66px;
+	background: url(../images/orange.png) center center no-repeat;
+	background-size: 100%;
+	height: 66px;
+}
+
+.reward-zhengfudianshu {
+	width: 70px;
+	height: 66px;
+	background: url(../images/zhengfudianshu.png) center center no-repeat;
+	background-size: 100%;
+	height: 66px;
+}
+
+.reward-craystal {
+	width: 70px;
+	height: 66px;
+	background: url(../images/shuijing.png) center center no-repeat;
+	background-size: 100%;
+	height: 66px;
+}
+
+.raid-require-ticket {
+	float: left;
+	padding: 30px 50px 0 30px;
+	width: 20%;
+}
+
+.raid-btn-action {
+	float: left;
+	padding: 5px 60px;
+	text-align: center;
+}
+
+.raid-clear-count {
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.split-item-down {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/line-split-down.png) center center no-repeat;	
+	padding:10px 0;
+}
+
+.split-item-down-cg1802 {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../images/line-split-down.png) center center no-repeat;	
+	height: 15px;
+	padding:0px;
+}
+
+.pannelStyle{
+	width: 100%;
+	padding-top: 10px;
+}
+
+.panel1901{
+	width: 100%; 
+	margin: 0 auto; 
+	text-align: center;
+	padding-top: 10px;
+}
+
+.arrow-img {
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+
+.ticketStyle {
+
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	padding-top:10px;
+}
+
+.padding-top-style10{
+	padding-top:10px;
+}
+
+/* added by ma-li*/
+.tip-style{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.adv-width{
+	width:98%;
+}
+
+.text-style{
+	width: 80%;
+	font-size: 24pt;
+	height: 50px;
+	margin: 35px 0 20px 0;
+}
+
+
+.text-style02{
+	width: 80%;
+	font-size: 24pt;
+	height: 50px;
+	margin: 10px 0 20px 0;
+}
+
+.convert-info{
+	line-height: 120px;
+	font-size: 24pt;
+}
+
+.convert-info02{
+	line-height: 60px;
+	font-size: 24pt;
+}
+.convert-style{
+	text-align: center;
+	height: 150px;
+}
+
+.raid-reward-style{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.adv-pic-style{
+	width:691px;
+	height:347px;
+}
+.raid-info{
+	float:left;
+	width:32%;
+}
+.clear-count{
+	float: left; 
+	padding-top: 10px; 
+	text-align: center;
+}
+
+.challenge-boss{
+	width: 100%; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+
+.split-padding-top{
+	padding-top: 100px;
+}
+
+.raid-section{
+	padding-top:8px;
+}
+
+.text-code{
+	width: 80%;
+	font-size: 19pt;
+	height: 50px;
+	margin: 10px 0 10px 0;
+	color:gray;
+	text-align:center;
+}
+
+.buy-consumble{
+	margin:0 auto;
+	text-align:center;	
+	padding-top:20px;
+}
+
+
+.duihuanrenshu-left{
+	
+font-size: 24pt;
+position: relative;
+top: -78px;
+float: left;
+left: 230px;
+font-weight: bold;
+}
+
+.duihuanrenshu-right{	
+font-size: 24pt;
+float: right;
+position: relative;
+top: -78px;
+right: 143px;
+font-weight: bold;
+}

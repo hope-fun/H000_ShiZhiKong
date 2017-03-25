@@ -1,0 +1,116 @@
+.reward_explain {
+	background: url(../../images/border/B001.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 219px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.reward_explain>div:first-child {
+	margin-left: 2%;
+	float: left;
+	width: 22%;
+	background: url(../../images/scard-smallcard.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+}
+
+.reward_explain>div:last-child {
+	float: right;
+	width: 76%;
+	height: 100%;
+}
+
+.reward_explain>div:last-child>div {
+	margin-left: 4%;
+	margin-top: 4.5%;
+}
+
+.rewardExplain>div:last-child div {
+	margin-top: 6%;
+	margin-left: 7%;
+}
+
+.tab_change {
+	width: 100%;
+	height: 53px;
+	margin-top: 20px;
+}
+
+.tab_change>span:first-child {
+	display: inline-block;
+	width: 26.4%;
+	height: 53px;
+	background: url(../../images/label-button-yellow.png);
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	line-height: 53px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tab_change>span:last-child {
+	display: inline-block;
+	width: 26.4%;
+	height: 53px;
+	background: url(../../images/label-button-blue.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	line-height: 53px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.page {
+	width: 100%;
+	height: 48px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.page>div:first-child {
+	float: left;
+	width: 23.7%;
+	height: 48px;
+	background: url(../../images/uppage.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	margin: 0px;
+}
+
+.page>div:last-child {
+	float: left;
+	width: 23.7%;
+	height: 48px;
+	background: url(../../images/nextpage.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+	margin: 0px;
+}
+
+.page>div:nth-child(2) {
+	float: left;
+	width: 52.6%;
+	height: 48px;
+	margin: 0px;
+	line-height: 48px;
+	text-align: center;
+}
+
+/* -------------------------- */
+.font-div-style {
+	padding: 12px 0;
+	margin: 0 auto;
+}
+
+.center-site {
+	text-align: center;
+}

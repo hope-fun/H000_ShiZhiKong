@@ -1,0 +1,827 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.panelXuanChuan {
+	text-align: center;
+	background: url(../../images/border/xuanchuan.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+	line-height: 337px;
+}
+
+.commonPading05 {
+	padding: 5px 0;
+	margin: 0 auto;
+}
+
+.commonPading01 {
+	
+}
+
+.commonPading02 {
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+/* .panelA02 {
+	background: url(../../images/border/A002.png) center center no-repeat;
+	background-size: 100% auto;
+	margin-top: 10px;
+	height: 246px
+} */
+.chankangengduo {
+	width: 26%;
+	height: 48px;
+	padding: 0px;
+	margin: 0 auto;
+	float: right;
+}
+
+.panelD01 {
+	/*background: url(../../images/border/D001.png) center center no-repeat;
+	background-size: 100% auto;*/
+	width: 100%;
+	height: 785px;
+	margin: 0 auto
+}
+
+.chatRoom {
+	width: 94%;
+	height: 500px;
+	background-color: rgb(160, 160, 160);
+	background: url(../../images/liaotian-bg.png) center center no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 22pt;
+	color: white;
+	word-wrap: break-word;
+	overflow: auto;
+}
+
+.inputType {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	height: 30px
+}
+
+.titleLabel01 {
+	background: url(../../images/label1.png) center center no-repeat;
+	background-size: 100% auto;
+	width: 32%;
+	height: 39px;
+	padding: 2px 0px 2px 10px;
+	line-height: 39px;
+}
+
+/* .panelA05 {
+	background: url(../../images/border/A005.png) center center no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 336px;
+} */
+
+/* .panelA06 {
+	background: url(../../images/border/A006.png) center center no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: 820px;
+	margin: 0 auto
+} */
+.lableText {
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.lableText select {
+	vertical-align: middle;
+	margin: auto 30px;
+	width: 16%;
+	height: 40px;
+	font-size: 18pt;
+}
+
+.commonPading01 {
+	width: 90%;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.inputType {
+	text-align: left;
+	margin: 0 auto;
+	height: 20px;
+	width: 70px
+}
+
+.promptText {
+	width: 96%;
+	padding: 30px 0 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.noAdd,.no-restAttrPoints {
+	filter: gray;
+	-moz-opacity: .4;
+	opacity: 0.5;
+}
+
+.tab-view {
+	height: 53px;
+}
+
+.tab-view>div {
+	width: 25%;
+	float: left;
+	height: 53px;
+}
+
+.tab-view>div:last-child {
+	clear: both;
+	height: 0px;
+}
+
+.NoticePublisher {
+	position: relative;
+	height: 333px;
+}
+
+.NoticePublisher img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	z-index: 0;
+	-webkit-transition: opacity 0.5s;
+}
+
+.NoticePublisher img:first-child {
+	opacity: 1;
+	z-index: 9999;
+}
+
+.vipColor {
+	color: orange;
+}
+
+.treasureImage {
+	text-align: right;
+	width: 45px;
+	background-position: center right !important;
+}
+
+.padding-style-10 {
+	padding: 10px 0;
+}
+
+.panelA02-height {
+	height: 180px;
+}
+
+.fc-gonggao {
+	font-size: 18pt;
+	color: rgb(255, 255, 255);
+}
+
+/*
+ 	add by shichao July 16 
+ */
+
+.border-content-noleft>div {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#gotoHomePage {
+	width: 85%;
+}
+
+.button-fasong {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.button-fasong .clickTone1 {
+	width: 25%;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+#warning {
+	width: 80%;
+}
+
+#warning .link {
+	width: 92%;
+	margin: 0 auto;
+}
+
+#BoughtLink {
+	float: left;
+	line-height: 72px;
+}
+
+.button-changjianwenti {
+	width: 85%;
+	text-align:center;
+}
+
+.char {
+	width: 90%;
+	text-align: center;
+	font-size: 16pt
+}
+
+.button-fasong textarea {
+	width: 100%;
+	font-size: 22pt;
+}
+
+.panel-03 .panel-header .div1 {
+	float: left;
+	width: 40%;
+}
+
+.panel-03 .panel-header .div2 {
+	float: left;
+	width: 28%;
+	text-align: left;
+}
+
+.panel-03 .panel-header .div3 {
+	float: left;
+	width: 22%;
+	text-align: right;
+}
+
+.panel-03 .panel-header .div2 span {
+	padding-left: 10px;
+}
+
+.panel-body .card-assistant .div1 {
+	width: 24%;
+}
+
+.panel-body .card-assistant .div2 {
+	width: 10%;
+}
+
+.panel-body .card-assistant .div3 {
+	width: 66%;
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div4 {
+	width: 100%;
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div4 .div5 {
+	float: left;
+	width: 65%;
+	text-align: left
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div4 .div6 {
+	float: right;
+	width: 35%
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div7 .div8 {
+	width: 30%;
+	float: left
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div7 .div9 {
+	width: 10%;
+	float: left
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div7 .div10 {
+	width: 60%;
+	float: left
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div7 .div11 {
+	float: left;
+	width: 41px;
+	margin-left: 6%;
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div7 .div12 {
+	float: left;
+	width: 15%;
+	text-align: left;
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div13 {
+	width: 98%;
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div13 .div14 {
+	width: 30%;
+	float: left
+}
+
+.panel-body .card-assistant .div3 .card-assistant-desc .div13 .div15 {
+	width: 30%;
+	float: left
+}
+
+.button-chakangengduo {
+	width: 90%;
+}
+
+.button-chakangengduo div {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.panel-02 .panel-header .div1 {
+	float: left;
+	width: 60%;
+}
+
+.panel-02 .panel-header .div2 {
+	float: left;
+	width: 15%;
+}
+
+.panel-02 .panel-header .div3 {
+	float: left;
+	width: 25%;
+}
+
+.panel-02 .card-major .div1 {
+	width: 38%;
+}
+
+.panel-02 .card-major .div2 {
+	width: 62%;
+}
+
+.panel-02 .panel-body .card-major-image-equipment {
+	width: 98%;
+}
+
+.cardequipment {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.player-equipment .div1 {
+	width: 33%;
+	float: left;
+}
+
+.player-equipment .div1 .commonPading05,.player-equipment .div2 .commonPading05
+	{
+	width: 72%;
+}
+
+.player-equipment .div3 {
+	text-align: center;font-size:17pt
+}
+
+.player-equipment .div2 {
+	width: 33%;
+	float: left;
+}
+
+#div3 {
+	width:100%;
+}
+
+.div40 {
+	margin: 0 auto;
+}
+
+.player-equipment2 {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+#button-tianjia {
+}
+
+.player-friend-info {
+	width: 66%;
+	float: left;
+}
+
+.player-friend-info>div {
+	width: 98%;
+	margin: 0 auto;
+	text-align: left;
+	overflow: hidden;
+}
+
+.player-friend-info>div>div {
+	width: 50%;
+	float: left;
+}
+
+.player-friend-info>div>div>div {
+	float: left;
+}
+
+.player-friend-info>div>div>div:first-child {
+	float: left;
+	width: 20%;
+}
+.cg010105lableleft{
+	float: left;
+	width: 60%;
+	padding-top: 18px;
+}
+.cg010105lableright{
+	width: 40%;
+	float: left;
+}
+
+/**
+add by shichao August 7
+*/
+select[name=attackPowerDistribution],select[name=defencePowerDistribution],select[name=actionPowerDistribution] {
+	width:22%;
+}
+
+.split-down-width {
+	width:100%;
+	position: relative;
+	bottom: 30px;
+}
+
+.split-item-down {
+	text-align:center;
+	font-size:30pt;
+	margin-bottom: -30px;
+	position: relative;
+	/*bottom: -15px;*/
+}
+
+.icon {
+	margin: 15px 60px;
+}
+
+.iconspecil {
+	margin: 15px 10px;
+}
+
+.icon2 {
+	margin: 1px 5px;
+}
+
+.icon-level .img-viplevel {
+	float: right;
+	margin: 5px 60px;
+}
+
+.a-recharge {
+	margin-left:50px;
+	font-size:25pt;
+}
+
+.conquest-points {
+	float: left;
+	width: 55%;
+}
+
+.attr-text {
+	margin: 15px 12px 15px 60px;
+}
+
+#a-friends {
+	padding-left:0px;
+}
+
+.attr-name {
+	float: left;
+	width: 20%;
+}
+
+.attr-content {
+	float: left;
+	width: 79%;
+}
+
+.attr-l {
+	float: left;
+	width: 52%;
+}
+
+.attr-r {
+	float: left;
+	width: 48%;
+	text-align:right;
+}
+
+.attr-defence {
+	margin-left: 17%;
+}
+
+
+.btn-comfirm {
+	text-align:center;
+	margin-top:20px;
+}
+
+/* 2013-8-12*/
+
+.lose-win-message{
+	width:20%;
+	margin:0 auto;
+	text-align:center;
+	line-height:44px;
+	float:left;
+}
+
+.level-info{
+	width:35%;
+	float:left;
+	margin:0 auto;
+}
+/* 2013-8-13*/
+.w-mask-dialog{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.7;
+	z-index: 900000;
+}
+
+.dialogue_container {
+	display: none;
+	margin: 0 auto;
+	width: 633px;
+	height: 835px;
+	border: solid 1px #72767b;
+	-webkit-box-shadow: 0px 4px 6px #555, 0 0 20px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-webkit-transition: all 0.20s ease-in-out;
+	transform: scale(1);
+	transition: all 0.20s ease-in-out;
+	position: absolute;
+	left:41px;
+	z-index: 1000000;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background: url(../../images/banner.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.banner_heard_height{
+  height:40px;
+}
+
+.banner_middle_height{
+  height:460px;
+  overflow:auto;
+  margin:auto;
+}
+
+.banner_bottom_height{
+  height:335px;
+  overflow:auto;
+  width:90%;
+  margin:auto;
+}
+
+.banner_blank_height{
+  height:10px;
+}
+
+.banner_bottom_left{
+ width:10%;
+ background-color: rgb(254, 87, 161);
+ float: left;
+}
+
+.banner_bottom_right{
+ width:90%;
+ background-color: rgb(65, 65, 64);
+ float: left;
+}
+
+.banner_bottom_showTime{
+color:rgb(254, 87, 161);
+}
+
+.banner_bottom_title{
+color:rgb(205, 0, 0);
+}
+
+.continueReward-body {	
+	background: url(../../images/continue/dikuangmiddle.PNG) center repeat-y;
+	background-size:97% 100%;
+}
+
+.continueRewardDay{
+	background-size: 100% auto;
+	float: left;
+	height:60px;
+	width:50%;
+	margin-top:20px;
+}
+
+.continueRewardBackgroundImg{
+	float:left;
+	margin-top:-80px;
+	margin-left:150px;
+	
+}
+
+.fc-container-continueRegister {
+	float: left;
+	margin-left:170px;
+	margin-top:-110px;
+}
+
+.continueRegisterrewardCount {
+	margin-left:70px;
+	margin-top:-47px;
+}
+
+.continueRegisterName{
+	float:left;
+	margin-top:7px;
+
+}
+.buttonlianxudenglu-green{
+	float: left;
+	margin-top:-80px;
+	margin-left:430px;
+}
+
+.buttonlianxudenglu-grey{
+	float: left;
+	margin-top:-80px;
+	margin-left:430px;
+
+-webkit-filter: grayscale(5);
+	opacity: 0.5;
+}
+.eachContinueRegisterGift{
+	float:left;
+	width:30%;
+	height:100px
+	
+}
+
+.span-bank{
+	padding-left:15px;
+	
+}
+.continuetiaoguo{
+	width:80px;
+	height:45px;
+	float:right;
+	margin-right:45px;
+	margin-top:40px;
+}
+.continueRegisterpanel {
+	background-size: 100% 100%;
+	text-align:center;
+}
+.fightResultButtons{
+	position: relative;
+	width: 150px;
+	margin-right:20px;
+	
+}
+
+.fightResultMargin{
+	margin-right:29px;
+}
+
+.icon span:first-child{
+	padding-left: 40px;
+}
+
+.iconspecil span:first-child{
+	padding-left: 40px;
+}
+
+.panel-mydetail-height{
+	height:1080px;
+}
+.continuecontent {
+	display:block;
+	width: 100%;
+}
+
+.cg010104-fight-flag{
+	width:27%;
+	float:left;
+	margin: 1px 5px;
+}
+
+.card-assistant-desc-cg010104>div{
+	padding: 3px 0;
+}
+
+.cg010104-fight-equip{
+	text-align: left;
+	width: 27% !important;
+	margin-left:13px;
+}
+
+.cg010104-equip-img{
+	float:left;
+	width:45px;
+	height:41px;
+}
+
+.cg010104-equip-font{
+	float:left;
+	line-height:41px;
+}
+
+.cg010104-flag-font{
+	margin-left:2px;
+}
+
+.continue-height{
+    height: 116px;
+    padding-top:10px;
+}
+
+.player-equip-name{
+	text-align: center;
+	font-size:17pt;
+}
+
+.continue11{
+	height:0px;
+}
+
+.a-upperlevel{
+	float:right;
+	line-height:44px;
+}
+
+
+.pointGroup{
+	color:rgb(255,0,0);
+	text-decoration: underline;
+}
+
+
+.back-pve-button-cg010105{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding:15px 0px;
+}
+
+
+.panel-continueReward{
+	height:200px;
+	background: url(../../images/continue/lingjiangkuangdown.PNG) center center no-repeat;
+	background-size:83.3% 100%;
+}
+
+.continueRewarddisplay {
+	display: block;
+	width: 70%;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-size: 16pt;
+}
+
+.continueRewardHide {
+	display: none;
+}
+
+.continue-eachImg {
+	width: 120px;
+	height: 108px;
+}
+
+.getDiv {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	height: 105px;
+}

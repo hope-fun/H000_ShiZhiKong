@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg1201/cg120101">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120101.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120102">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120102.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120103">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120103.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120104">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120104.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120105">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120105.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120106">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120106.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120107">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120107.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120108">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120108.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120109">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120109.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120110">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120110.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120111">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120111.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120112">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120112.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120113">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120113.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120114">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120114.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120115">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120115.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120116">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120116.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120117">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120117.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120118">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120118.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120119">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120119.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120120">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120120.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120121">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120121.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120122">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120122.jsp" />
+		</definition>
+	
+	<definition extends="default" name="cg1201/cg120123">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120123.jsp" />
+		<put-attribute name="canBack" value="false" />
+		</definition>
+
+	<definition extends="default" name="cg1201/cg120124">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120124.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg1201/cg120130">
+		<put-attribute name="body" value="/WEB-INF/views/cg1201/cg120130.jsp" />
+	</definition>
+	
+</tiles-definitions>

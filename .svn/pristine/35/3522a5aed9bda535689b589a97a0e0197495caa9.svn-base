@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg1101/cg11010201SingleDetail">
+		<put-attribute name="body" value="/WEB-INF/views/cg1101/cg11010201SingleDetail.jsp" />
+	</definition>
+	
+	
+<definition extends="default" name="cg1101/cg110101FriendMsg">
+		<put-attribute name="body" value="/WEB-INF/views/cg1101/cg110101FriendMsg.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg1101/cg110102SystemMsg">
+		<put-attribute name="body" value="/WEB-INF/views/cg1101/cg110102SystemMsg.jsp" />
+	</definition>
+
+	<definition extends="default" name="cg1101/cg110103UnionInfo">
+		<put-attribute name="body" value="/WEB-INF/views/cg1101/cg110103UnionInfo.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg1101/cg110104PresentInfoList">
+		<put-attribute name="body" value="/WEB-INF/views/cg1101/cg110104PresentInfoList.jsp" />
+	</definition>
+	
+</tiles-definitions>

@@ -1,0 +1,2368 @@
+.content {
+	/* width: 98%; */
+	width:100%;
+	margin: 0 auto;
+	position:absolute;
+	top:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.commonPading01 {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.commonPading-top01 {
+	padding-top:15px;
+}
+.center-site {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.split-item-up {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../../images/line-split-up.png) center center no-repeat;
+	padding: 10px 0;
+}
+
+.split-item-down {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../../images/line-split-down.png) center center
+		no-repeat;
+	padding: 10px 0;
+}
+
+.tipinfoimageboss {
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+	padding: 5px 0;
+	overflow: hidden;
+}
+
+.conference-buttons {
+	width: 95%;
+	overflow: hidden;
+	padding: 8px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.treasurefgs-count {
+	right: 475px;
+	top: 160px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+.conference-buttons>div {
+	width: 45%;
+	overflow: hidden;
+	float: left;
+}
+
+.conference-buttons>div:last-child {
+	width: 45%;
+	overflow: hidden;
+	float: right;
+}
+
+.phase-header {
+	background: url(../../images/label2.png) no-repeat;
+	height: 39px;
+	line-height: 39px;
+	font-weight: bold;
+	font-size:20pt;
+}
+
+.phase-header3 {
+	background: url(../../images/label1.png) no-repeat;
+	height: 39px;
+	line-height: 39px;
+	font-weight: bold;
+}
+
+.phase-header2 {
+	background: url(../../images/label5.png) no-repeat;
+	height: 39px;
+	line-height: 39px;
+	font-weight: bold;
+}
+
+.npc-img-new {
+	width: 26%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+
+.info-pic02 {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.npc-message-cg2001-new {
+	width: 70%;
+	height: 180px;
+	padding: 0 7px;
+	font-size: 18pt;
+	color: white;
+	float: left;
+	display: table-cell;	
+	vertical-align: middle;
+}
+
+
+.commonPading08 {
+	padding: 8px 0;
+}
+
+.npc-message-cg200102-new {
+	width: 70%;
+	text-align: left;	
+	margin: 0 auto;
+	font-size: 18pt;
+	height: 180px;
+	float: left;
+	display: table-cell;	
+	vertical-align: middle;
+}
+
+
+.info-pic02>div {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+
+.info-pic02>div>div:first-child {
+	width: 78%;
+	height: 75px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic02>div>div {
+	width: 78%;
+	height: 75px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic02>div>div:last-child {
+	width: 78%;
+	height: 75px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: right;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic03 {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.info-pic03>div {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.info-pic03>div>div:first-child {
+	width: 70%;
+	height: 67px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+
+.info-pic03>div>div {
+	width: 70%;
+	height: 67px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+	
+}
+
+.info-pic03>div>div:last-child {
+	width: 70%;
+	height: 67px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.prompt-message {
+	width: 80%;
+	padding: 20px 0;
+	text-align: left;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.commonPadding-top {
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+.commonPadding-top03 {
+	padding-top: 17px;
+	margin: 0 auto;
+}
+
+.commonPading05 {
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.power-info02 {
+	width: 35%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.arrow-style {
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+	padding-top:7px;
+}
+
+.example-img {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.example-img>div {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.example-img>div:first-child {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.example-img>div:first-child>div:first-child {
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+}
+
+.example-img>div:first-child>div:last-child {
+	width: 50%;
+	float: right;
+	margin: 0 auto;
+}
+
+.prop-message {
+	width: 80%;
+	float: left;
+	text-align: left;
+	padding: 8px 0;
+	margin: 0 auto;
+}
+
+.padding-left-style02 {
+	padding-left: 22px;
+}
+
+.consumer-list {
+	width: 96%;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.bottomPart_line_image_necommer {
+	width: 30%;
+	height: 140px;
+	float: left;
+	position: relative;
+	top: -25px;
+}
+
+.equip-info {
+	width: 90%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.equip-info-pic {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.equip-info-pic>div {
+	width: 33.3%;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+
+.equip-info-pic>div>div {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.equip-info-pic>div>div:first-child {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../../images/large-equipment.png) center no-repeat;
+	background-size: 100% auto;
+	height: 156px;
+	padding: 8px 0;
+}
+
+.proportion-info {
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.proportion-info>div {
+	width: 33.3%;
+	marign: 0 auto;
+	text-align: center;
+	float: left;
+	padding: 10px 0;
+}
+
+.proportion-info>div:first-child {
+	width: 33.3%;
+	marign: 0 auto;
+	text-align: left;
+	position: relative;
+	top: -10px;
+	float: left;
+}
+
+.proportion-info>div:last-child {
+	width: 33.3%;
+	marign: 0 auto;
+	text-align: right;
+	position: relative;
+	top: -10px;
+	float: left;
+}
+
+.power-info {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	padding-top: 15px;
+}
+
+.power-info02 {
+	width: 35%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.padding-left-style {
+	padding-left: 22px;
+}
+
+.playerelement-info {
+	width: 35%;
+	height: 156px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.player-info {
+	width: 60%;
+	float: left;
+	text-align: left;
+}
+
+.player-info>div:first-child {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 6px;
+}
+
+.player-info>div {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 8px;
+}
+
+.player-info>div>div {
+	float: left;
+	padding: 8px;
+}
+
+.tipinfodiv {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.tipinfoimage {
+	width: 28%;
+	height: 156px;
+	float: left;
+	padding: 13px 0;
+	overflow: hidden;
+}
+
+.tipinfomessage {
+	width: 65%;
+	float: left;
+	overflow: hidden;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+
+.tipinfomessage>div {
+	width: 90%;
+	height: 67px;
+	float: left;
+}
+
+.newcommer-reward {
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.newcommer-reward-info {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.newcommer-reward-info>div {
+	width: 60%;
+	margin: 0 auto;
+	padding: 8px 0;
+	overflow: hidden;
+}
+
+.newcommer-reward-info>div>div {
+	float: left;
+	padding: 5px 15px;
+}
+
+.newcommer-reward-info>div>div:first-child {
+	width: 14%;
+	float: left;
+	height: 41px;
+	padding: 0;
+}
+
+.system-info-left {
+	width: 98%;
+	margin: 0 auto;
+	padding: 25px 0;
+	overflow: hidden;
+}
+
+.system-info-left>div:first-child {
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+	height: 156px;
+}
+
+.system-info-left>div:last-child {
+	width: 70%;
+	float: left;
+	margin: 0 auto;
+}
+
+.system-info-right {
+	width: 98%;
+	margin: 0 auto;
+	padding: 25px 0;
+	overflow: hidden;
+}
+
+.system-info-right>div:last-child {
+	width: 30%;
+	float: left;
+	margin: 0 auto;
+	height: 156px;
+}
+
+.player-friend-info {
+	width: 66%;
+	float: left;
+}
+
+.player-friend-info>div {
+	width: 98%;
+	margin: 0 auto;
+	text-align: left;
+	overflow: hidden;
+}
+
+.player-friend-info>div>div {
+	width: 50%;
+	float: left;
+}
+
+.player-friend-info>div>div>div {
+	float: left;
+}
+
+.player-friend-info>div>div>div:first-child {
+	float: left;
+	width: 20%;
+}
+
+.system-info-right>div:first-child {
+	width: 70%;
+	float: left;
+	margin: 0 auto;
+}
+
+.player-info>div>div:first-child {
+	padding: 0;
+	width: 11%;
+	float: left;
+	margin: 0 auto;
+	height: 41px;
+	text-align: center;
+	background: url(../../images/small-equipment.png) center no-repeat;
+	background-size: 100% auto;
+}
+
+.power-info>div:first-child {
+	width: 12%;
+	float: left;
+	margin: 0 auto;
+	height: 41px;
+	text-align: center;
+	background: url(../../images/small-equipment.png) center no-repeat;
+	background-size: 100% auto;
+}
+
+.power-info>div:last-child {
+	width: 88%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.consumer-list-title {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.consumer-list-function {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.consumer-list-image {
+	text-align: center;
+	background: url(../../images/line-split-down.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+	padding: 0px 0 15px 0;
+}
+
+.consumer-list-image2 {
+	text-align: center;
+	background: url(../../images/line-split-down.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+	padding: 0px 0 15px 0;
+	position: relative;
+	top: -8px;
+}
+
+.bottomPart_line_image {
+	width: 100%;
+	height: 204px;
+	float: left;
+	position: relative;
+	top: -30px;
+}
+
+.relative-info {
+	position: relative;
+	top: -75px;
+}
+
+.add-pic-style {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	top: -325px;
+	text-align: center;
+}
+
+.employ-info-cg2001 {
+	width: 96%;
+	font-weight: bold;
+	text-align: left;
+	margin: 0 auto;
+	height: 70px;
+	padding: 0 7px;
+	line-height: 32px;
+	font-size:16pt;
+}
+
+.notice-style {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.search-bg {
+	width: 90%;
+	margin: 0 auto;
+	background: url(../../images/sou-suo-02.png) no-repeat;
+	background-size: 100% auto;
+	height: 36px;
+}
+
+.apply_union,.union_detail,.button_search {
+	cursor: pointer;
+}
+
+.pro-bars {
+	width: 100%;
+	margin: 0 auto;
+	font-size:20pt;
+	padding:0;
+}
+
+.pro-bars02 {
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 0 0 60px;
+}
+
+.pro-bars>div {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.pro-bars>div>div:last-child {
+	width: 70%;
+	float: right;
+}
+
+.pro-bar-num {
+	left: -70px;
+	position: relative;
+	top: -32px;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+}
+
+.pro-bar-num02{
+	left: -70px;
+	position: relative;
+	top: -6px;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.commonPadding-top06 {
+	padding-top: 5px;
+}
+
+.advertise-activity {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.advertise-activity>img {
+	width: 705px;
+}
+
+
+.conquest-point02 {
+	width: 90%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.conquest-point02>div {
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+}
+
+.conquest-point02>div>div {
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.conquest-point02>div>div:first-child {
+	width: 47%;
+	height: 67px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% auto;
+}
+
+.power-info03 {
+	width: 36%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+.power-info>div:first-child {
+	width: 12%;
+	float: left;
+	margin: 0 auto;
+	height: 41px;
+	text-align: center;
+	background: url(../../images/small-equipment.png) center no-repeat;
+	background-size: 100% auto;
+}
+
+.power-info>div:last-child {
+	width: 88%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.commonPading03 {
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+.commonPadding-top04 {
+	padding-top: 25px;
+	margin: 0 auto;
+}
+
+.red-font {
+	color: rgb(255, 0, 0);	
+}
+
+.red-font2 {
+	color: rgb(255, 0, 0);
+	font-size:22pt;
+}
+.camp-content {
+	width: 100%;
+	padding: 3px 0;
+	margin: 0 auto;
+}
+
+.padding-left-style {
+	padding-left: 22px;
+}
+
+.padding-left-style02 {
+	padding-left: 22px;
+}
+
+.font-weight-style {
+	font-weight: bold;
+}
+
+
+.menu-font-max {
+	font-size: 26pt;
+	font-weight: bold;
+}
+
+
+
+.cg200102-player-name {
+	width: 50%;
+	font-size: 20pt;
+}
+
+.progress-bar-name {
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+
+.tipinfodiv {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.font-weight-style {
+	font-weight: bold;
+}
+
+.camp-new-pic {
+	width: 100%;
+	height: 215px;
+	margin: 0 auto;
+}
+
+.commonPadding-top02 {
+	padding-top: 8px;
+	margin: 0 auto;
+}
+
+.camp-info02 {
+	width: 95%;
+	margin: 0 auto;
+	text-align: left;
+	height: 90px;
+}
+
+.camp-info02-new {
+	width: 95%;
+	margin: 0 auto;
+	text-align: left;
+	height: 90px;
+	padding-top:18px;
+}
+
+
+.description_content {
+	display: table-cell;
+	padding: 0 5px;
+	vertical-align: middle;
+	width: 70%;
+	text-align: left;
+}
+
+#camp-info-font01{
+	color: rgb(160, 160, 160);
+	font-size: 18pt;
+	overflow:hidden;
+}
+#camp-info-font02{
+	color: rgb(160, 160, 160);
+	font-size: 18pt;
+	overflow:hidden;
+}
+#camp-info-font03{
+	color: rgb(160, 160, 160);
+	font-size: 18pt;
+	overflow:hidden;
+}
+
+.camp-adv {
+	width: 100%;
+	height: 337px;
+}
+
+.tipinfoimage {
+	width: 28%;
+	height: 156px;
+	float: left;
+	padding: 15px 0;
+	overflow: hidden;
+}
+
+.tipinfomessage {
+	width: 65%;
+	float: left;
+	overflow: hidden;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+
+.tipinfomessage>div {
+	width: 90%;
+	height: 67px;
+	float: left;
+}
+
+.notice-infomessage {
+	width: 71%;
+	float: left;
+	overflow: hidden;
+	padding: 15px 0;
+	margin: 0 auto;
+	line-height: 40px;
+	height: 150px;
+	font-size:20pt;
+}
+
+.cardpackage-style{
+	width: 100%; 
+	height: 179px; 
+	text-align: center; 
+	margin: 0 auto;
+}
+
+.split-down-style{
+	position: relative;
+	top: -8px;
+}
+
+.blue-font{
+	color: rgb(0, 252, 255);
+}
+.green-font{
+	color: rgb(42, 192, 63);
+}
+.yellow-font{
+	color: rgb(254, 225, 28);
+}
+.padding-style2{
+	padding: 2px 0;
+}
+
+.card-pic-style{
+	width: 24%; 
+	padding-top: 9px;
+}
+
+.margin-style12{
+	margin: 6px 0;
+	height:41px;
+}
+.card-info-style{
+	width: 66%;
+	padding-top: 8px;
+}
+
+.panel-header-new{
+	width: 100%;
+	font-size: 20pt;
+	
+}
+
+.panel-header-new span{
+	line-height: 42px;
+	padding-left: 45px;
+}
+
+.padding-top-style12{
+	padding-top: 12px;
+}
+
+
+.cardInfo {
+	vertical-align: middle;
+	width:100%;
+	margin:0 auto;
+}
+.cardInfo .borderPanel {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.cardInfo .border-content {
+	height: 100%;
+	position: absolute;
+	left:0;
+	top: 10px;
+	width: 100%;
+}
+.cardInfo .image-pic{
+	width: 97%;
+	margin: 0 auto;
+	height: 927px;
+	padding-top:17px;
+}
+
+
+.process-bar {
+	position: static;
+	display:table;
+	height:39px;
+	width:100%;
+}
+
+.cardInfo .wordsDescription {
+	width:98%;
+	margin:0 auto;
+	padding-top:10px;
+    font-size:18pt; 
+    font-weight: bold;
+}
+.up-list-image {
+	text-align: center;
+	background: url(../../images/line-split-up.png) center center
+	 no-repeat;
+	background-size: 100% 100%;
+	padding: 0px 0 15px 0;
+}
+
+.down-list-image {
+	text-align: center;
+	background: url(../../images/line-split-down.png) center center
+	 no-repeat;
+	background-size: 100% 100%;
+	padding: 0px 0 15px 0;
+}
+.move-from-left {
+	margin-left:7%;
+}
+
+.cardInfo .firstRow {
+	width:100%;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.cardInfo .firstRow>div,.cardInfo .secondRow>div{
+	float: left;
+	width: 50%;	
+}
+.cardInfo .firstRow>div:last-child,.cardInfo .secondRow>div:last-child{
+	float: none;
+	clear: both;
+}
+.cardInfo .secondRow {
+	width:100%;
+	vertical-align: middle;
+	line-height: 60px;
+}
+
+
+.cardInfo .defenseNeeded {
+	line-height: 60px;
+	width: 45%;
+	margin: 0 auto;
+}
+
+
+.cardInfo .defenseNeeded .row-zhxq .icon-zhxq {
+	
+	float:left;
+}
+
+
+.cardInfo .wordsDescription .textDescription {
+	font-weight: normal;
+	line-height: 30px;
+	height: 190px;
+	width: 90%;
+	margin: 0 auto;
+	padding:8px 0;
+}
+
+.cardInfo .wordsDescription .fixedPrompt {
+
+	font-size:16pt;
+	text-align: center;
+	height:125px;
+}
+
+.cardInfo .wordsDescription .fixedPrompt .description-1 {
+	height:40px;
+	line-height:40px;
+}
+
+.cardInfo .wordsDescription .fixedPrompt .description-2 {
+	height:60px;
+	line-height:60px;
+	padding-top:10px;
+}
+
+.cardListed {
+	/*width:100%;
+	background:url(../../images/border/A009.png) no-repeat;
+	background-size:100% 100%;
+	background-repeat:no-repeat; 
+	/* font-size:20pt; */
+	/*height:630px;  
+	margin-top:24px;*/
+}
+
+.cardListed .name {
+
+	margin-left:20px;
+
+	font-weight:bold;
+	font-size:20pt;
+	height:40px;
+	line-height:40px;
+}
+
+.cardListed .threeSpace {
+
+ 	/* font-size:18pt; */
+ 	height:390px;
+}
+
+.cardListed .threeSpace img{
+	width:150px;
+	height:150px;
+}
+
+.cardListed .threeSpace .imageButton-xq{
+	width:100%;
+	background:url(../../images/buttons/xiangqian-green.png) no-repeat;
+	background-size:100% 100%;
+	height:50px;
+
+}
+
+.cardListed .threeSpace .imageButton-xc{
+	width:100%;
+	background:url(../../images/buttons/xiechu-blue.png) no-repeat;
+	background-size:100% 100%;
+	height:50px;
+	
+}
+
+
+ .cardListed .threeSpace .imageBackground .headPicture{
+	width:100%;
+	background-size:100% 100%;
+}
+.font-height{
+	height:40px;
+	line-height:40px;	
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:16pt;
+	font-weight: normal;
+}
+
+.cardListed .threeSpace .cardOne,.cardTwo,.cardThree{
+	float :left;
+	margin-left:5%;
+	margin-right:2%;
+	margin-top:3%;
+	width:26%; 
+	text-align:center;
+}
+
+/* .card-row-space{
+	margin-top:40px;
+}
+ */
+.card-row-upper-space {
+	margin-top:35px;	
+}
+
+.color-orange {
+	height:48px;
+	line-height:48px;
+	font-weight: normal;
+}
+
+.cardListed .threeSpace .cardTwo .additionTwo {
+	margin-top:45px;
+}
+
+.cardListed .neededStrength  {
+	font-size:18pt;
+	font-weight: bold;
+}
+
+.cardListed .neededStrength .row-xq {
+	margin-left:15%;
+}
+
+.cardListed .neededStrength .labelOne {
+	float:left;
+	width:45%;
+}
+
+.cardListed .neededStrength .labelTwo {
+	float:left;
+	width:50%;
+}
+
+
+.content-element {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 0;
+	height: 95%;
+}
+
+.element-pic {
+	width: 100%;
+	padding: 8px 0;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.element-pic>div {
+	width: 33.3%;
+	float: left;
+	margin: 0 auto;
+}
+
+.element-pic>div>div {
+	width: 81%;
+	height: 156px;
+	margin: 0 auto;
+	background: url(../../images/large-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.equip-small-height{
+	height:44px;
+}
+
+
+.animationHolder {
+	padding-top: 82px;
+	width: 720px;
+	font-size: 20pt;
+	overflow: hidden;
+}
+
+.animationHolder_cg2001{
+	padding-top: 0px;
+}
+
+.animationHolder .clickContinue {
+	width:50%;
+	margin-left:50%;
+	height:100px;
+	background:black;
+	opacity:0.7;
+	text-align:center;
+	display:none;
+	
+	-webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-name: breathe;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+	border-radius: 5px;
+}
+
+.animationHolder .clickContinue span {
+	line-height:100px;
+}
+
+.contentGet {
+	width: 100%;
+	position:relative;
+}
+			
+.contentGet .upPart {
+	position: relative;
+	width:100%;
+	margin: 20px auto;
+}
+			
+.contentGet .upPart .surprise{
+	position:absolute;
+	background:white;
+	opacity:0;
+	-webkit-transition: opacity 1s;
+}
+			
+.contentGet .upPart .surprise .card {
+	-webkit-transition: opacity 0.5s;
+}
+			
+.contentGet .downPart {
+	position: relative;
+	width:100%;
+	margin: 20px auto;
+}
+			
+.contentGet .downPart .surprise {
+	position:absolute;
+	background:white;
+	opacity:0;
+	-webkit-transition: opacity 1s;
+}
+			
+.contentGet .downPart .surprise .card {
+	-webkit-transition: opacity 0.5s;
+}
+			
+.contentGet > .surprise {
+	position:absolute;
+	background:white;
+	opacity:0;
+	-webkit-transition: opacity 2s;
+}
+
+.contentGet > .surprise > img{
+	-webkit-transition: opacity 0.5s;
+}
+
+.contentGet .hiddenPart {
+	display: none;
+}
+
+.contentMask {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:100%;
+	background: black;
+	-webkit-transition: all 0.5s;
+	z-index: 9999;
+}
+
+.finalRes {
+	display: none;
+}
+			
+.contentLightRayOper {
+	position: relative;
+	display:none;
+}
+			
+.contentLightRay {
+	position:relative;
+}
+			
+.contentLightRay > div {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 9999;
+}
+			
+.contentLightRay > div > img {
+	width:100%;
+}
+		
+.contentLightRay #layer_02 img {
+	opacity:0;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: LightRay_Layer_02;
+	-webkit-animation-duration: 2000ms;
+	-webkit-animation-iteration-count: 1;
+}
+
+.contentLightRay #layer_03 img {
+	opacity:0;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-name: LightRay_Layer_03;
+	-webkit-animation-duration: 2000ms;
+	-webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes LightRay_Layer_02 {
+	0% {
+		-webkit-transform:matrix(-0.1,0,0,-0.1,0,0);
+	}
+	10% {
+		opacity:1;
+	}
+	50% {
+		-webkit-transform:matrix(30,0,0,30,0,0);
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	100% {
+		-webkit-transform:matrix(-99,0,0,-99,0,0);
+		opacity:0;
+	}
+}
+
+@-webkit-keyframes LightRay_Layer_03 {
+	0% {
+		-webkit-transform:matrix(-0.1,0,0,-0.1,0,0);
+		opacity:1;
+	}
+	10% {
+		opacity:1;
+	}
+	50% {
+		-webkit-transform:matrix(30,0,0,30,0,0);
+		opacity:1;
+	}
+	90% {
+		opacity:1;
+	}
+	100% {
+		-webkit-transform:matrix(-99,0,0,-99,0,0);
+		opacity:0;
+	}
+}
+			
+.cardGENERAL {
+	background: url(../../images/animation/cardGENERAL.jpg) center center
+		no-repeat;
+	background-size: 100% 100%;
+}
+
+.cardHERO {
+	background:url(../../images/animation/cardHERO.jpg) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.cardKING {
+	background:url(../../images/animation/cardKING.jpg) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.cardMYTH {
+	background:url(../../images/animation/cardMYTH.jpg) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+/* added by ma-li */
+
+
+.cardpackage-pic{
+	width: 98%; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+.equipment-des{
+	width: 70%; 
+	float: left;
+}
+.equip-des-width{
+	width: 90%;
+}
+
+
+
+.growing-per-info{
+	width:30%;
+}
+.growing-per-bar{
+	width:70%;
+}
+.require-width{
+	width: 92%;
+}
+
+.padding-style10{
+	padding:10px 0;
+}
+
+
+.pro-bar-style{
+	float: left; 
+	width: 70%;
+}
+
+.card-name-style{
+	float: left; 
+	width: 40%;
+}
+.card-stars-style{
+	float: left;
+	width: 60%;
+}
+.equips-width{
+	width:10%;
+}
+.level-num-style{
+	width: 27%; 
+	float: left;
+}
+.growing-per-style{
+	width: 70%; 
+	float: left;
+}
+.treasure-pic-width{
+	width: 95%;
+}
+
+.trea-pic{	
+	width: 90%; 
+	margin: 0 auto;
+}
+
+.element-info{
+	width: 65%; 
+	margin: 0 auto; 
+	float: left;
+}
+.element-num-width{
+	width: 90%;
+}
+
+
+.player-name-style{
+	width:60%;
+	float:left;
+	text-align:left;
+}
+
+.total-power-style{
+	width:40%;
+	float:left;
+	text-align:left;
+}
+.sliver-info-width{
+	width:40%;
+}
+
+.tinysmall-card-width{
+	width:98.5%;
+}
+
+.consumable-name-style{
+	width: 20%; 
+	margin: 0 auto;
+}
+.tip-card-style{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.fight-info-style{
+	width: 25%; 
+	float: left; 
+	text-align: right;
+	
+}
+
+.fight-num-style{
+	width: 75%;
+}
+
+.recruit-width{
+	width:75%;
+}
+
+.new-img-width{
+	width:81%;
+}
+
+.new-info-width{
+	width:95%;
+}
+
+.player-name-width{
+	float: left;
+	 width: 40%;
+}
+
+.gift-name{
+	float:left;
+	padding-top:25px;
+}
+
+.tip-info-pic>img{
+	width:90%;
+}
+
+.new-height{
+	height:1450px;
+}
+
+.reward-title{
+	color:rgb(192, 54, 42);
+	font-size: 22pt;
+}
+
+.copy_account{
+	float: right;
+	position: relative;
+	top: -5px;
+	left: 2px;
+}
+
+.total_defence{
+	margin-top:40px;
+	margin-left:50px;
+}
+
+.defensePower_cg200124{
+	right: -248px;
+	position: absolute;
+	font-size: 30pt;
+}
+
+.name_holder_cg200124{
+	font-size: 22pt;
+	right: -248px;
+}
+
+.height_cg200124{
+	height:55px;
+}
+
+.tips_cg2001{
+	color: white;
+}
+
+.addheight{
+	height:0px;
+}
+
+.contentFight{
+	top:-25px;
+}
+
+
+/*新手教程首页动画*/
+.cg200101-ani-index{
+	margin:0 auto;
+	text-align:center;
+	background: url(../../images/newPlayer/bg.jpg) center center no-repeat;
+	background-size: 100% 100%;
+	overflow:hidden;
+	clear:both;
+}
+
+.ani-des{
+	-webkit-animation-name: fading;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: ease;
+	position:absolute;
+	
+}
+
+@-webkit-keyframes fading {
+	0% {  opacity: 0; }
+    75% {  opacity: 1; }
+    100% {  opacity: 0; }
+
+}
+
+.ani-queen-pic{
+	-webkit-animation-name: queenAni;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-timing-function: ease;
+	position:absolute;	
+}
+
+.ani-queen-pic-fading{
+	-webkit-animation-name: queenAniFading;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease;
+	position:absolute;	
+}
+@-webkit-keyframes queenAniFading {
+	0% {  opacity: 1;top:-80px;}
+    100% {  opacity: 0;top:-80px;}
+}
+
+
+@-webkit-keyframes queenAni {
+	0% {  opacity: 0;top:0px;}
+    75% {  opacity: 1;top:-64px; }
+    100% {  opacity: 0;top:-80px;}
+}
+
+.ani-smoke-pic{
+	-webkit-animation-name: smokeAni;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-timing-function: ease;
+	position:absolute;
+	
+}
+
+@-webkit-keyframes smokeAni {
+	0% {  opacity: 0;top:0px; }
+    25% {  opacity: 0.25;top:0px; }
+    75% {  opacity: 1;top:0px; }
+    100% {  opacity: 0;top:0px; }
+
+}
+
+.cg200101-ani-bg-fading{
+	-webkit-animation-name: bgFading;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease;
+}
+
+@-webkit-keyframes bgFading {
+	0% {  opacity: 1;}  
+    100% {  opacity: 0;}
+}
+
+
+.cg200101-ani-world{
+	margin:0 auto;
+	text-align:center;
+	background: url(../../images/newPlayer/bg2.JPG) center center no-repeat;
+	background-size: 110% auto;
+	overflow:hidden;
+	clear:both;	
+	
+}
+
+.cg200101-ani-world02{
+	margin:0 auto;
+	text-align:center;
+	background: url(../../images/newPlayer/bg2.JPG) center center no-repeat;
+	background-size: 110% auto;
+	overflow:hidden;
+	clear:both;	
+}
+
+.cg200101-ani-world-animation{
+	-webkit-animation-name: bg2Shrink;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-timing-function: ease;
+}
+@-webkit-keyframes bg2Shrink {
+	0% {opacity: 0; background-size: 130% auto;} 
+	10% {opacity: 1; background-size: 128% auto;} 
+    100% {opacity: 1; background-size: 110% auto;}
+}
+
+
+.ani-des-world{
+	-webkit-animation-name: worldFading;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: ease;
+	position:absolute;
+	
+}
+
+@-webkit-keyframes worldFading {
+	0% {  opacity: 0; }
+    75% {  opacity: 1; }
+    100% {  opacity: 0; }
+
+}
+
+.upBlack{
+	width:100%;
+	height:120px;
+	background-color:#000000;
+	position:absolute;
+	
+	
+}
+
+.upBlack_ani{
+	-webkit-animation-name: upBlackFading;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-timing-function: ease;
+}
+
+.downBlack{
+	width:100%;
+	height:200px;
+	background-color:#000000;
+	position:absolute;
+	
+}
+
+.downBlack_ani{
+	-webkit-animation-name: downBlackFading;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-timing-function: ease;
+}
+
+
+@-webkit-keyframes upBlackFading {
+	0% { top:-5%;position:absolute; }
+    100% {top:-1%;position:absolute; }
+
+}
+
+@-webkit-keyframes downBlackFading {
+	0% {top:112%;position:absolute; }
+    100% {top:100%;position:absolute; }
+
+}
+
+.cocoPic{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	position:absolute;
+	
+}
+
+.cocoPic_ani{
+	-webkit-animation-name: cocoPicFading;
+	-webkit-animation-duration: 1.2s;
+	-webkit-animation-timing-function: ease;
+}
+
+
+@-webkit-keyframes cocoPicFading {
+	0% {left:-100%;}
+    100% {left:3%;}
+}
+
+.inputPlayerName{
+	background: url(../../images/newPlayer/nameBg.PNG) center center no-repeat;
+	background-size: auto auto;
+	position:absolute;
+	width:100%;
+	height:340px;
+}
+
+.randomName{
+	width: 58%;
+	font-size: 20pt;
+	position: relative;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+	
+
+
+.continueButton{
+	position:relative;
+	padding-top:10px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 180px;
+}
+
+
+.coco-chooseRace{
+	width:85%;
+	
+}
+
+.arrow-beat{
+	position:absolute;
+	right:15px;
+	width:15%;
+	height:40px;
+	-webkit-animation-name: arrowBeating;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: infinite;
+	position:absolute;
+}
+
+@-webkit-keyframes arrowBeating {
+	0% {bottom:25px;}
+	50%{bottom:15px;}
+    100% {bottom:25px;}
+}
+
+.ani-skip-coco{
+	width:15%;
+	float:right;
+	height:40px;	
+	right:30px;
+	position:relative;
+}
+
+.ani-skip-world{
+	width:100%;
+	height:60px;
+	position:relative;	
+}
+
+.ani-skip-world02{
+	width:15%;
+	float:right;
+	height:40px;	
+	right:30px;
+	position:relative;
+}
+
+.conversation-bg{
+	background: url(../../images/newPlayer/dialog.PNG) center center no-repeat;
+	background-size: 600px 195px;
+	position:absolute;
+	height:200px;
+	width:100%;
+	
+}
+
+.conversation-bg-confirmName{
+	background: url(../../images/newPlayer/dialog.PNG) center center no-repeat;
+	background-size: 600px 195px;
+	position:absolute;
+	height:200px;
+	width:100%;
+}
+
+.confirmName-info{
+	width:85%;
+	text-align:left;
+	font-size:24pt;
+	margin:0 auto;
+	position:relative;
+	padding-top:40px;
+	padding-left:80px;
+}
+.conversation-info{
+	width:75%;
+	text-align:left;
+	font-size:22pt;
+	margin:0 auto;
+	position:relative;
+	padding:30px 85px;
+	line-height:40px;
+}
+
+
+.planer-name-info{
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	padding-top: 160px;
+	height: 50px;
+	font-size: 24pt;
+}
+
+.confirm-name-button{
+	width: 80%;
+	position: relative;
+	padding-top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.chooseRace{
+	width:100%;
+	position:absolute;
+	margin:0 auto;
+	text-align:center;
+	font-size:22pt;
+	
+}
+
+.coCoTips{
+	background: url(../../images/newPlayer/helper.PNG) center center no-repeat;
+	background-size: auto auto;
+	position:relative;
+	margin-bottom:15px;
+	width:100%;
+	font-size:22pt;
+	height:171px;
+}
+
+
+.threeRace{
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+	position:relative;	
+}
+
+
+.raceYL{
+	width:33.3%;
+	float:left;
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+.raceRL{
+	width:33.3%;
+	float:left;
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+}
+
+.raceTT{
+	width:33.3%;
+	float:left;
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+.ylAni{
+	width:85%;
+	position:relative;
+	height:785px;
+}
+.ylFrame{
+	width: 85%;
+	height: 785px;
+	position: relative;
+	margin-top: -785px;
+	left: 0%;
+}
+
+.rlAni{
+	width:85%;
+	position:relative;
+	height:785px;
+}
+.rlFrame{
+	width: 85%;
+	height: 785px;
+	position: relative;
+	margin-top: -785px;
+	left: 0%;
+}
+
+.ttAni{
+	width:85%;
+	position:relative;
+	height:785px;
+}
+.ttFrame{
+	width: 85%;
+	height: 785px;
+	position: relative;
+	margin-top: -785px;
+	left: 0%;
+}
+
+.ylPic{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.rlPic{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.ttPic{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.confirmPlayerRace{
+	width:33.3%;
+	float:left;
+}
+
+.confirmRace{
+	width:100%;
+	position:absolute;
+	margin:0 auto;
+	text-align:center;
+}
+
+.coCoTips02{
+	background: url(../../images/newPlayer/helper.PNG) center center no-repeat;
+	background-size: auto auto;
+	position:relative;
+	margin-bottom:15px;
+	width:100%;
+	height:171px;
+	font-size:20pt;
+}
+
+.race-confirm-info{
+	width:95%;
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+}
+
+.race-info{
+	width:66.7%;
+	float:left;
+	font-size:18pt;
+}
+
+.confirmRaceButton{
+	width:100%;
+	position:relative;
+	padding-top:25px;
+		
+}
+
+.newChooseRaceButton{
+	width:100%;
+	position:relative;
+	padding-top:25px;
+}
+
+
+.coCoTips>span{
+	margin: 80px 0px;
+	position: absolute;
+	width: 100%;
+	left: 10px;
+}
+
+.coCoTips02>span{
+	margin: 80px 0px;
+	position: absolute;
+	width: 100%;
+	left: 10px;
+}
+
+.marquee-info{
+	width:88%;
+	height:700px;
+	-webkit-marquee-style:slide;
+	-webkit-marquee-repetition:infinite;
+	-webkit-marquee-direction:left;
+	-webkit-marquee-speed:fast;
+	
+}
+
+
+.player-choose-race-ani{
+	width:85%;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+
+.player-choose-race{
+	width:100%;
+	font-size: 40pt;
+	padding: 50px 0px;
+}
+
+.you-choose-tips{
+	padding-top:80px;
+	font-size: 22pt;
+}
+
+
+.contentGet-cg200135{
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+
+
+.cg200136-element1{
+	width:100%;
+	background: url(../../images/newPlayer/element01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.changeElement{
+	width:100%;
+	position:absolute;
+}
+
+.startFight{
+	
+	position:absolute;
+}
+
+.cg200136-element2{
+	width:100%;
+	background: url(../../images/newPlayer/element02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.fightChooseElement{
+	width:100%;
+	position:absolute;
+	
+}
+
+.cg200136-cardGroup1{
+	width:100%;
+	background: url(../../images/newPlayer/cardGroup01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200136-cardGroup2{
+	width:100%;
+	background: url(../../images/newPlayer/cardGroup02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200136-cardGroup3{
+	width:100%;
+	background: url(../../images/newPlayer/cardGroup03.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cardGroupFight{
+	width:100%;
+	position:absolute;
+}
+.addCardGroup{
+	width:100%;
+	position:absolute;
+}
+
+.requireInfo{
+	width:100%;
+	position:absolute;
+}
+
+.changeCard{
+	width:100%;
+	position:absolute;
+}
+
+.resolveEquip{
+	width:100%;
+	position:absolute;
+}
+
+.cg200138-equip1{
+	width:100%;
+	background: url(../../images/newPlayer/equip01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200138-equip2{
+	width:100%;
+	background: url(../../images/newPlayer/equip02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+
+.evoCard{
+	width:100%;
+	position:absolute;
+}
+
+.startEVO{
+	width:100%;
+	position:absolute;
+}
+
+.cg200139-evo1{
+	width:100%;
+	background: url(../../images/newPlayer/evolution01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+
+.cg200139-evo2{
+	width:100%;
+	background: url(../../images/newPlayer/evolution02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200140-fight1{
+	width:100%;
+	background: url(../../images/newPlayer/fight01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200140-fight2{
+	width:100%;
+	background: url(../../images/newPlayer/fight02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+
+.chooseEnemy{
+	width:100%;
+	position:absolute;
+}
+
+.startFight{
+	width:100%;
+	position:absolute;
+}
+
+
+.cg200141Tntensify1{
+	width:100%;
+	background: url(../../images/newPlayer/intensify01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.intensifyCard{
+	width:100%;
+	position:absolute;
+}
+
+.cg200142-pve1{
+	width:100%;
+	background: url(../../images/newPlayer/pve01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200142-pve2{
+	width:100%;
+	background: url(../../images/newPlayer/pve02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200142-pve3{
+	width:100%;
+	background: url(../../images/newPlayer/pve03.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+
+.gotoTask{
+	width:100%;
+	position:absolute;
+}
+
+.continueTask{
+	width:100%;
+	position:absolute;
+}
+
+.attakNow{
+	width:100%;
+	position:absolute;
+}
+
+.cg200143-union1{
+	width:100%;
+	background: url(../../images/newPlayer/union01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.cg200143-union2{
+	width:100%;
+	background: url(../../images/newPlayer/union02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+.createUnion{
+	width:100%;
+	position:absolute;
+}
+
+.applyUnion{
+	width:100%;
+	position:absolute;
+}
+

@@ -1,0 +1,98 @@
+<%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="p" uri="/WEB-INF/taglibs/PathUtils.tld"%>
+<%@taglib prefix="task" tagdir="/WEB-INF/tags/task"%>
+
+<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/CG0201/CG0201.css"/>">
+<!-- 
+<script type="text/javascript" src="<c:url value="/resources/js/common/jquery-1.7.2.js"/>"></script>
+ -->
+<script type="text/javascript" charset="utf-8" src="<p:fullurl value="/resources/js/cg0201/cg0201.js"></p:fullurl>"></script>
+<script>
+
+$(function(){
+	var dialogs = null;
+	var isFirst = ${isFirst};
+	if (isFirst) {
+		$.ajax({
+			url : '<p:fullurl value='/cg0201/cg020102/dialogues/${taskChapter.id}' />',
+			type : 'POST',
+			success : function(data) {
+				var height = $('body').height();
+				var width = $('body').width();
+				$(".w-mask-dialog").height(height);
+				$(".dialogue_container_parent").css('top', ($(window).height()-150)/2 + 'px');
+				$(".dialogue_container").css('left', '50px');
+				dialogs = data.data;
+				var firstDialog = data.data[0];
+				if (firstDialog.roleType == 'A') {
+					$(".dialogue_role").addClass('npc-a');
+				} else {
+					$(".dialogue_role").addClass('npc-b');
+				}
+				$(".w-mask-dialog").show();
+				$(".dialogue_container").show();
+				$(".dialogue_content").text(firstDialog.content);
+				$(".next").attr('id', firstDialog.orderNumber + 1);
+			},
+			error : function(e) {
+				console.log(e);
+			}
+		});
+	}
+	
+	$(".next").click(function(){
+		var targetOrder = $(this).attr('id');
+		var maxOrder = 0;
+		$(dialogs).each(function(index, dialog){
+			if(dialog.orderNumber == targetOrder) {
+				$(".dialogue_content").text(dialog.content);
+				$(".dialogue_role").removeClass('npc-a').removeClass('npc-b');
+				$(".next").attr('id', dialog.orderNumber + 1);
+				if (dialog.roleType == 'A') {
+					$(".dialogue_role").addClass('npc-a');
+				} else {
+					$(".dialogue_role").addClass('npc-b');
+				}
+				maxOrder = maxOrder < dialog.orderNumber ? dialog.orderNumber : maxOrder;
+			}
+			
+		});
+		if(parseInt(targetOrder) > maxOrder) {
+			$(".w-mask-dialog").hide();
+			$(".dialogue_container").hide();
+		}
+		
+	});
+});
+</script>
+<div class="content">
+	<div class="menu-medium title-label-03">
+		<span class="label-title-attack">${taskChapter.name}</span>
+	</div>
+	<div class="animation-activity"></div>
+	<div class="menu-medium title-label-02">
+		<span>故事预告列表</span>
+	</div>
+	<div>
+		<task:storyList searchData="${PlayerTaskStoryViewData}" searchUrl="/kpyx-logical-service/cg0201/cg020102/index" items="${playerTaskStoryPagedList}"></task:storyList>
+	</div>
+	<div style="width: 80%; margin: 0 auto; text-align: center; padding: 20px 0;">
+		<img src='<c:url value="/resources/images/buttons/qianwangjieduanliebiao-green-z.png"/>' onclick="doJump('<p:fullurl value='/cg0201/cg020101/index'></p:fullurl>')" />
+	</div>
+</div>
+<div class="w-mask-dialog" id="w-mask-dialog" style="display:none;">
+</div>
+<div class="dialogue_container_parent" style="margin:0 auto; position: absolute;">
+<div class="dialogue_container" style="display:none;">
+	<div style="height:250px; display: table;">
+		<div class="dialogue_role"></div>
+		<div class="dialogue_content"></div>
+	</div>
+	<div style="text-align:right; padding: 0 20px;">
+		<a id="" class="next" href='#'>
+			<img src='<c:url value="/resources/images/sanjiao2.png"/>'>
+		</a> 
+	</div>
+</div>
+</div>

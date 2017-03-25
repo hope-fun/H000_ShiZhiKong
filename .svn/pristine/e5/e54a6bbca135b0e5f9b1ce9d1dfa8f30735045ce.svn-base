@@ -1,0 +1,80 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.exchange {
+	width: 90%;
+	height: 85%;
+	margin: 0 auto;
+	text-align: center;
+	padding:10px 0;
+}
+
+.exchange>div {
+	padding: 8px 0;
+	overflow: hidden;
+	text-align: left;
+}
+.exchange .firstfloor>div{
+	float: left;
+	width: 50%;
+}
+.exchange .firstfloor>div:last-child,.exchange .secondfloor>div:last-child{
+	clear: both;
+	float: none;
+}
+.exchange .secondfloor>div{
+	float: left;
+	width: 45%;
+}
+
+.green-button>div{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.green-button>div>span{
+	line-height: 60px;
+}
+.green-button>div:last-child{
+	clear: both;
+	float: none;
+}
+.tab-panel02 {
+	width: 100%;
+	padding: 12px 0 0;
+}
+.exchange>div:last-child{
+	padding: 0;
+	width: 100%;
+}
+.tab-panel02>div>div:first-child>div {
+	width: 187px;
+	height:53px;
+	float: left;
+	text-align: center;	
+}
+
+.tab-panel02>div>div:first-child>div:last-child {
+	float: none;
+	width:0;
+	height:0;
+	clear: both;
+}
+
+.sale-button{
+	padding: 10px 0;
+}
+.sale-button>div{
+	width: 40%;
+	float: right;
+	margin: 0 auto;
+	text-align: center;
+}
+.sale-button>div:FIRST-CHILD {
+	float: left;
+}

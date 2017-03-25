@@ -1,0 +1,1367 @@
+@CHARSET "UTF-8";
+
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.font-bg-style {
+	padding-top: 400px;
+}
+
+.character_info_image {
+	width: 141px;
+	height: 174px;
+	background: url(../images/scard-smallcard.png) center center no-repeat;
+	background-size: 100% auto;
+	margin: 0 auto;
+}
+
+.prompt-message {
+	width: 80%;
+	padding: 20px 0;
+	text-align: left;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.prompt-message-cg020000 {
+	width: 94%;	
+	font-size:22pt;
+}
+
+.prompt-message>div {
+	padding: 10px 0;
+	float: left;
+}
+
+.split-item-down {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../../images/line-split-down.png) center center
+		no-repeat;
+	padding: 10px 0;
+}
+
+.split-item-up {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../../images/line-split-up.png) center center no-repeat;
+	padding: 10px 0;
+}
+
+.infomation {
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px 0;
+}
+
+.infomation>div {
+	width: 50%;
+	float: left;
+}
+
+.infomation>div>div {
+	float: left;
+}
+
+.infomation>div>div:first-child {
+	width: 20%;
+	float: left;
+}
+
+.progress-info {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 6px 0;
+	overflow: hidden;
+}
+
+.progress-info>div {
+	width: 45%;
+	float: left;
+}
+
+.progress-info>div:last-child {
+	width: 45%;
+	float: right;
+}
+
+.consumer-list {
+	width: 96%;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.consumer-list-title {
+	text-align: center;
+	padding: 15px 0 0px 0;
+}
+
+.consumer-list-function {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.consumer-list-image {
+	text-align: center;
+	background: url(../../images/line-split-down.png) center center
+		no-repeat;
+	background-size: 100% 100%;
+	padding: 0px 0 15px 0;
+}
+
+.bottomPart_line_image {
+	width: 20%;
+	height: 140px;
+	/* background:url(../../images/large-equipment.png) top center no-repeat;
+	background-size:100% auto; */
+	float: left;
+	position: relative;
+	top: -25px;
+}
+
+.bottomPart_line_info {
+	width: 69.4%;
+	float: left;
+	margin-left: 30px;
+}
+
+.animation-activity {
+	width: 100%;
+	background: url(../../images/border/xingqiu.png) no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+}
+
+.advertise-activity {
+	width: 100%;
+	background: url(../../images/border/xuanchuan.png) no-repeat;
+	background-size: 100% 100%;
+	height: 337px;
+}
+
+.goto-buttons {
+	width: 95%;
+	overflow: hidden;
+	padding: 10px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.goto-buttons>div {
+	width: 45%;
+	overflow: hidden;
+	float: left;
+}
+
+.goto-buttons>div:last-child {
+	width: 45%;
+	overflow: hidden;
+	float: right;
+}
+
+.phase-header {
+	background: url(../../images/label7.png) no-repeat;
+	height: 39px;
+	line-height: 39px;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+.location-pic {
+	width: 100%;
+	overflow: hidden;
+	padding: 8px 0;
+}
+
+.location-pic>div {
+	float: left;
+	overflow: hidden;
+	padding: 0 16px;
+}
+
+.location-pic>div>div {
+	width: 80%;
+	height: 67px;
+	overflow: hidden;
+	float: left;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.location-num {
+	float: left;
+}
+
+.location-num>div {
+	float: left;
+	padding: 5px 8px 0px 8px;
+}
+
+.location-num>div>div {
+	float: left;
+}
+
+.location-num>div>div:first-child {
+	width: 44px;
+	height: 41px;
+	float: left;
+}
+
+.pro-bars {
+	width: 95%;
+	margin: 0 auto;
+	padding: 25px 0 0 40px;
+}
+
+.pro-bars>div {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.pro-bars>div>div:last-child {
+	width: 78%;
+	float: right;
+}
+
+.content-element {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 0;
+	height: 95%;
+}
+
+.element-pic {
+	width: 100%;
+	padding: 8px 0;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.element-pic>div {
+	width: 33.3%;
+	float: left;
+	margin: 0 auto;
+}
+
+.element-pic>div>div {
+	width: 81%;
+	height: 156px;
+	margin: 0 auto;
+	background: url(../../images/large-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.center-site {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.info-pic {
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.info-pic>div {
+	width: 22%;
+	float: left;
+	overflow: hidden;
+}
+
+.info-pic>div>div:first-child {
+	width: 57%;
+	height: 41px;
+	overflow: hidden;
+	float: left;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic>div>div:first-child {
+	width: 57%;
+	height: 41px;
+	overflow: hidden;
+	float: center;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic>div>div:last-child {
+	width: 57%;
+	height: 41px;
+	overflow: hidden;
+	float: right;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic02 {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.info-pic02>div {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+
+.info-pic02>div>div:first-child {
+	width: 78%;
+	height: 75px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic02>div>div {
+	width: 78%;
+	height: 75px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic02>div>div:last-child {
+	width: 78%;
+	height: 75px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: right;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic03 {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.info-pic03>div {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.info-pic03>div>div:first-child {
+	width: 70%;
+	height: 67px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+
+.info-pic03>div>div {
+	width: 70%;
+	height: 67px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.info-pic03>div>div:last-child {
+	width: 70%;
+	height: 67px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../../images/middle-equipment.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.tipinfodiv {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.tipinfoimageboss {
+	width: 28%;
+	float: left;
+	padding: 5px 0;
+	overflow: hidden;
+}
+
+.tipinfomessage {
+	width: 65%;
+	float: left;
+	overflow: hidden;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+
+.tipinfomessage>div {
+	width: 90%;
+	height: 67px;
+	float: left;
+}
+
+.notice-infomessage {
+	width: 65%;
+	float: left;
+	overflow: hidden;
+	padding: 15px 0;
+	margin: 0 auto;
+	line-height: 40px;
+}
+
+.notice-infomessage>div {
+	width: 95%;
+	float: left;
+	margin: 0 auto;
+}
+
+.cardgroup-info {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.cardgroup-info>div {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top:15px;
+}
+
+.reward-info {
+	width: 100%;
+	margin: 0 auto;
+	padding: 8px 0;
+	overflow: hidden;
+}
+
+.reward-info>div {
+	width: 33.3%;
+	margin: 0 auto;
+	overflow: hidden;
+	float: left;
+}
+
+.reward-info>div>div {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top:5px;
+}
+
+.reward-infonoimage {
+	width: 72%;
+	text-align: center;
+	height: 156px;
+	margin: 0 auto;
+	background: url(../../images/large-equipment.png) no-repeat;
+}
+
+.reward-infohasimage {
+	width: 72%;
+	text-align: center;
+	height: 156px;
+	margin: 0 auto;
+}
+
+.explore {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+	background: url(../../images/large-equipment.png) no-repeat;
+}
+
+.pro-bar-num {
+	left: -70px;
+	position: relative;
+	top: -6px;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.pro-bar-num02 {
+	left: 140px;
+	position: relative;
+	top: -32px;
+	font-size: 16pt;
+	color: rgb(255, 255, 255);
+}
+
+.grade-info>div {
+	float: left;
+}
+
+.upgrade-message {
+	width: 80%;
+	text-align: left;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.upgrade-message>div {
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.tipinfoimage {
+	width: 28%;
+	height: 156px;
+	float: left;
+	padding: 15px 0;
+	overflow: hidden;
+}
+
+.tipinfomessage {
+	width: 68%;
+	float: left;
+	overflow: hidden;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+	height: 160px;
+}
+
+.tipinfomessage>div {
+	width: 90%;
+	height: 67px;
+	float: left;
+}
+
+.cardGroupDiv {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.selectboxdiv {
+	margin: 0 auto;
+	width: 75%;
+	height: 50px;
+	font-size: 17pt;
+}
+
+.cardgroupbuttonDiv {
+	width: 50%;
+	padding: 15px 0;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.paddingtop5 {
+	padding: 5px 0;
+}
+
+.paddingtop12 {
+	padding: 12px 0;
+}
+
+.continueButton {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.juezhanbutton {
+	padding: 40px 0px;
+	float: left;
+}
+
+.task-buttons {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.link-button-green {
+	width: 85%;
+	padding: 12px 0;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../../images/main-button-green.png) center center
+		no-repeat;
+	background-size: 100% auto;
+}
+
+.get-reward-diag {
+	width: 564px;
+	height: 302px;
+	position: relative;
+	bottom: 350px;
+	left: 150px;
+	background: url(../../images/font-bg.png) center no-repeat;
+	background-size: 100% auto;
+}
+
+.reward-default-image {
+	width: 80px;
+	height: 75px;
+}
+
+.reward-section {
+	padding: 0 5px;
+}
+
+.reward-section02 {
+	padding: 0 16px;
+}
+
+.fragment {
+	float: left;
+	padding: 10px 18px;
+}
+
+.location-pic .treasureImage,.info-pic .treasureImage {
+	width: 80px;
+	height: 75px;
+}
+
+.location-pic .treasureImage img,.info-pic .treasureImage img {
+	width: 80px;
+	height: 75px;
+}
+
+.section-container {
+	height: 260px;
+}
+
+.stage-info {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.chapter-info {
+	text-align: left;
+}
+
+.w-mask-dialog {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background: black;
+	opacity: 0.5;
+	display: none;
+}
+
+.dialogue_role {
+	width: 140px;
+	height: 174px;
+	float: left;
+	margin: 30px 20px;
+}
+
+.npc-a {
+	background: url(../../images/npc-1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.npc-b {
+	background: url(../../images/npc-2.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.npc-c {
+	background: url(../../images/npc-3.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.npc-d {
+	background: url(../../images/npc-4.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.dialogue_content {
+	display: table-cell;
+	padding: 10px 30px;
+	vertical-align: middle;
+	font-size: 22pt;
+	color: white !important;
+}
+
+.dialogue_container {
+	display: block;
+	margin: 0 auto;
+	width: 600px;
+	height: 300px;
+	border: solid 1px #72767b;
+	-webkit-box-shadow: 0px 4px 6px #555, 0 0 20px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-webkit-transition: all 0.20s ease-in-out;
+	transform: scale(1);
+	transition: all 0.20s ease-in-out;
+	position: absolute;
+	z-index: 1000000;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background: url(../../images/border/feedback-border.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.animation-activity {
+	display: table;
+}
+
+.description_content {
+	display: table-cell;
+	padding: 0 5px;
+	vertical-align: middle;
+	width: 70%;
+}
+
+.npc-message {
+	color: gray;
+}
+
+.npc-message-new {
+	color: gray;
+	font-size: 18pt;
+	text-align: left !important;
+	height: 180px;
+	float: left;
+}
+/*chapterList.tag*/
+.chapter-container {
+	padding: 5px 20px;
+	height: 220px;
+}
+
+.chapter-list {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto
+}
+
+.chapter-img {
+	float: left;
+}
+
+.chapter-message {
+	float: left;
+	width: 70%;
+	line-height: 33px;
+	padding: 30px 10px;
+}
+
+.chapter-name {
+	width: 96%;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.chapter-progress-info {
+	width: 90%;
+	margin: 0 auto;
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.chapter-progress {
+	width: 60%;
+	float: left;
+	padding-top: 10px;
+}
+
+.task-story-img {
+	padding: 0 15px;
+	float: left;
+	width: 32%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.story-info {
+	width: 100%;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+.story-list {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.story-chapter {
+	padding: 0 15px;
+	float: left;
+	width: 32%;
+}
+
+.task-story-name {
+	text-align: center;
+	padding-top: 3px;
+}
+
+.task-progress {
+	padding: 10px 0;
+	/*width: 80%;*/
+}
+
+.task-button {
+	width: 167px;
+	height: 53px;
+	padding: 10px 50px;
+}
+
+.font-pro {
+	width: 22%;
+	float: left;
+	line-height: 33px;
+}
+
+.chapter-list,.story-name-div {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.adv-img {
+	width: 98%;
+	height: 337px;
+}
+
+.conference-buttons {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.executeMission {
+	position: relative;
+	height: 350px;
+	width: 100%;
+}
+
+.executeMission .lightOper {
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+	z-index: 9999;
+}
+
+.executeMission .noticeOper {
+	position: absolute;
+	bottom: 0px;
+	padding: 0 50px;
+	margin: 0 18px;
+	background: black;
+	width: 81%;
+	height: 40px;
+	font-size: 15pt;
+	opacity: 0;
+}
+
+.executeMission .noticeOper>span:first-child {
+	font-size: 20pt;
+}
+
+.executeMission .executingMask {
+	position: absolute;
+	top: 10px;
+	left: 2.5%;
+	width: 95%;
+	height: 87%;
+	background: red;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 50px;
+	opacity: 0;
+}
+
+.executeMission .contentOper {
+	position: relative;
+}
+
+.executeMission .contentOper img {
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.executeMission .contentShake {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 300ms;
+	-webkit-animation-delay: 0.3s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.executeMission .contentShake .executingMask {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: Maskopacity;
+	-webkit-animation-duration: 200ms;
+	-webkit-animation-delay: 0.3s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shake {
+	0% {padding-top:10px;padding-left:0px;}
+	25% {padding-top:0px;padding-left:10px;}
+	50% {padding-top:-10px;padding-left:0px;}
+	75% {padding-top:0px;padding-left:-10px;}
+	100% {padding-top:10px;padding-left:0px;}
+}
+
+@-webkit-keyframes Maskopacity {
+	0% {opacity:0}
+	100% {opacity:0.3;}
+}
+
+.executeMission .noticeBar {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: noticeBar;
+	-webkit-animation-duration: 3500ms;
+	-webkit-animation-delay: 0.1s;
+	-webkit-animation-iteration-count: once;
+}
+
+@-webkit-keyframes noticeBar {
+	0% {opacity:0;}
+	25% {opacity:.7;}
+	75% {opacity:.7;}
+	100% {opacity:0;}
+}
+
+.executeMission .light {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-name: lightMove;
+	-webkit-animation-duration: 200ms;
+	-webkit-animation-iteration-count: once;
+}
+
+@-webkit-keyframes lightMove {
+	0% {-webkit-transform: scale(1.5,1.5);opacity:1;}
+	100% {-webkit-transform: scale(.1,.1);top:0px;left:180px;opacity:1;}
+}
+
+/* added by ma-li*/
+.task-pro-style {
+	padding: 10px 0;
+}
+
+.task-pro-width {
+	width: 70%;
+}
+
+.story-message-style {
+	margin: 0 auto;
+	width: 60%;
+	line-height: 33px;
+}
+
+.section-pro-width {
+	width: 80%;
+}
+
+.location-num-style {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.story-style {
+	float: left;
+	width: 60%;
+}
+
+.story-lineheight {
+	margin: 0 auto;
+	line-height: 33px;
+}
+
+.sto-padding {
+	float: left;
+	padding: 10px 0;
+}
+
+.task-progress-width {
+	width: 80%;
+}
+
+.use-con-style {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.npc-padding {
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.npc-padding02 {
+	padding: 12px 0;
+	margin: 0 auto;
+}
+
+.npc-pic-width {
+	width: 24%;
+}
+
+.npc-message-width {
+	width: 65%;
+	float: left;
+}
+
+.npc-message-width-cg020000{
+	width:75%;
+}
+
+.split-down-style {
+	padding: 8px 0;
+}
+
+.buy-vip-style {
+	width: 90%;
+	margin: 0 auto;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.con-large-padding {
+	padding-left: 15px;
+}
+
+.con-large-des {
+	margin-left: 50px;
+}
+
+.own-num {
+	width: 50%;
+	float: left;
+}
+
+.buy-button-height {
+	height: 80px;
+}
+
+.goto-button-style {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.dialog-height {
+	height: 250px;
+}
+
+.goto-next-padding {
+	text-align: right;
+	padding: 0 20px;
+}
+
+.task-section-style {
+	width: 80%;
+	padding: 10px 0;
+}
+
+.npc-height {
+	height: 115px;
+}
+
+.task-story-des {
+	text-align: left;
+	width: 72%;
+	padding: 0px;
+	height: 205px;
+	line-height: 25px;
+}
+
+.goto-task-button {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.next-chapter-style {
+	width: 100%;
+	padding: 25px 0;
+	margin: 0 auto;
+}
+
+.goon-chapter {
+	width: 90%;
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.des-section-style {
+	text-align: left;
+	height: 180px;
+}
+
+.teasure-frg-padding {
+	padding: 5px 0;
+}
+
+.trea-size-style {
+	width: 95%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.back-button-style {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:10px;
+}
+
+.reward-card-padding {
+	padding: 10px 0;
+}
+
+.panel-header-padding {
+	padding-top: 5px !important;
+}
+
+.rew-padding-top {
+	padding-top: 13px;
+}
+
+.go-section {
+	width: 90%;
+	margin: 0 auto;
+	padding: 21px 0;
+	text-align: center;
+}
+
+.sold-card {
+	padding: 50px 20px;
+	margin: 0 33px;
+}
+
+.attack-chapter-padding {
+	padding: 12px 0;
+}
+
+.boss-pic-style {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.boss-name {
+	width: 14%;
+	float: left;
+}
+
+.boss-pro-width {
+	width: 86%;
+}
+
+.fight-button {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sel-cardgroup {
+	width: 40%;
+}
+
+.require-count {
+	width: 50%;
+	float: left;
+}
+
+.attack-message-padding {
+	padding: 5px 0;
+}
+
+.cardgroup-pic {
+	width: 20%;
+}
+
+.card-pic-width {
+	width: 98%;
+}
+
+.equip-all-width {
+	width: 96%;
+}
+
+.win-pic-style {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.task-button-padding {
+	padding-top: 270px;
+}
+
+.task-button-padding02 {
+	padding-top: 40px;
+}
+
+.split-padding-top {
+	padding-top: 100px;
+}
+
+.grade-info-style {
+	width: 100%;
+	padding: 35px 0;
+	margin: 0 auto;
+}
+
+.arrow02-style {
+	padding: 0 10px;
+}
+
+.player-attack-power{
+	width:45%;
+	float:left;
+}
+
+.attack-button-style{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.boss-info-style{
+	width:14%;
+	float:left;
+}
+
+.boss-pro-style{
+	width:86%;
+	float:left;
+}
+
+.sell_out {
+	display:none;
+}
+
+.checkbox-pic-style {
+	background: url(../../images/uncheck.png) center center no-repeat;
+}
+
+.checkbox-checked-pic-style {
+	background: url(../../images/checked.png) center center no-repeat;
+}	
+
+.fragment02{
+	height: 156px;
+}
+
+.recover-energy-checkbox{
+	width: 54%;
+	height:43px;
+	margin: auto;
+}
+
+.recover-energy-img{
+	width: 15%; 
+	float: left;
+}
+
+.recover-energy-info{
+	width: 70%; 
+	float: left;
+	line-height:30px;
+	padding-left:25px;
+}
+
+.checked-pic{
+	width: 26px; 	
+	float: left; 
+	height: 30px;
+	position: relative;
+	left: 35px;
+}
+
+.card-img-style>img{
+	width: 140px;
+	height: 174px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.panelB-height-cg1802{
+	height:95px;
+}
+
+.imgIntensifyEvo{
+	padding-top:10px;
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+}
+
+.dialogue_container_parent{
+	top:228px;
+}
+
+.grade-info{
+	font-size: 20pt !important;
+}
+
+.ani-upgrade{
+	animation: upgrade 2s;
+	-moz-animation: upgrade 2s;	/* Firefox */
+	-webkit-animation: upgrade 2s;	/* Safari 和 Chrome */
+	-o-animation: upgrade 2s;
+}
+
+.buy-ticket{
+	text-decoration:none;
+}
+
+.fc-content-win{
+	font-size:24pt;
+}
+
+.fc-normal-content{
+	font-size:22pt;
+	color:white;
+	line-height:50px;
+}
+
+
+
+
+
+
+

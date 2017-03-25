@@ -1,0 +1,196 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+
+.panel-npc{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.npc-message{
+	width: 100%;
+	margin: 0 auto;
+}
+.npc-message>div{
+	float: left;
+}
+.npc-message>div:FIRST-CHILD{
+	width: 25%;
+}
+.npc-pic{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.npc-message .npc-info{
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.npc-message>div:FIRST-CHILD>img{
+	width: 80%;
+	margin: 0 auto;
+}
+.npc-message>div:last-child{
+	float: none;
+	clear: both;
+}
+.card-major-data>div:FIRST-CHILD {
+	padding: 0 0 5px 0;
+}
+
+.card-major-experience {
+	padding: 0;
+}
+
+.card-number {
+	width: 100%;
+	padding: 26px 0 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.button-padding {
+	padding: 12px 0;
+}
+
+.card-number span {
+	line-height: 54px;
+}
+
+.prompt-info {
+	width: 100%;
+	font-size: 16pt;
+	padding: 3px 0;
+	text-align: left;
+}
+
+.prompt-info>span {
+	line-height: 30px;
+}
+
+.bottom-data-mainCard .button-style-02 {
+	width: 100%;
+}
+
+.button-style-02 .price {
+	float: left;
+	padding-top: 10px;
+	width: 60%;
+	font-size: 18pt;
+}
+
+.button-style-02 .xianqian-button {
+	width: 40%;
+	float: right;
+}
+
+.xianqian-button>img {
+	width: 79%;
+}
+
+.archives-panel02>div.archives-item:FIRST-CHILD {
+	padding: 0;
+}
+
+.sale-num {
+	width: 40%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.sale-num>div {
+	float: left;
+}
+
+.sale-num>div:last-child {
+	float: none;
+	clear: both;
+}
+
+/**********************/
+.commodity-info {
+	padding: 5px 0;
+	width: 100%;
+}
+
+.commodity-info>div {
+	text-align: center;
+	float: left;
+}
+
+.commodity-info>div:last-child {
+	clear: both;
+	float: none;
+}
+
+.commodity-info>div>span {
+	line-height: 50px;
+}
+
+.auction {
+	width: 35%;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+
+.auction img {
+	/* width: 68%; */
+}
+/**********************/
+.select-condition>div {
+	width: 80%;
+}
+
+.sel {
+	margin:0px auto; 
+	width:100%; 
+	height:30px;
+}
+/*********************/
+input[type=checkbox].sell_out + label.css-label {
+	padding-left: 10px; 
+	width:15%;
+	height: 32px; 
+	display: inline-block; 
+	background-repeat: no-repeat; 
+	background-position: 0 0; 
+	vertical-align: middle;
+}
+
+input[type=checkbox].sell_out {
+	display:none;
+}
+
+
+.checkbox-pic-style {
+	background-image: url(../../images/uncheck.png); 
+}
+
+.checkbox-checked-pic-style {
+	background-image: url(../../images/checked.png); 
+}
+
+
+/**
+	add by shichao July 16
+*/
+.cg03010101CardSale .tabpanel .div1,.cg03010102cardAuction .tabpanel .div1,.cg030101CardView .tabpanel .div1
+	{
+	font-size: 0px
+}
+
+.cg030102CardDetail .cardListed .div1 {
+	text-align: center;
+	margin-bottom: -25px;
+}
+
+.cg030102CardDetail .cardListed .div2 {
+	text-align: center;
+	margin-bottom: 30px;
+}

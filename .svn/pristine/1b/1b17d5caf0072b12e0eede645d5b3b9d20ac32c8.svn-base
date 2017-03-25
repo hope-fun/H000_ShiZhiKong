@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg0901/cg090101">
+		<put-attribute name="body" value="/WEB-INF/views/cg0901/cg090101buyGold.jsp" />
+	</definition>
+	<definition extends="default" name="cg0901/cg090103">
+		<put-attribute name="body" value="/WEB-INF/views/cg0901/cg090103palyerTools.jsp" />
+	</definition>
+	<definition extends="default" name="cg0901/cg090104">
+		<put-attribute name="body" value="/WEB-INF/views/cg0901/cg090104PurchaseTickets.jsp" />
+	</definition>
+	<definition extends="default" name="cg0901/cg090105">
+		<put-attribute name="body" value="/WEB-INF/views/cg0901/cg090105ShopVip.jsp" />
+	</definition>
+	<definition extends="default" name="cg0901/cg090106">
+		<put-attribute name="body" value="/WEB-INF/views/cg0901/cg090106.jsp" />
+	</definition>
+</tiles-definitions>

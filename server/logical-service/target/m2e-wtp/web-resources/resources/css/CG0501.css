@@ -1,0 +1,287 @@
+
+.content {  
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+.searchlevel {
+	float: left;
+	width: 60%;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.width40_style{
+	width:40%;
+}
+
+.width60_style{
+	width:60%;
+}
+
+.searchDiv{
+	width: 85%; 
+	margin: 0 auto; 
+	text-align: center; 
+	padding-top: 15px;
+}
+
+.searchinputtext {
+	/*background: url(../images/sou-suo-02.png) left center no-repeat;
+	background-size: 100% auto;*/
+	float: Left;
+	width: 80%;
+	padding:15px 0;
+}
+
+.replymessagePanelHeader {
+	width: 100%;
+	height: 39px;
+	background: url(../images/label4.png) left bottom no-repeat;
+	background-size: auto auto;
+	text-align: left;
+}
+
+.panel-01 .replymessagePanelHeader span {
+	line-height: 42px;
+	padding-left: 22px;
+}
+
+.A015PanelBody {
+	/* background: url(../images/border/A015.png) center center no-repeat;
+	background-size: 100% auto; */
+	width: 100%;
+	
+}
+
+.A015PanelBody>div {
+	width: 93%;
+	margin: 0 auto;
+	padding: 25px 0
+}
+
+.textareastyle {
+	width: 99%;
+	height: 300px;
+	background-color: rgb(160, 160, 160);
+	font-size: 18pt;
+	resize: none;
+}
+
+/* began   add by kong_yulu */
+
+/*      common style  - begin         */
+.element-bg {
+	height: 156px;
+	background: url(../images/large-equipment.png) center center
+		no-repeat;
+	background-size: auto 100%;
+	margin-top: 20px;
+}
+
+.center-site {
+	text-align: center;
+}
+
+.padding-top-style {
+	padding-top: 15px;
+}
+
+.div-center-site {
+	margin: 0 auto;
+}
+
+.margin-top90-style {
+	margin-top: 90px;
+}
+
+.margin-top30-style {
+	margin-top: 30px;
+}
+
+.element-mycard-bg {
+	text-align: center;
+	max-width: 141px;
+	height: 174px;
+	background: url(../images/scard-smallcard.png) center center no-repeat;
+	padding: 30px;
+}
+
+.element-attri {
+	margin: 3px auto;
+	float: left;
+}
+
+.margin-left30-style {
+	margin-left: 30px;
+}
+
+.margin-left50-style {
+	margin-left: 50px;
+}
+
+.left-site {
+	float: left;
+}
+
+.line {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: url(../images/line-split-down.png) center
+		center no-repeat;
+	background-position: 0 15%;
+	background-size: 95% 10%;
+}
+
+.margin-top10-style {
+	margin-top: 10px;
+}
+
+.green-button {
+	margin-top: 10px;
+	margin-left: 60px
+}
+
+/*      common style  - end         */
+
+/*      cg050101 style  - begin         */
+.single-friend-button-1 {
+	width: 50%;
+	float: left;
+}
+
+
+.link_hand {
+	cursor: pointer;
+}
+.single-friend-button-2 {
+	
+}
+
+.single-friend-button-level-1 {
+	padding: 25px 0;
+}
+/*      cg050101 style  - end           */
+
+/*      cg05010101 style  - begin         */
+.label-card-num {
+	padding: 5px 0;
+}
+/*      cg05010101 style  - end           */
+
+/*      cg050102 style  - begin         */
+.deletefriend-card-bg {
+	text-align: center;
+	background: url(../images/scard-smallcard.png) center center
+		no-repeat;
+	background-size: 35% 100%;
+	height: 285px;
+	margin: 0px auto;
+}
+
+.label-level-1 {
+	padding: 5px 0;
+	text-align: center;
+}
+
+.label-level-2 {
+	padding: 15px 0;
+}
+
+.label-level-3 {
+	padding: 5px 0;
+	text-align: center;
+}
+
+.ding_green , .apply_green , .button_search {
+	cursor: pointer;
+}
+
+.select_level_2 {
+	width: 82px;
+	overflow: hidden;
+	display: block;
+}
+
+.select_level_1 {
+	width: 130px;
+	background: url(../images/select.png) right center no-repeat;
+}
+
+.select_level_3 {
+	FONT-SIZE: 20pt;
+	position: relative;
+	top: -3px;
+	width: 130px;
+	height: 45px;
+}
+
+.imagealignCenter {
+	text-align: center;
+	padding: 10px;
+}
+/*      cg050102 style  - end           */
+
+/* end   add by kong_yulu */
+
+
+
+/* added by ma-li     playerFriejdList.tag     */
+
+.button-pic-width{
+	width: 80%;
+}
+
+.action-power-style{
+	width:50%; 
+	text-align:center; 
+	float:left;
+}
+
+
+.player-tag-level{
+	width:50%;
+	float:left;
+	text-align:right;
+}
+
+.leve-font{
+	font-size: 20pt;
+}
+
+.search-button{
+	width:40%;
+	float:left;
+}
+
+.player-level-style{
+	width: 50%;
+	float: left;
+}
+
+.player-card-num{
+	width: 50%;
+	float: left;
+}
+
+.player-friend-button{
+	width: 50%;
+	float: left;
+}
+
+.but_search{
+	line-height:82px;
+	padding-top:13px;
+}
+
+
+
+
+
+
+
+
+

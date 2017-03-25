@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="cg2401/cg240101excutesucess">
+		<put-attribute name="body" value="/WEB-INF/views/cg2401/cg240101excutesucess.jsp" />
+	</definition>
+	<definition extends="default" name="cg2401/cg240101excutefail">
+		<put-attribute name="body" value="/WEB-INF/views/cg2401/cg240101excutefail.jsp" />
+	</definition>
+	<definition extends="default" name="cg2401/cg240101">
+		<put-attribute name="body" value="/WEB-INF/views/cg2401/cg240101.jsp" />
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,50 @@
+.buttons a:hover img { 
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-name: breathe;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+	border-radius: 5px;
+	border-top-left-radius: 40px 40px;
+	border-bottom-right-radius: 40px 40px;
+}
+
+a:hover>div{ 
+    opacity: 0.5
+}
+
+@-webkit-keyframes breathe {
+    0% {  box-shadow:0 1px 2px rgba(255,255,255,0.1); }
+    50% { box-shadow:0 1px 15px rgba(59,255,255,1); }
+    100% {  box-shadow:0 1px 30px rgba(255,255,255,1); }
+}
+
+@-webkit-keyframes breathe-01 {
+    0% {  opacity: 0.5 }
+    50% {  opacity: 0.7; }
+    100% {  opacity: 0.5; }
+}
+
+@keyframes upgrade
+{
+from {color: yellow;}
+to {color: rgb(255, 255, 255);}
+}
+
+@-moz-keyframes upgrade /* Firefox */
+{
+from {color: yellow;}
+to {color: rgb(255, 255, 255);}
+}
+
+@-webkit-keyframes upgrade /* Safari 和 Chrome */
+{
+from {color: yellow;}
+to {color: rgb(255, 255, 255);}
+}
+
+@-o-keyframes upgrade /* Opera */
+{
+from {color: yellow;}
+to {color: rgb(255, 255, 255);}
+}

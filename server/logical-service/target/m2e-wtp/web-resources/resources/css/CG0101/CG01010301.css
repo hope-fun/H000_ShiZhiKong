@@ -1,0 +1,759 @@
+@CHARSET "UTF-8";
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.list-LINGYI {
+	background:url(../../images/border/bug1.png) center center no-repeat;
+	background-size:auto 90%;
+	width:100%;
+	height:250px;
+}
+
+.list-HUMAN {
+	background:url(../../images/border/human1.png) center center no-repeat;
+	background-size:auto 90%;
+	width:100%;
+	height:250px;
+}
+
+.list-TAITAN {
+	background:url(../../images/border/god1.png) center center no-repeat;
+	background-size:auto 90%;
+	width:100%;
+	height:250px;
+}
+
+.panel1-left {
+	float: left;
+	width:720px;
+	height:470px;
+}
+
+.panel1-right {
+	float: left;
+	width: 72%;
+	padding-left:5px;
+	margin-top: 22px;
+	text-align: :center;
+}
+
+.msg {
+	background:url(../../images/border/dynamic2.png) center center no-repeat;
+	background-size:auto auto;
+	width:105%;
+	height:200px;
+	padding:0px;
+}
+
+.btn-more {
+	float: right;
+	position: relative;
+	/*top: 75%;*/
+	right: 0.7%;
+	margin-top: -2px;     
+}
+
+.btn-more2 {
+    float: right;
+	position: relative;
+	top: 38%;
+	right: 3%;
+}
+
+.img {
+	float:left;
+}
+
+.img-small {
+	margin-left: 3px;
+}
+
+.img-small-up {
+	/*margin-top: 45px;*/
+	margin-bottom: 8px;
+}
+
+.card-label {
+	float:right;
+	margin-bottom: 6px
+}
+
+.label-text {
+	margin-right:80px;
+}
+
+.label-text+img {
+	vertical-align: bottom;
+	position: relative;
+	right: 60px;
+}
+
+.label1 {
+	clear:both;
+	text-align:center;
+	font-size: 18pt;
+}
+
+.label1-text {
+	float:right;
+	margin-right: 75px;
+	margin-top:-55px;
+}
+
+.split {
+	width: 95%;
+	margin-left: 22px;
+}
+
+.split-line {
+	margin-bottom:15px;
+}
+
+.tabpanel {	
+	margin-top:5px;
+}
+
+.tabpanel div[style] img.clickTone1 {
+	float:left;
+	width:25%;
+	margin-left: 32px;
+	height: 72px;
+}
+
+.tabpanel div[style] img.clickTone1+img.clickTone1 {
+	margin-left: -18px;
+}
+
+.tabpanel div.tab img.clickTone1 {
+	float:left;
+	width:100%;
+	height: 72px;
+}
+
+.tabpanel div.tab {
+	float:left;
+	width:25%;
+	margin-left:32px;
+	height: 72px;
+}
+
+.tabpanel div.tab img.clickTone1+img.clickTone1 {
+	margin-left: -18px;
+}
+
+.tabpanel div.tab+div.tab{
+	margin-left: -18px;
+}
+
+.chatRoom {
+	width: 74%;
+	height: 350px;
+	background: url(../../images/liaotian-bg.png) center center no-repeat;
+	background-size: 100% 100%;
+	font-size: 18pt;
+	color: white;
+	word-wrap: break-word;
+	overflow: auto;
+	float: right;
+	margin: 20px 35px 0 0;
+	padding: 15px 0;
+}
+
+.chatRoom>div {
+	margin-left:8px;
+}
+
+.chat-img {
+	float:left;
+}
+
+.btn-world {
+	position: relative;
+	left: 35px;
+	top: -300px;
+}
+
+.btn-union {
+	position: relative;
+	left: -100px;
+	top: -200px;
+}
+
+.label2 {
+	clear:both;
+	position: relative;
+	top: -40px;
+	left: 115px;
+}
+
+.fc-content-03, .fc-normal-06-m, .fc-normal-05-m {
+	font-size:18pt;
+	margin-left: 20px;
+}
+
+.input {
+	position: relative;
+	top: -30px;
+	text-align: center;
+	left: 15px;
+}
+
+.message {
+	width: 95%;
+	height: 40px;
+	line-height: 36px;
+	font-size:20pt;
+}
+
+.messageOfUseAction {
+	width: 96%;
+	height: 60px;
+	line-height: 20px;
+	font-size:20pt;
+	color: rgb(255, 255, 255);
+	margin:0 auto;
+}
+
+#Message {
+	text-align:center;
+}
+
+.hiddenForCG010103 {
+	display:none;
+}
+
+.msg-body {
+	padding: 30px 35px 0px 35px;
+}
+
+.msg-text {
+	font-size:16pt;
+}
+
+.overflow {
+	overflow-y: auto;
+	height: 140px;
+}
+
+.msg-text a span {
+	color: rgb(255, 150, 0);
+	text-decoration: underline;
+}
+
+.task-body {
+	margin: 20px 15px;
+}
+
+.line-split-down {
+	position: relative;
+	top: -20px;
+	width: 100%;
+}
+
+.task-up{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.task-up div.text1 {
+	float:left;
+	width:30%;
+	text-align:center;
+}
+.task-up div.text2 {
+	float:left;
+	width:40%;
+	text-align: center;
+	position: relative;
+	top: 14px;
+	font-size: 16pt;
+}
+.task-up div.text3 {
+	float:left;
+	width:27%;
+	text-align:right;
+}
+
+.note {
+	text-align: center;
+	position: relative;
+	top: -36px;
+}
+
+.note span {
+	font-size: 15pt;
+}
+
+.task-up+div {
+	height: 80px;
+}
+
+.task-list-1 {
+	float:left;
+	width:30%;
+	text-align:left;
+	font-size: 16pt;
+	padding-left:22px;
+}
+
+.task-list-2 {
+	float:left;
+	width:40%;
+	text-align:center;
+	font-size: 16pt;
+}
+
+.task-list-3 {
+	float:left;
+	width:19%;
+	text-align:right;
+	font-size: 16pt;
+}
+
+.task-list-1 span {
+	margin-left: 25px;
+}
+
+a.fc-normal-06-m {
+	font-size:18pt;
+}
+
+.task-list {
+	padding: 17px 0;
+	position: relative;
+	top: -20px;	
+}
+
+.img-hengtiao {
+	position: relative;
+	top: -30px;
+	width: 100%;
+}
+
+.task-footer {
+	position: relative;
+	top: -30px;
+	padding-left: 30px;
+	font-size: 18pt;
+	width:90%;
+}
+
+.regular-task {
+	top:-55px;
+	padding:22px 0;
+}
+
+.img-reward-item {
+	vertical-align:middle;
+	margin-left: 20%;
+}
+
+.tab-task {
+	overflow:hidden;
+}
+
+.list-content {
+	padding: 33% 6% 1% 11%;
+	height: 60%;
+	font-size: 16pt;
+	line-height: 25px;
+}
+
+.list-title {
+	text-align: center;
+}
+
+.arrow {
+}
+
+.list-title .fc-normal-06-m {
+	margin:0;
+}
+
+.list-item {	
+	margin: 0 10px 0 35px;
+	font-size: 16pt;
+	line-height:29px;
+}
+
+.list-rankImg {	
+	margin-bottom: -7px;
+}
+
+.my-list-rank {
+	float: left;
+	width: 68%;
+	font-size: 15pt;
+	padding-left: 5px;
+}
+
+.panelA04-height {
+	height:290px;
+}
+
+/*.activity-body{
+	width:95%;
+	margin-left:3%;
+	background: url(../../images/background.png) center center no-repeat;
+}
+.activity-body div img{
+	width: 40%;
+	margin-left: 7%;
+}
+
+.vipColor {
+	color: orange;
+}*/
+
+.activity-body {
+	margin-top:15px;
+}
+
+.activity-img-left {
+	width:50%;
+	float:left;
+	text-align:center;
+}
+
+.activity-img-right {
+	width:50%;
+	float:left;
+	text-align:center;
+}
+
+.label-chat-style{
+	left:0px;
+	padding-left:110px;
+}
+
+.propsImagesDiv {
+	padding:0px;
+}
+
+.jqPopup {
+	left:50px;
+}
+.fenpeilableText {
+	width: 60%;
+	float:left;
+	padding: 25px 10px;
+	margin-left:20px;
+	
+}
+.buttonfenpei{
+	width:30%;
+	float:left;
+	padding-top:20px;
+	margin:0 auto;
+    text-align:center;
+}
+.imgfenpei{	
+	width:168px;
+	height:53px;	
+}
+.dailyGiftButton{		
+	float:left;	
+	margin-left: 500px;
+	margin-top:-55px;
+}
+
+/* 2013-8-13*/
+.w-mask-dialog{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: 900000;
+	display: none;
+}
+
+.dialogue_container {
+	display: none;
+	margin: 0 auto;
+	height: 835px;
+	border: solid 1px #72767b;
+	-webkit-box-shadow: 0px 4px 6px #555, 0 0 20px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-webkit-transition: all 0.20s ease-in-out;
+	transform: scale(1);
+	transition: all 0.20s ease-in-out;
+	position: absolute;
+	left:36px;
+	z-index: 1000000;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background: url(../../images/banner.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.banner_heard_height{
+  height:40px;
+}
+
+.banner_middle_height{
+  height:795px;
+  overflow:auto;
+  margin:auto;
+}
+
+.banner_bottom_height{
+  height:335px;
+  overflow:auto;
+  width:90%;
+  margin:auto;
+}
+
+.banner_blank_height{
+  height:10px;
+}
+
+.banner_bottom_left{
+ width:10%;
+ background-color: rgb(254, 87, 161);
+ float: left;
+}
+
+.banner_bottom_right{
+ width:90%;
+ background-color: rgb(65, 65, 64);
+ float: left;
+}
+
+.banner_bottom_showTime{
+color:rgb(254, 87, 161);
+}
+
+.banner_bottom_title{
+color:rgb(205, 0, 0);
+}
+
+.panel-fenpei-height{
+	height:20px;
+}
+
+.panel-attackanddefence {
+	margin-left: 20px;
+	height:75px;
+	width:680px;
+;
+}
+
+.totalOfAttack {
+	float: left;
+   margin-left: 70px;
+   margin-top:-5px;
+   width: 10%;
+}
+
+.totalAttackNum {
+	float: left; 
+	width: 30%; 
+	padding-left: 10px; 
+	margin-top:-7px;
+}
+
+.totalOfDefence {
+	float:left;
+	margin-top:-5px;
+	margin-left:-15px;
+}
+
+.totalDefenceNum {
+	float: left; 
+	padding-left: 10px; 
+	margin-top:-7px;
+}
+
+.Mydetail{
+	width:20%;
+	float:left;
+	padding-left:5px;
+	margin-top:25px;
+}
+
+.tiny-reward-card-style{
+	width: 73px;
+	height: 68px;
+}
+
+.daily-task-height{
+	height:260px;
+}
+
+.freshman-task-height {
+	height:230px;
+}
+
+.copyPublicAccount{
+	float:right;
+	margin-right:45px;
+	margin-top:-28px;
+}
+
+.reward-title-cg01010301{
+	padding-top:20px;
+}
+
+.reward-res{
+	float:left;
+	text-align:center;
+	margin:0 auto;
+	font-size:16pt;
+}
+
+.fc-container-cg01010301{
+	margin: 0px 30px 10px 30px;
+}
+
+
+.free-times{
+	padding-top:20px;
+}
+
+.cg01010301-message{
+	margin: 50px auto 0px auto !important;
+}
+
+.send-message-button{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding-top:10px;
+}
+.activity-img02{
+	margin-top:20px;
+}
+
+.tips-info-style{
+	padding-top:45px;
+	padding-left:23px;
+}
+
+.vipColor {	
+	color: rgb(255, 198, 0);
+}
+
+.panelSide{
+	overflow: hidden;
+	width: 13%;
+	float: left;
+}
+
+
+.imgIntensifyEvo{
+	height:50px;
+	width:50px;
+	vertical-align: middle;
+}
+
+.eachButton{
+	position: relative;
+	float: left; 
+	padding-top: 20px;	
+	top:0px;
+}
+
+.popu-padding-top{
+	padding-top:15px;
+}
+
+.eachButton1{
+	float: left; 
+	padding-top: 25px;	
+	position: relative;
+}
+.eachButtonSpecil{
+	float: left; 
+	padding-top: 25px;	
+	-webkit-animation-name: tiaodong;
+	-webkit-animation-duration: 1.3s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count:infinite ;
+}
+
+.rewardButton-task{
+	position: relative;
+	float: left; 
+	top:0px;
+	padding-top: 20px;
+	-webkit-animation-name: taskReward;
+	-webkit-animation-duration: 1.3s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count:infinite ;
+}
+
+
+
+.best-player{
+	clear: both;
+	text-align: center;
+	padding-top:20px;
+}
+.bestPlayer-name{
+	float: left;
+	position: relative;
+	top: -57px;
+	left: 240px;
+	margin-bottom:-40px;
+}
+.bestPlayer-conquest{
+	float: left;
+	position: relative;
+	top: -55px;
+	left: 500px;
+	margin-bottom:-40px;
+}
+
+.imgflight{
+	padding-top:15px;
+}
+
+.imgflight1{
+	-webkit-filter: brightness(3);
+	padding-top:15px;
+}
+
+
+.beijingtishi{
+text-align: center; 
+padding-top: 12px;
+padding-bottom:10px;
+background: url(../../images/homePage/zhanji.PNG) center center no-repeat;
+height:54px;
+}
+
+
+
+
+@-webkit-keyframes tiaodong{
+	0% {padding-top:25px; }
+    25% {padding-top:15px; -webkit-filter: brightness(2.5);}
+    50% { padding-top:25px;}
+    75% { padding-top:15px;}
+    100% {padding-top:25px;}
+
+}
+
+@-webkit-keyframes taskReward{
+	0% {top:0px; }
+    25% {top: -10px; -webkit-filter: brightness(2.5);}
+    50% { top:0px;}
+    75% { top:-10px;}
+    100% {top:0px;}
+
+}
+

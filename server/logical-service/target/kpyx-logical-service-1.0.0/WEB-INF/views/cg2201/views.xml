@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg2201/cg220101">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220101.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220102">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220102.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220103">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220103.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220104">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220104.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220105">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220105.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220106">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220106.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220107">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220107.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	
+	<definition extends="default" name="cg2201/cg220107FightingConfirm">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220107FightingConfirm.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220107FightingPrepare">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220107FightingPrepare.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220107FightingResult">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220107FightingResult.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220107PlayerInformation">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220107PlayerInformation.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg2201/cg220107Rule">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220107Rule.jsp" />
+	</definition>
+	
+	
+	
+	<definition extends="default" name="cg2201/cg220108FightingResult">
+		<put-attribute name="body" value="/WEB-INF/views/cg2201/cg220108FightingResult.jsp" />
+	</definition>
+	
+	
+	
+</tiles-definitions>

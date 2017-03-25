@@ -1,0 +1,89 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.tabpanel>div{
+	float: left;
+	width: 25%;
+	height: 50px;
+}
+.tabpanel>div>img{
+	line-height: 50px;
+	height: 50px;
+}
+.tabpanel>div:last-child{
+	float: none;
+	clear: both;
+	height:0;
+}
+.panel-saleG{
+	width: 100%;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+.consumer-list{
+	width: 96%;
+	height: 50px;
+	margin: 0 auto;
+}
+.sale_message>div{
+	text-align: center;
+	padding: 8px 0;
+}
+.npc-message{
+	width: 96%;
+	margin: 0 auto;
+}
+.npc-message>div{
+	float: left;
+}
+
+.npc-message>div:last-child{
+	clear: both;
+	float: none;
+}
+.npc-pic{
+	width: 23%;
+}
+.npc-info{
+	width: 75%;
+}
+.npc-info>div{
+	padding: 30px 0;
+}
+.backtoauction{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+
+
+/* added by ma-li*/
+
+
+.diamond-price{
+	width: 140px; 
+	font-size: 17pt;
+}
+
+.select-diamond-count{
+	width: 100px; 
+	font-size: 17pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+

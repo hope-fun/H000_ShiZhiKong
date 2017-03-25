@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg1203/cg120301">
+		<put-attribute name="body" value="/WEB-INF/views/cg1203/cg120301.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg1203/cg120302">
+		<put-attribute name="body" value="/WEB-INF/views/cg1203/cg120302.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg1203/cg120303">
+		<put-attribute name="body" value="/WEB-INF/views/cg1203/cg120303.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg1203/cg120305">
+		<put-attribute name="body" value="/WEB-INF/views/cg1203/cg120305.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg1203/cg120306">
+		<put-attribute name="body" value="/WEB-INF/views/cg1203/cg120306.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg1203/cg120307">
+		<put-attribute name="body" value="/WEB-INF/views/cg1203/cg120307.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg1203/cg120308">
+		<put-attribute name="body" value="/WEB-INF/views/cg1203/cg120308.jsp" />
+	</definition>
+	
+</tiles-definitions>

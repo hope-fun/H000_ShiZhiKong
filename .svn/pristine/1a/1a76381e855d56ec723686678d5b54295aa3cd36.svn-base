@@ -1,0 +1,123 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.service-bg {
+	width: 100%;
+	text-align: center;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.type1>div {
+	width: 90%;
+	text-align: left;
+	margin: 0 auto;
+	padding:12px 0;
+	overflow:hidden;
+}
+
+.type2>div {
+	width: 90%;
+	text-align: left;
+	margin: 0 auto;
+	padding:12.5px 0;
+	overflow: hidden;
+}
+
+.sort {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	padding:12px 0;
+}
+
+.sort>div {
+	float: left;
+}
+
+.input-box-bg {
+	width: 98%;
+	height: 40px;
+	/*background: url(../images/sou-suo-02.png) center center no-repeat;
+	background-size: 100% 100%;*/
+}
+
+.pane {
+	width: 74%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	height: 30px;
+	border: solid 1px white;
+}
+
+
+.problem-time>div {
+	width: 25%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
+.service-font{
+	width: 20%;
+	float: left;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.fenlei {
+	width: 320px; 
+	height: 30px; 
+	border: solid 1px white;
+	margin-left: 10px;
+}
+
+.selector {
+	width:100%;
+	height: 100%;
+	display:block;
+	font-size:17pt;
+}
+
+#email {
+	width:98%;
+	height:100%;
+	font-size:17pt;
+	height: 40px;
+}
+
+.select {
+	width:100%;
+	height: 100%;
+	display:block;
+	font-size:17pt;
+}
+
+.info {
+	width:98%;
+	height:100%; 
+	font-size: 24pt;
+}
+
+#info {
+	width:98%;
+	height:100%; 
+	font-size: 17pt;
+}
+
+
+/* added by ma-li*/
+
+.padding-top30{
+	padding-top: 30px
+}
+
+.detail-content{
+	width: 90%;
+	height: 250px;
+}

@@ -1,0 +1,73 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.help-home{
+	width:80%;
+	overflow:hidden;
+	line-height:54px;
+	text-align:center;
+	margin:0 auto;
+}
+.help-home>div{
+	width: 50%;	
+	float:left;
+	height:54px;
+	background: url(../images/small-button-long-green.png) center center
+		no-repeat;
+	background-size: auto auto;
+}
+
+.helper-info>div{
+	padding-top:15px;
+}
+
+.help-home01{
+	width:70%;
+	overflow:hidden;
+	margin:0 auto;
+	line-height:54px;
+	text-align:center;
+	
+}
+
+.help-home01>div{
+	height:54px;
+	background: url(../images/second-button-green.png) center center
+		no-repeat;
+	background-size: auto auto;
+}
+
+.margin-top20-style{
+	margin-top:20px;
+	
+}
+
+.padding-top-style15{
+	padding-top:15px;
+}
+
+.helper-detail-info{
+	width:95%;
+	line-height:35px;
+	margin:0 auto;
+	height:10000px;
+	
+}
+
+.help-detail-title{
+	padding-top:30px;
+	font-weight: bold;
+	color: rgb(254, 225, 28);
+	padding-left:0px;
+	text-decoration:none;
+	
+}
+
+.helper-detail-content{		
+	padding-left:45px;
+}

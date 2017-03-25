@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="cg1803/cg180301">
+		<put-attribute name="body" value="/WEB-INF/views/cg1803/cg180301.jsp" />
+	</definition>
+	<definition extends="default" name="cg1803/cg180302">
+		<put-attribute name="body" value="/WEB-INF/views/cg1803/cg180302.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg1803/cg180303">
+		<put-attribute name="body" value="/WEB-INF/views/cg1803/cg180303ChallengeBoss.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg1803/cg180304">
+		<put-attribute name="body" value="/WEB-INF/views/cg1803/cg180304.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg1803/cg180305">
+		<put-attribute name="body" value="/WEB-INF/views/cg1803/cg180305.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+</tiles-definitions>

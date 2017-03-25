@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg0601/cg060101">
+		<put-attribute name="body" value="/WEB-INF/views/cg0601/cg060101ConsumablesList.jsp" />
+	</definition>
+
+	<definition extends="default" name="cg0601/cg060102">
+		<put-attribute name="body" value="/WEB-INF/views/cg0601/cg060102ConsumablesSaleList.jsp" />
+	</definition>	
+	
+	<definition extends="default" name="cg0601/cg060103">
+		<put-attribute name="body" value="/WEB-INF/views/cg0601/cg060103ConsumablesAuctionList.jsp" />
+	</definition>	
+</tiles-definitions>

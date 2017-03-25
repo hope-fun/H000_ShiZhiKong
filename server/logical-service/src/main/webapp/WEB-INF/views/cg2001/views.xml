@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg2001/cg200101">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200101.jsp" />
+		<put-attribute name="isShowMenu" value="false" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200102">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200102.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200103">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200103.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200104">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200104.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200105">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200105.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200107">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200107.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200108">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200108.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200109">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200109.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200110">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200110.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200111">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200111.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200112">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200112.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200113">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200113.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200114">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200114.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200116">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200116.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200117">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200117.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	
+	<definition extends="default" name="cg2001/cg200118">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200118.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200119">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200119.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200120">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200120.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200121">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200121.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200122">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200122.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200123">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200123.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200124">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200124.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200125">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200125.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200126">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200126.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200127">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200127.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200128">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200128.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200129">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200129.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200130">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200130.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200131">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200131.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200132">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200132.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200134">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200134.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200135GetMainCard">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200135GetMainCard.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200136Element">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200136Element.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200137CardGroup">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200137CardGroup.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200138Equip">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200138Equip.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200139Evolution">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200139Evolution.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200140Fight">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200140Fight.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200141Intersify">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200141Intersify.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200142PVE">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200142PVE.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg2001/cg200143Union">
+		<put-attribute name="body" value="/WEB-INF/views/cg2001/cg200143Union.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+</tiles-definitions>

@@ -1,0 +1,75 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.element-bg {
+	height: 156px;
+	background: url(../images/large-equipment.png) center center
+		no-repeat;
+	background-size: 100% auto;
+	width: 24%;
+	margin: 0 auto
+}
+
+.center-site {
+	text-align: center;
+}
+
+.link_hand {
+	cursor: pointer;
+}
+
+.div-center-site {
+	margin: 0 auto;
+}
+
+.font-div-style {
+	padding: 12px 0;
+	margin: 0 auto;
+}
+
+.font-div-style2 {
+	padding: 20px 0;
+	margin: 0 auto;
+}
+.location-middle-card {
+	margin:0 auto;
+	text-align: center;
+}
+
+.location-middle-card>div:first-child {
+/* 	background:url(../../images/mcard-middlecard.png) center center no-repeat; 	
+	background-size:100% auto;	 */
+	width:30%;
+	margin:0 auto;
+}
+
+.location-middle-card>div:last-child {
+	text-align: center;
+	width:30%;
+	margin:0 auto;
+	
+}
+.location-middle-card>div:last-child>a>img {
+	padding-top:20px;
+	width:100%;
+	
+}
+
+.lastback-button {
+text-align: center;
+width: 50%;
+margin: 0 auto;
+}
+
+.displaynone {
+display: none;
+}
+
+.displayblock {
+display: block;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="/cg0302/cg030207CardEvolution">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030207CardEvolution.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="/cg0302/cg030208CardEvolutionConfirm">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030208CardEvolutionConfirm.jsp" />
+	</definition>
+	
+	<definition extends="default" name="/cg0302/cg030209CardEvolutionProcess">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030209CardEvolutionProcess.jsp" />
+	</definition>
+	
+	<definition extends="default" name="/cg0302/cg030210CardEvolutionOver">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030210CardEvolutionOver.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<!--  *************** -->
+	<definition extends="default" name="cg0302/cg030201cardintensify">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030201cardintensify.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	<definition extends="default" name="cg0302/cg030202cardintensifyconfirm">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030202cardintensifyconfirm.jsp" />
+	</definition>
+	<definition extends="default" name="cg0302/cg030203cardintensifyconfirming">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030203cardintensifyconfirming.jsp" />
+	</definition>
+	<definition extends="default" name="cg0302/cg030204cardintensifyconfirmover">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030204cardintensifyconfirmover.jsp" />
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg0302/cg030201cardintensify1">
+		<put-attribute name="body" value="/WEB-INF/views/cg0302/cg030201cardintensify1.jsp" />
+	</definition>
+</tiles-definitions>

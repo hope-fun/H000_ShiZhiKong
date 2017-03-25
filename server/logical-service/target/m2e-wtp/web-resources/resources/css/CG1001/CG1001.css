@@ -1,0 +1,211 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+.panelB02-height{
+	height: 168px;
+}
+.panelA07-height {
+	height: 253px;
+}
+.notespace{
+	height: 60px;
+}
+.auction-info{
+	width: 80%;
+	float: left;
+}
+.auction-info>div{
+	width: 96%;
+	margin: 0 auto;
+}
+.item-image-display {
+	padding: 8px 0;
+}
+
+.button-fanhui {
+	text-align: center;
+	padding:12px 0;
+}
+.search-frame>div {
+	padding:5px 0;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.search-frame>div:last-child{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.consumer-list-title{
+	padding: 0;
+}
+.bottomPart_line_info>div{
+	padding: 3px  0;
+}
+.kongSpace{
+	padding: 10px 0;
+}
+.select-input{
+	font-size:17pt;
+	width: 65%; 
+}
+
+
+
+/* added by ma-li*/
+
+.con-height{
+	height: 20px;
+}
+
+
+.item-tyle-style{
+	width: 50%; 
+	float: left;
+}
+
+.price-style{
+	width: 50%; 
+	float: left;
+}
+
+.player-name-style{
+	float: left; 
+	width: 40%;
+}
+
+.card-stars-style{
+	float: left; 
+	width: 60%;
+}
+
+.card-level-style{
+	width: 27%; 
+	float: left;
+}
+
+.grow-per-style{
+	width: 70%; 
+	float: left;
+}
+
+.buy-button-width{
+	width: 70%;
+}
+
+.consume-list-info{
+	width: 100%; 
+	padding: 10px 0; 
+	margin: 0 auto;
+}
+
+.equip-pic-style{
+	width:96%;
+	margin:0 auto;
+}
+
+.buy-button-style{
+	width: 100%; 
+	text-align: right; 
+	padding: 12px 0;
+}
+
+.auct-goods-list{
+	width: 100%; 
+	padding: 10px 0; 
+	margin: 0 auto;
+}
+
+.large-euqip-style{
+	width: 96%; 
+	margin: 0 auto;
+}
+
+
+.get-silver-count{
+	padding: 20px 0;
+	text-align: center;
+}
+
+.buy-goods-button{
+	width: 50%; 
+	text-align: right; 
+	float: left;
+}
+
+.more-info-style{
+	width: 50%; 
+	text-align: right; 
+	float: left;
+}
+
+.tabpanel div > img {
+	float:left;
+	width:25%;
+}
+
+/* added by shichao July 30*/
+.suit-info1 {
+	margin: 5px -15px 0 -15px;
+	height: 33px;
+	font-size: 18pt;
+}
+
+.suit-info2 {
+	margin: 5px 0 10px -15px;
+	height: 33px;
+	font-size: 18pt;
+}
+
+.uninstall-button2 {
+	text-align: center;
+	padding-top: 0px;
+}
+
+.btn-buy {
+	text-align: center; 
+	padding: 0;
+}
+
+
+/*new */
+
+.suit-des-height{
+	height:275px;
+}
+
+.button-xiajia {
+	text-align:center;
+	width:100%;
+}
+
+.all-buttons-style{
+	text-align:center;
+	width:87%;
+	float:right;
+}
+
+.all-buttons-style02{
+	text-align: center;
+	width: 90%;
+	float:right;
+	margin: 0 auto;
+	position: relative;
+	top: -15px;
+}
+
+.card-rank {
+	position: relative;
+	float: right;
+	top: -35px;
+}
+
+.cg100103equip-height{
+	height:275px !important;
+}

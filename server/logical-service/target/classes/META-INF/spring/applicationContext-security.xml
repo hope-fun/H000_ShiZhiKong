@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/security 
+        http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+
+
+	<!-- HTTP security configurations -->
+	<http auto-config="false" use-expressions="true"
+		authentication-manager-ref="autoAuthorizeAuthenticationManager"
+		entry-point-ref="authenticationEntryPoint">
+		<logout invalidate-session="true" logout-success-url="/" logout-url="/logout" />
+
+		<!-- Configure these elements to secure URIs in your application -->
+		<intercept-url pattern="/resources/**" access="permitAll" />
+		<intercept-url pattern="/images/**" access="permitAll" />
+		<intercept-url pattern="/styles/**" access="permitAll" />
+		<intercept-url pattern="/resourcespackage/**" access="permitAll" />
+		<intercept-url pattern="/player/logout" access="permitAll" />
+		<intercept-url pattern="/cg2401/cg240101/**" access="permitAll" />
+		<intercept-url pattern="/cg0901/cg090101/payResult" access="permitAll" />
+		<intercept-url pattern="/index" access="isAuthenticated()" />
+		<intercept-url pattern="/secure/**" access="isAuthenticated()" />
+		<intercept-url pattern="/**" access="isAuthenticated()" />   
+	</http>
+
+	<beans:bean id="autoAuthorizeAuthenticationManager"
+		class="com.artistmobile.kpyx.server.logical.spring.security.AutoAuthorizeAuthenticationManager">
+		<beans:constructor-arg>
+			<beans:list>
+				<beans:ref local="autoAuthorizeAuthenticationProvider" />
+			</beans:list>
+		</beans:constructor-arg>
+	</beans:bean>
+
+	<beans:bean id="autoAuthorizeAuthenticationProvider"
+		class="com.artistmobile.kpyx.server.logical.spring.security.AutoAuthorizeAuthenticationProvider">
+	</beans:bean>
+
+
+	<!-- The AuthenticationEntryPoint is responsible for redirecting the user 
+		to a particular page, like a login page, whenever the server sends back a 
+		response requiring authentication -->
+	<!-- See Spring-Security Reference 5.4.1 for more info -->
+	<beans:bean id="authenticationEntryPoint"
+		class="com.artistmobile.kpyx.server.logical.spring.security.AutoAuthorizeAuthenticationEntryPoint">
+		<beans:property name="authenticationManager"
+			ref="autoAuthorizeAuthenticationManager">
+		</beans:property>
+	</beans:bean>
+
+</beans:beans>

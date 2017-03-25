@@ -1,0 +1,154 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+.fragmentList{
+	width: 90%;
+	height: 80%;
+	text-algin: center;
+	margin: auto;
+}
+.fragmentList > div{
+	width: 168px;
+	height: 156px;
+	/*background: url(../../images/large-equipment.png) center center no-repeat;*/
+	float: left;
+	margin: 12px 20px;
+}
+
+.fragment-bg {
+	width: 168px;
+	height: 156px;
+	/*background: url(../../images/large-equipment.png) center center no-repeat;*/
+	float: left;
+}
+
+.rewardInfo{
+	position: absolute;
+	line-height: 80px; 
+	margin-top: 5px;
+	margin-left: 40px;
+}
+.rewardInfo > div{
+	float: left;
+	padding-left: 15px;
+}
+
+.rewardIcon{
+	width: 73px;
+	height: 67px;
+	/*background: url(../../images/middle-equipment.png) center center no-repeat;*/
+}
+
+.fragmentImg{
+	width: 100%;
+	height: 100%;
+}
+
+.rewardName{
+	text-align: center;
+	line-height: 70px;
+}
+
+.rewardMsg{
+	text-align: left;
+	padding-left: 25px;
+	width: 65%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.receiveInfo {
+	margin: 10px auto;
+}
+
+.receiveBtn {
+	margin-top:40px;
+}
+
+.center-site {
+	text-align: center;
+}
+
+.img-size {
+	width: 66px;
+	height: 60px;
+}
+
+.panelB03-height{
+	height: 150px;
+}
+
+.line-down-style {
+	float: left; 
+	margin-top:-30px;
+}
+
+.fragment-style {
+	margin-top:-30px; 
+	margin-left:20px;
+}
+
+.div-padding-top {
+	padding-top: 20px;
+}
+
+.div-padding-left {
+	padding-left:30px;
+}
+
+.div-margin-top {
+	margin-top: 15px;
+}
+
+
+/* added by ma-li */
+
+.frg-img-style{
+	display: none; 
+	width: 186px; 
+	height: 175px; 
+	margin-top: -9px; 
+	margin-left: -9px;
+}
+
+.frg-padding-left{
+	padding-left:30px;
+}
+
+.defense-button-style{
+	height:30%;
+}
+
+.img-trea-height01{
+	height:175px;
+}
+
+.img-trea-height02{
+	height:157px;
+}
+
+.imgIntensifyEvo{
+	height:50px;
+	width:50px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

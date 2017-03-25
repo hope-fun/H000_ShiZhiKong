@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="cg0401/cg040101">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040101.jsp"/>
+	</definition>
+		
+	<definition extends="default" name="cg0401/cg040102ChooseTreasure">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040102ChooseTreasure.jsp"/>
+		<put-attribute name="canBack" value="false" />
+	</definition>
+
+	<definition extends="default" name="cg0401/cg040104SelectEnemies">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040104SelectEnemies.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0401/cg040105SelectSimilarLevels">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040105SelectSimilarLevels.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0401/cg040106FightingConfirm">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040106FightingConfirm.jsp" />
+	</definition>
+
+	<definition extends="default" name="cg0401/cg040107FightingProcess">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040107FightingProcess.jsp"/>
+	</definition>
+	
+	<definition extends="default" name="cg0401/cg040108FightingResult">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040108FightingResult.jsp"/>
+		<put-attribute name="canBack" value="false" />
+	</definition>
+	
+	<definition extends="default" name="cg0401/cg040106FightingPrepare">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040106FightingPrepare.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0401/cg040102ConsumableTag">
+		<put-attribute name="body" value="/WEB-INF/views/cg0401/cg040102ConsumableTag.jsp" />
+	</definition>
+	
+</tiles-definitions>

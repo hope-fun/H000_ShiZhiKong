@@ -1,0 +1,372 @@
+.content {
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 84px;
+	font-size: 20pt;
+}
+
+
+.pageTitle {
+	background:url(../../images/main-label-02.png) center center no-repeat;
+	background-size: 100% auto;
+	text-align: center;
+	vertical-align: middle;
+	width:100%;
+	line-height:54px;
+	margin-bottom:24px;
+	font-size:22pt;
+	font-weight: bold;
+}
+
+
+
+.cardInfo {
+	vertical-align: middle;
+	width:100%;
+	margin:0 auto;
+}
+.cardInfo .borderPanel {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.cardInfo .border-content {
+	height: 100%;
+	position: absolute;
+	left:0;
+	top: 10px;
+	width: 100%;
+}
+.cardInfo .image-pic{
+	width: 97%;
+	margin: 0 auto;
+	height: 927px;
+	padding-top: 20px;
+}
+
+
+.process-bar {
+	position: static;
+	display:table;
+	height:39px;
+	width:100%;
+}
+
+.cardInfo .wordsDescription {
+	width:98%;
+	margin:0 auto;
+	padding-top:25px;
+    font-size:20pt; 
+    font-weight: bold;
+}
+.up-list-image {
+	text-align: center;
+	background: url(../../images/line-split-up.png) center center
+	 no-repeat;
+	background-size: 100% 100%;
+	padding: 0px 0 15px 0;
+}
+
+.down-list-image {
+	text-align: center;
+	background: url(../../images/line-split-down.png) center center
+	 no-repeat;
+	background-size: 100% 100%;
+	padding: 0px 0 15px 0;
+}
+.move-from-left {
+	margin-left:7%;
+}
+
+.cardInfo .firstRow {
+	width:100%;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.cardInfo .firstRow>div,.cardInfo .secondRow>div{
+	float: left;
+	width: 50%;	
+}
+.cardInfo .firstRow>div:last-child,.cardInfo .secondRow>div:last-child{
+	float: none;
+	clear: both;
+}
+.cardInfo .secondRow {
+	width:100%;
+	vertical-align: middle;
+	line-height: 50px;
+	padding-top: 12px;
+}
+
+
+.cardInfo .defenseNeeded {
+	line-height: 80px;
+	width: 45%;
+	margin: 0 auto;
+}
+
+
+.cardInfo .defenseNeeded .row-zhxq .icon-zhxq {
+	
+	float:left;
+}
+
+
+.cardInfo .wordsDescription .textDescription {
+	font-weight: normal;
+	line-height: 30px;
+	height: 240px;
+	width: 92%;
+	margin: 0 auto;
+	padding-left:16px;
+	vertical-align: middle;
+}
+
+.cardInfo .wordsDescription .fixedPrompt {
+
+	font-size:16pt;
+	text-align: center;
+	height:125px;
+}
+
+.cardInfo .wordsDescription .fixedPrompt .description-1 {
+	height:60px;
+	line-height:60px;
+}
+
+.cardInfo .wordsDescription .fixedPrompt .description-2 {
+	height:60px;
+	line-height:60px;
+	padding-top:10px;
+}
+
+.cardListed {
+	/*width:100%;
+	background:url(../../images/border/A009.png) no-repeat;
+	background-size:100% 100%;
+	background-repeat:no-repeat; 
+	/* font-size:20pt; */
+	/*height:630px;  
+	margin-top:24px;*/
+}
+
+.cardListed .name  {
+	font-weight: bold;
+	font-size: 20pt;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.cardListed .threeSpace {
+
+ 	/* font-size:18pt; */
+ 	height:390px;
+}
+
+.cardListed .threeSpace img{
+	width:168px !important;
+	height:156px;
+}
+
+.cardListed .threeSpace .imageButton-xq{
+	width:100%;
+	background:url(../../images/buttons/xiangqian-green.png) no-repeat;
+	background-size:100% 100%;
+	height:50px;
+
+}
+
+.cardListed .threeSpace .imageButton-xc{
+	width:100%;
+	background:url(../../images/buttons/xiechu-blue.png) no-repeat;
+	background-size:100% 100%;
+	height:50px;
+	
+}
+
+
+ .cardListed .threeSpace .imageBackground .headPicture{
+	width:100%;
+	background-size:100% 100%;
+}
+.font-height{
+	height:40px;
+	line-height:40px;	
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:16pt;
+	font-weight: normal;
+}
+
+.cardListed .threeSpace .cardOne,.cardTwo,.cardThree{
+	float :left;
+	margin-left:5%;
+	margin-right:2%;
+	margin-top:3%;
+	width:26%; 
+	text-align:center;
+}
+
+/* .card-row-space{
+	margin-top:40px;
+}
+ */
+.card-row-upper-space {
+	margin-top:35px;	
+}
+
+.color-orange {
+	/*height:48px;
+	line-height:48px;*/
+	font-weight: normal;
+}
+
+.cardListed .threeSpace .cardTwo .additionTwo {
+	margin-top:45px;
+}
+
+.cardListed .neededStrength  {
+	font-size:18pt;
+	font-weight: bold;
+}
+
+.cardListed .neededStrength .row-xq {
+	margin-left:15%;
+}
+
+.cardListed .neededStrength .labelOne {
+	float:left;
+	width:45%;
+}
+
+.cardListed .neededStrength .labelTwo {
+	float:left;
+	width:50%;
+}
+
+ .icon-level-arrow1 {
+	background: url(../../images/Arrow01.png) left center no-repeat;
+	width:20%;
+	margin-left:10%;
+	float:left;
+}
+
+ .icon-level-arrow2 {
+	background: url(../../images/Arrow03.png) left center no-repeat;
+	width:20%;
+	margin-left:10%;
+	float:left;
+}
+
+ .icon-level-arrow3 {
+	background: url(../../images/Arrow02.png) left center no-repeat;
+	width:20%;
+	margin-left:10%;
+	float:left;
+}
+
+
+
+
+.borderImage {
+	text-align: center;
+	margin-top:24px;
+	margin-left:6.5%;
+	width:85%;
+	margin-bottom:12px;
+	height:35px;
+}
+
+.borderImage img{
+	width:100%;
+}
+
+.content .buttons {
+	width:85%;
+	margin-left:6.5%;
+	text-align: center;
+}
+
+.buttons .buttonOne{
+	padding:12px 0;
+	width:100%;
+	text-align: center;
+	background: url(../../images/main-button-blue.png) center center no-repeat;
+	background-size:100% auto;
+	font-size:20pt;
+	height:54px;
+	line-height:50px;
+}
+
+/*
+.buttons .buttonOneDisable{
+	padding:12px 0;
+	width:100%;
+	text-align: center;
+	background: url(../../images/main-button-blue.png) center center no-repeat;
+	background-size:100% auto;
+	font-size:20pt;
+	height:54px;
+	line-height:50px;
+	-webkit-filter:grayscale(1);
+}
+*/
+
+.buttons a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+/* added by ma-li*/
+.pro-bar-width{
+	float:left;
+	width:70%;
+}
+
+.detail-info-height{
+	height:1620px;
+}
+
+
+/**
+	add by shichao July 16
+*/
+.cg03010101CardSale .tabpanel .div1,.cg03010102cardAuction .tabpanel .div1,.cg030101CardView .tabpanel .div1
+	{
+	font-size: 0px
+}
+
+.cg030102CardDetail .cardListed .div1 {
+	text-align: center;
+	margin-bottom: -25px;
+}
+
+.cg030102CardDetail .cardListed .div2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.card-detail-margin{
+	margin-top:20px !important;
+}
+
+.threeSpaceHeight{
+	height:370px !important;
+}
+
+.tipsOfdownload{
+color:red;
+font-size:18pt;	
+}
+.fc-download{
+	color: rgb(255, 240, 0);
+    font-size: 20pt;
+    margin-left:20px;、
+}

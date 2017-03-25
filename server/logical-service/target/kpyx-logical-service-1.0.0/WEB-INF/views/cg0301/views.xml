@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition extends="default" name="cg0301/cg030101cardView">
+		<put-attribute name="body" value="/WEB-INF/views/cg0301/cg030101CardView.jsp" />
+	</definition>
+	<definition extends="default" name="cg0301/cg03010102cardAuction">
+		<put-attribute name="body" value="/WEB-INF/views/cg0301/cg03010102cardAuction.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0301/cg03010101CardSale">
+		<put-attribute name="body" value="/WEB-INF/views/cg0301/cg03010101CardSale.jsp" />
+	</definition>
+	
+	<definition extends="default" name="cg0301/cg03010102cardDetail">
+		<put-attribute name="body" value="/WEB-INF/views/cg0301/cg030102CardDetail.jsp" />
+	</definition>
+</tiles-definitions>
